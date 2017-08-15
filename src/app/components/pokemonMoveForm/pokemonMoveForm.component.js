@@ -4,7 +4,6 @@ function PokemonMoveForm(Pokemons) {
 
   ctrl.pokemons = Pokemons
   ctrl.searchTextChange = function(searchText) {
-    console.log(searchText)
     ctrl.filteredPokemons = Pokemons.filter(
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
