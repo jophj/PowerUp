@@ -1,8 +1,15 @@
 <div layout="column">
   <md-input-container style="margin-bottom: 0">
-    <md-autocomplete md-floating-label="Attacker" md-no-cache="true" md-selected-item="selectedItem" md-items="item in ['Machamp', 'Zapdos']" md-item-text="item">
+    <md-autocomplete
+      md-floating-label="{{$ctrl.label}}"
+      md-selected-item="$ctrl.selectedPokemon"
+      md-items="pokemon in $ctrl.filteredPokemons"
+      md-item-text="pokemon.name"
+      md-search-text-change="$ctrl.searchTextChange(searchText)"
+      md-search-text="searchText"
+    >
       <md-item-template>
-        <span>sd</span>
+        <span>{{pokemon.name}}</span>
       </md-item-template>
       <div style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);color: grey;">
         Base attack: 234

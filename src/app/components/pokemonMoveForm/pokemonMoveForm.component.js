@@ -1,5 +1,14 @@
-function PokemonMoveForm() {
+PokemonMoveForm.$inject = ['Pokemons']
+function PokemonMoveForm(Pokemons) {
   const ctrl = this
+
+  ctrl.pokemons = Pokemons
+  ctrl.searchTextChange = function(searchText) {
+    console.log(searchText)
+    ctrl.filteredPokemons = Pokemons.filter(
+      p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
+    )
+  }
 }
 
 export default {
@@ -8,7 +17,9 @@ export default {
     template: require('./pokemonMoveForm.component.html'),
     controller: PokemonMoveForm,
     bindings: {
-      problem: '<',
+      pokemon: '<',
+      move: '<',
+      label: '<'
     }
   }
 }
