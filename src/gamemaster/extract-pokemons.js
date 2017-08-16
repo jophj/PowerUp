@@ -37,4 +37,36 @@ for(let moveTemplate of moveTemplates) {
   moveData[move.id] = move
 }
 
+const typeEffectiveTemplates = gamemaster.itemTemplates.filter(i => i.typeEffective)
+const effectiveness = {}
+const types = [
+  'POKEMON_TYPE_NORMAL',
+  'POKEMON_TYPE_FIGHTING',
+  'POKEMON_TYPE_FLYING',
+  'POKEMON_TYPE_POISON',
+  'POKEMON_TYPE_GROUND',
+  'POKEMON_TYPE_ROCK',
+  'POKEMON_TYPE_BUG',
+  'POKEMON_TYPE_GHOST',
+  'POKEMON_TYPE_STEEL',
+  'POKEMON_TYPE_FIRE',
+  'POKEMON_TYPE_WATER',
+  'POKEMON_TYPE_GRASS',
+  'POKEMON_TYPE_ELECTRIC',
+  'POKEMON_TYPE_PSYCHIC',
+  'POKEMON_TYPE_ICE',
+  'POKEMON_TYPE_DRAGON',
+  'POKEMON_TYPE_DARK',
+  'POKEMON_TYPE_FAIRY'
+]
+for (let typeEffectiveTemplate of typeEffectiveTemplates) {
+  const typeEffective = typeEffectiveTemplate.typeEffective
+  const attackScalar = typeEffective.attackScalar
+  const typeEffectivness = {
+    POKEMON_TYPE_NORMAL: attackScalar[0]
+  }
+}
 
+
+ghost
+normal "attackScalar": [1.0, 1.0, 1.0, 1.0, 1.0, 0.714, 1.0, 0.51, 0.714, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
