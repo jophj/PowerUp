@@ -22,3 +22,19 @@ for (let pokemonTemplate of pokemonTemplates) {
 
   pokemonData[pokemon.id] = pokemon
 }
+
+const moveTemplates = gamemaster.itemTemplates.filter(i => i.moveSettings)
+const moveData = {}
+for(let moveTemplate of moveTemplates) {
+  const moveSettings = moveTemplate.moveSettings
+  const move = {
+    id: moveSettings.movementId,
+    type: moveSettings.pokemonType,
+    power: moveSettings.power,
+    durationMs: moveSettings.durationMs
+  }
+
+  moveData[move.id] = move
+}
+
+
