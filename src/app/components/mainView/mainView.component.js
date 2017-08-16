@@ -3,6 +3,7 @@ function MainViewController() {
   ctrl.onSelectedAttacker = (p) => console.log(p)
   ctrl.onSelectedMove = (m) => console.log(m)
   ctrl.onSelectedDefender = (p) => console.log(p)
+  ctrl.baseAttack = 1
 }
 
 export default {
