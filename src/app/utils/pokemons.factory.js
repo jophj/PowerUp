@@ -1,8 +1,7 @@
+import pokemons from 'gamemaster/pokemonData.json'
+
 function Pokemons() {
-    return [
-      { name: 'Golem' },
-      { name: 'Mewtwo' }
-    ]
+  return pokemons
 }
 
 export default {

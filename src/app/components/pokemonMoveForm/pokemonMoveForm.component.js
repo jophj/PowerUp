@@ -1,10 +1,11 @@
-PokemonMoveForm.$inject = ['Pokemons']
-function PokemonMoveForm(Pokemons) {
+PokemonMoveForm.$inject = ['Pokemons', 'ObjectToArray']
+
+function PokemonMoveForm(Pokemons, ObjectToArray) {
   const ctrl = this
 
-  ctrl.pokemons = Pokemons
+  const pokemons = ObjectToArray(Pokemons)
   ctrl.searchTextChange = function(searchText) {
-    ctrl.filteredPokemons = Pokemons.filter(
+    ctrl.filteredPokemons = pokemons.filter(
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
   }

@@ -19,9 +19,9 @@ for (let pokemonTemplate of pokemonTemplates) {
     quickMoves: pokemonSettings.quickMoves,
     cinematicMoves: pokemonSettings.cinematicMoves
   }
-  pokemon.name.replace('_', '-') // Ho-oh
-  pokemon.name.replace('-female', '♀')
-  pokemon.name.replace('-male', '	♂')
+  pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
+  pokemon.name = pokemon.name.replace('-female', ' ♀')
+  pokemon.name  = pokemon.name.replace('-male', '	♂')
 
   pokemonData[pokemon.id] = pokemon
 }
