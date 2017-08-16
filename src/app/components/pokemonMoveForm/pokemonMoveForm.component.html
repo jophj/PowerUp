@@ -14,28 +14,31 @@
       </md-item-template>
       <div
         ng-if="$ctrl.label === 'Attacker'"
-        ng-show="$ctrl.selectedPokemon"
         style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;color: grey;"
       >
-        Base attack: {{$ctrl.selectedPokemon.stats.baseAttack}}
+        Base attack: {{$ctrl.selectedPokemon.stats.baseAttack || '-'}}
       </div>
       <div
         ng-if="$ctrl.label === 'Defender'"
-        ng-show="$ctrl.selectedPokemon"
         style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;color: grey;"
       >
-        Base defense: {{$ctrl.selectedPokemon.stats.baseDefense}}
+        Base defense: {{$ctrl.selectedPokemon.stats.baseDefense || '-'}}
       </div>
     </md-autocomplete>
   <md-input-container style="margin-top: 0">
     <label>Move</label>
-    <md-select ng-model="selectedMove" ng-change="$ctrl.onSelectedMoveChange(selectedMove)">
+    <md-select ng-model="$ctrl.selectedMove" ng-change="$ctrl.onSelectedMoveChange($ctrl.selectedMove)">
       <md-option
         ng-repeat="move in $ctrl.pokemonMoves"
-        value="{{move}}"
+        ng-value="move"
       >
         {{move.name}}
       </md-option>
     </md-select>
+    <div
+      style="margin-top: 2px;font-size: 12px;line-height: 14px;color: grey;"
+    >
+      Power: {{$ctrl.selectedMove.power || '-'}}
+    </div>
   </md-input-container>
 </div>
