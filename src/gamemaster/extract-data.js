@@ -31,7 +31,12 @@ const moveData = {}
 for(let moveTemplate of moveTemplates) {
   const moveSettings = moveTemplate.moveSettings
   const id = moveSettings.movementId
-  const name = id.split('_').reduce((n, w) => n + w.charAt(0) + w.slice(1).toLowerCase() + ' ', '').trim()
+  const name =
+    id
+      .replace('_FAST', '')
+      .split('_')
+      .reduce((n, w) => n + w.charAt(0) + w.slice(1).toLowerCase() + ' ', '')
+      .trim()
   const move = {
     id: id,
     name: name,
