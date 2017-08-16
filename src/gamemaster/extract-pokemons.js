@@ -38,7 +38,7 @@ for(let moveTemplate of moveTemplates) {
 }
 
 const typeEffectiveTemplates = gamemaster.itemTemplates.filter(i => i.typeEffective)
-const effectiveness = {}
+const effectivenessData = {}
 const types = [
   'POKEMON_TYPE_NORMAL',
   'POKEMON_TYPE_FIGHTING',
@@ -62,11 +62,10 @@ const types = [
 for (let typeEffectiveTemplate of typeEffectiveTemplates) {
   const typeEffective = typeEffectiveTemplate.typeEffective
   const attackScalar = typeEffective.attackScalar
-  const typeEffectivness = {
-    POKEMON_TYPE_NORMAL: attackScalar[0]
+  const typeEffectiveness = {
+    id: typeEffective.attackType
   }
+  attackScalar.forEach((s, i) => typeEffectiveness[types[i]] = attackScalar[i])
+  console.log(typeEffectiveness)
+  effectivenessData[typeEffectiveness.id] = typeEffectiveness
 }
-
-
-ghost
-normal "attackScalar": [1.0, 1.0, 1.0, 1.0, 1.0, 0.714, 1.0, 0.51, 0.714, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
