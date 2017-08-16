@@ -1,4 +1,7 @@
+// Only config needed is gamemaster path
 const gamemaster = require('./0691-GAME_MASTER.json')
+
+const fs = require('fs')
 
 const pokemonTemplates = gamemaster.itemTemplates.filter(i => i.pokemonSettings)
 const pokemonData = {}
@@ -66,6 +69,18 @@ for (let typeEffectiveTemplate of typeEffectiveTemplates) {
     id: typeEffective.attackType
   }
   attackScalar.forEach((s, i) => typeEffectiveness[types[i]] = attackScalar[i])
-  console.log(typeEffectiveness)
   effectivenessData[typeEffectiveness.id] = typeEffectiveness
 }
+
+const playerLevelTemplate = gamemaster.itemTemplates.filter(i => i.playerLevel)
+const cpMultiplayer = playerLevelTemplate[0].playerLevel.cpMultiplier
+const bossCpMultiplayer = [0.61, 0.67, 0.73, 0.79, 0.79]
+const cpMultiplayerData = {
+  cpMultiplayer: cpMultiplayer,
+  bossCpMultiplayer: bossCpMultiplayer
+}
+
+fs.writeFile('pokemonData.json', JSON.stringify(pokemonData))
+fs.writeFile('moveData.json', JSON.stringify(moveData))
+fs.writeFile('effectivenessData.json', JSON.stringify(effectivenessData))
+fs.writeFile('cpMultiplierData.json', JSON.stringify(cpMultiplayerData))
