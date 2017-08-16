@@ -19,9 +19,9 @@ for (let pokemonTemplate of pokemonTemplates) {
     quickMoves: pokemonSettings.quickMoves,
     cinematicMoves: pokemonSettings.cinematicMoves
   }
-  pokemon.name.replace('_', '-') // Ho-oh
-  pokemon.name.replace('-female', '♀')
-  pokemon.name.replace('-male', '	♂')
+  pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
+  pokemon.name = pokemon.name.replace('-female', ' ♀')
+  pokemon.name  = pokemon.name.replace('-male', '	♂')
 
   pokemonData[pokemon.id] = pokemon
 }
@@ -30,8 +30,16 @@ const moveTemplates = gamemaster.itemTemplates.filter(i => i.moveSettings)
 const moveData = {}
 for(let moveTemplate of moveTemplates) {
   const moveSettings = moveTemplate.moveSettings
+  const id = moveSettings.movementId
+  const name =
+    id
+      .replace('_FAST', '')
+      .split('_')
+      .reduce((n, w) => n + w.charAt(0) + w.slice(1).toLowerCase() + ' ', '')
+      .trim()
   const move = {
-    id: moveSettings.movementId,
+    id: id,
+    name: name,
     type: moveSettings.pokemonType,
     power: moveSettings.power,
     durationMs: moveSettings.durationMs
@@ -74,10 +82,10 @@ for (let typeEffectiveTemplate of typeEffectiveTemplates) {
 
 const playerLevelTemplate = gamemaster.itemTemplates.filter(i => i.playerLevel)
 const cpMultiplayer = playerLevelTemplate[0].playerLevel.cpMultiplier
-const bossCpMultiplayer = [0.61, 0.67, 0.73, 0.79, 0.79]
+const bossCpMultiplier = [0.61, 0.67, 0.73, 0.79, 0.79]
 const cpMultiplayerData = {
   cpMultiplayer: cpMultiplayer,
-  bossCpMultiplayer: bossCpMultiplayer
+  bossCpMultiplier: bossCpMultiplier
 }
 
 fs.writeFile('pokemonData.json', JSON.stringify(pokemonData))

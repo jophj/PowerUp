@@ -1,15 +1,19 @@
-PokemonMoveForm.$inject = ['Pokemons']
-function PokemonMoveForm(Pokemons) {
+PokemonMoveForm.$inject = ['Pokemons', 'Moves', 'ObjectToArray']
+
+function PokemonMoveForm(Pokemons, Moves, ObjectToArray) {
   const ctrl = this
 
-  ctrl.pokemons = Pokemons
+  const pokemons = ObjectToArray(Pokemons)
+
   ctrl.searchTextChange = function(searchText) {
-    ctrl.filteredPokemons = Pokemons.filter(
+    ctrl.filteredPokemons = pokemons.filter(
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
   }
   ctrl.onSelectedPokemonChange = function(selectedPokemon) {
-    ctrl.pokemonMoves = [{name: 'Rock Throw'}]
+    ctrl.pokemonMoves =
+      selectedPokemon.quickMoves.concat(selectedPokemon.cinematicMoves)
+      .map(m => Moves[m])
     ctrl.onSelectedPokemon({pokemon: selectedPokemon})
   }
   ctrl.onSelectedMoveChange = function(selectedMove) {
