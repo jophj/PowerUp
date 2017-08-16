@@ -12,7 +12,9 @@ for (let pokemonTemplate of pokemonTemplates) {
     name: pokemonSettings.pokemonId.charAt(0) + pokemonSettings.pokemonId.slice(1).toLowerCase(),
     stats: pokemonSettings.stats,
     type: pokemonSettings.type,
-    type2: pokemonSettings.type2
+    type2: pokemonSettings.type2,
+    quickMoves: pokemonSettings.quickMoves,
+    cinematicMoves: pokemonSettings.cinematicMoves
   }
   pokemon.name.replace('_', '-') // Ho-oh
   pokemon.name.replace('-female', '♀')
