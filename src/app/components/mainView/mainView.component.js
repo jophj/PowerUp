@@ -1,6 +1,7 @@
 function MainViewController() {
   const ctrl = this
-  ctrl.floor = Math.floor
+  ctrl.onSelectedPokemon = (p) => console.log(p)
+  ctrl.onSelectedMove = (m) => console.log(m)
 }
 
 export default {
