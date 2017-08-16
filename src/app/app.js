@@ -10,7 +10,9 @@ import MainView from 'app/components/mainView/mainView.component'
 import PokemonMoveForm from 'app/components/pokemonMoveForm/pokemonMoveForm.component'
 import DamageTable from 'app/components/damageTable/damageTable.component'
 import Pokemons from 'app/utils/pokemons.factory'
+import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
+
 export default angular
   .module('powerUp', [ngMaterial, ngRoute])
   .config(['$routeProvider', function(routeProvider) {
@@ -24,5 +26,6 @@ export default angular
   .component(PokemonMoveForm.name, PokemonMoveForm.config)
   .component(DamageTable.name, DamageTable.config)
   .factory(Pokemons.name, Pokemons.service)
+  .factory(Moves.name, Moves.service)
   .factory(ObjectToArray.name, ObjectToArray.service)
   .name
