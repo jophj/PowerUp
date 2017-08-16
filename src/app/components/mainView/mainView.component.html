@@ -1,7 +1,10 @@
 <div layout-padding>
   <div layout="row">
     <div flex="50" layout="column">
-      <pokemon-move-form label="'Attacker'"/>
+      <pokemon-move-form label="'Attacker'"
+        on-selected-pokemon="$ctrl.onSelectedPokemon(pokemon)"
+        on-selected-move="$ctrl.onSelectedMove(move)"
+      />
     </div>
     <div flex="50" layout="column">
       <pokemon-move-form label="'Defender'"/>
