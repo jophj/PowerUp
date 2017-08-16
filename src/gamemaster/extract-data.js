@@ -30,8 +30,11 @@ const moveTemplates = gamemaster.itemTemplates.filter(i => i.moveSettings)
 const moveData = {}
 for(let moveTemplate of moveTemplates) {
   const moveSettings = moveTemplate.moveSettings
+  const id = moveSettings.movementId
+  const name = id.split('_').reduce((n, w) => n + w.charAt(0) + w.slice(1).toLowerCase() + ' ', '').trim()
   const move = {
-    id: moveSettings.movementId,
+    id: id,
+    name: name,
     type: moveSettings.pokemonType,
     power: moveSettings.power,
     durationMs: moveSettings.durationMs
