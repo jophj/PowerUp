@@ -27,9 +27,17 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
   ctrl.onSelectedDefender = (p) => {
     if (!p) return
     location.search('defender', p.id)
+    location.search('level', p.level)
     defender = p
     ctrl.baseDefense = p.stats.baseDefense
-    ctrl.defenseCpm = p.raidTier ? CpM.bossCpMultiplier[p.raidTier - 1] : CpM.cpMultiplier[38]
+    // level could be raid tier (T1, T2, ...) or pokemon level
+    if (p.level && p.level.startsWith('T')) {
+      const raidTier = parseInt(p.level.slice(1))
+      ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
+    }
+    else {
+      ctrl.defenseCpm = p.level ? CpM.cpMultiplier[p.level] : CpM.cpMultiplier[38]
+    }
     ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
   }
 
@@ -43,6 +51,10 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
   }
   if (routeParams.defender) {
     ctrl.defender = Pokemons[routeParams.defender] || null
+    ctrl.onSelectedDefender(ctrl.defender)
+  }
+  if (routeParams.level) {
+    ctrl.level = routeParams.level || null
     ctrl.onSelectedDefender(ctrl.defender)
   }
 }

@@ -10,7 +10,11 @@
         />
       </div>
       <div layout="column" flex style="overflow: hidden">
-        <defender-form pokemon="$ctrl.defender" on-selected-pokemon="$ctrl.onSelectedDefender(pokemon)"/>
+        <defender-form
+          pokemon="$ctrl.defender"
+          level="$ctrl.level"
+          on-selected-pokemon="$ctrl.onSelectedDefender(pokemon)"
+        />
       </div>
     </div>
 
