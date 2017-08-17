@@ -19,8 +19,8 @@ import ObjectToArray from 'app/utils/objectToArray.factory'
 export default angular
   .module('powerUp', [ngMaterial, ngRoute])
   .config(['$routeProvider', function(routeProvider) {
-    routeProvider.otherwise('/problems')
-    routeProvider.when('/problems', {
+    routeProvider.otherwise('/')
+    routeProvider.when('/', {
       template: '<main-view></main-view>',
     })
   }])
