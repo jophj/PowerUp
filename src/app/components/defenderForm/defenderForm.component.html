@@ -19,7 +19,7 @@
   </md-autocomplete>
   <md-input-container style="margin-top: 0">
     <label>Raid tier</label>
-    <md-select ng-model="$ctrl.level" ng-change="$ctrl.onSelectedLevelChange($ctrl.level)">
+    <md-select ng-model="$ctrl.level">
       <md-option ng-value="null"><em>None</em></md-option>
       <md-option
         ng-repeat="tier in $ctrl.raidTiers track by $index"

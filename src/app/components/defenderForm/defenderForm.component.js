@@ -11,11 +11,6 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
   }
-  ctrl.onSelectedLevelChange = function(selectedLevel) {
-    if (ctrl.pokemon) {
-      ctrl.pokemon.level = selectedLevel
-    }
-  }
 }
 
 export default {
