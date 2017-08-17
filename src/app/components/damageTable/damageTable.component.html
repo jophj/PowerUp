@@ -3,17 +3,17 @@
     <thead>
       <tr>
         <th ng-repeat="iv in ['IV',0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]">
-          {{iv}}
+          {{::iv}}
         </th>
       </tr>
     </thead>
   </table>
 </md-subheader class="md-primary">
-<div style="padding: 0 16px">
+<div style="padding: 0 0px">
   <table style="width:100%; table-layout:fixed; border-collapse: collapse; font-size:14px; padding: 0 8px; text-align:center">
     <tbody>
       <tr ng-repeat="level in [ 20,20.5,21,21.5,22,22.5,23,23.5,24,24.5,25,25.5,26,26.5,27,27.5,28,28.5,29,29.5,30,30.5,31,31.5,32,32.5,33,33.5,34,34.5,35,35.5,36,36.5,37,37.5,38,38.5,39,39.5,40 ]">
-        <th class="md-primary">{{level % 1 ? '' : level}}</th>
+        <th class="md-primary">{{::level % 1 ? '' : level}}</th>
         <td
           md-colors="{background: 'primary-100-{{(($ctrl.floor(
             .5 *
