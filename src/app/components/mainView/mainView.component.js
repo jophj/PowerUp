@@ -25,6 +25,8 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
     ctrl.effectiveness = computeEffectiveness(m, defender, Effectiveness)
   }
   ctrl.onSelectedDefender = (p) => {
+    if (!p) return
+    location.search('defender', p.id)
     defender = p
     ctrl.baseDefense = p.stats.baseDefense
     ctrl.defenseCpm = p.raidTier ? CpM.bossCpMultiplier[p.raidTier - 1] : CpM.cpMultiplier[38]
@@ -38,6 +40,10 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
   if (routeParams.move) {
     ctrl.move = Moves[routeParams.move] || null
     ctrl.onSelectedMove(ctrl.move)
+  }
+  if (routeParams.defender) {
+    ctrl.defender = Pokemons[routeParams.defender] || null
+    ctrl.onSelectedDefender(ctrl.defender)
   }
 }
 

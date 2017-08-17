@@ -16,9 +16,9 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
     ctrl.onSelectedPokemon({pokemon: selectedPokemon})
   }
   ctrl.onSelectedRaidTierChange = function(selectedRaidTier) {
-    if (ctrl.selectedPokemon) {
-      ctrl.selectedPokemon.raidTier = selectedRaidTier
-      ctrl.onSelectedPokemon({pokemon: ctrl.selectedPokemon})
+    if (ctrl.pokemon) {
+      ctrl.pokemon.raidTier = selectedRaidTier
+      ctrl.onSelectedPokemon({pokemon: ctrl.pokemon})
     }
   }
 }
@@ -30,6 +30,7 @@ export default {
     controller: DefenderForm,
     bindings: {
       onSelectedPokemon: '&',
+      pokemon: '='
     }
   }
 }
