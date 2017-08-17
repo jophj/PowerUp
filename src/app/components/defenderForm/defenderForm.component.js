@@ -11,15 +11,9 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
   }
-  ctrl.onSelectedPokemonChange = function(selectedPokemon) {
-    selectedPokemon.level = ctrl.level
-    ctrl.onSelectedPokemon({pokemon: selectedPokemon})
-  }
   ctrl.onSelectedLevelChange = function(selectedLevel) {
-    console.log(selectedLevel)
     if (ctrl.pokemon) {
       ctrl.pokemon.level = selectedLevel
-      ctrl.onSelectedPokemon({pokemon: ctrl.pokemon})
     }
   }
 }
@@ -30,7 +24,6 @@ export default {
     template: require('./defenderForm.component.html'),
     controller: DefenderForm,
     bindings: {
-      onSelectedPokemon: '&',
       pokemon: '=',
       level: "="
     }

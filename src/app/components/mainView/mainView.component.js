@@ -2,7 +2,6 @@ MainViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Po
 function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
   const ctrl = this
   let attacker = null
-  let defender = null
   let move = null
 
   ctrl.onSelectedAttacker = (p) => {
@@ -22,19 +21,17 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     if (attacker) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
-    ctrl.effectiveness = computeEffectiveness(m, defender, Effectiveness)
+    ctrl.effectiveness = computeEffectiveness(m, ctrl.defender, Effectiveness)
   }
-  ctrl.onSelectedDefender = (p) => {
+  function onSelectedDefender(p) {
     if (!p) return
     location.search('defender', p.id)
-    defender = p
     ctrl.baseDefense = p.stats.baseDefense
-    // level could be raid tier (T1, T2, ...) or pokemon level
-    onSelectedLevel(p.level)
-    ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
+    ctrl.effectiveness = computeEffectiveness(move, ctrl.defender, Effectiveness)
   }
 
   function onSelectedLevel(level) {
+    // level could be raid tier (T1, T2, ...) or pokemon level
     if (level && level.startsWith('T')) {
       const raidTier = parseInt(level.slice(1))
       ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
@@ -45,6 +42,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   }
 
   scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
+  scope.$watch('$ctrl.defender', () => location.search('level', ctrl.level))
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null
@@ -56,7 +54,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   }
   if (routeParams.defender) {
     ctrl.defender = Pokemons[routeParams.defender] || null
-    ctrl.onSelectedDefender(ctrl.defender)
+    onSelectedDefender(ctrl.defender)
   }
   if (routeParams.level) {
     ctrl.level = routeParams.level || null
