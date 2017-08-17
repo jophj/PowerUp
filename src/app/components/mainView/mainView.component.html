@@ -1,13 +1,13 @@
 <div layout="row" layout-align="center center">
   <div flex="100" flex-gt-sm="75" flex-gt-md="50" layout="column" layout-align="center stretch">
     <div layout="row">
-      <div style="overflow: hidden">
+      <div layout="column" flex style="overflow: hidden">
         <pokemon-move-form
           on-selected-pokemon="$ctrl.onSelectedAttacker(pokemon)"
           on-selected-move="$ctrl.onSelectedMove(move)"
         />
       </div>
-      <div style="overflow: hidden">
+      <div layout="column" flex style="overflow: hidden">
         <defender-form on-selected-pokemon="$ctrl.onSelectedDefender(pokemon)"/>
       </div>
     </div>
