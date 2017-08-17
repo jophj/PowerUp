@@ -18,21 +18,23 @@
           md-colors="{background: 'primary-100-{{(($ctrl.floor(
             .5 *
             $ctrl.power *
-            (($ctrl.baseAttack+iv) * $ctrl.cpM[$ctrl.floor(level)-1])/(($ctrl.baseDefense + 15) * $ctrl.defenseCpm) *
+            ($ctrl.baseAttack+iv)/($ctrl.baseDefense + 15) *
+            $ctrl.cpM[(level)] / $ctrl.defenseCpm *
             $ctrl.stab *
             $ctrl.effectiveness
-          ) + 1)-16)/4}}'}"
+           + 1))-$ctrl.minDamage)/($ctrl.maxDamage-$ctrl.minDamage)}}'}"
           ng-repeat="iv in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]"
         >
-          {{
-            ($ctrl.floor(
-              .5 *
-              $ctrl.power *
-              ($ctrl.baseAttack+iv)/($ctrl.baseDefense + 15) *
-              $ctrl.cpM[(level)] / $ctrl.defenseCpm *
-              $ctrl.stab *
-              $ctrl.effectiveness
-             + 1)) || '-'}}
+          {{$ctrl.computeDamage(
+            $ctrl.baseAttack,
+            iv,
+            $ctrl.power,
+            level,
+            $ctrl.baseDefense,
+            $ctrl.defenseCpm,
+            $ctrl.stab,
+            $ctrl.effectiveness
+          ) || '-'}}
         </td>
       </tr>
     </tbody>
