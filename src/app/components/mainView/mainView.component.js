@@ -1,11 +1,13 @@
-MainViewController.$inject = ['CpM', 'Effectiveness']
-function MainViewController(CpM, Effectiveness) {
+MainViewController.$inject = ['$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
+function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
   const ctrl = this
   let attacker = null
   let defender = null
   let move = null
 
   ctrl.onSelectedAttacker = (p) => {
+    if (!p) return
+    location.search('attacker', p.id)
     attacker = p
     ctrl.baseAttack = p.stats.baseAttack
     if (move) {
@@ -13,6 +15,8 @@ function MainViewController(CpM, Effectiveness) {
     }
   }
   ctrl.onSelectedMove = (m) => {
+    if (!m) return
+    location.search('move', m.id)
     move = m
     ctrl.power = m.power
     if (attacker) {
@@ -25,6 +29,15 @@ function MainViewController(CpM, Effectiveness) {
     ctrl.baseDefense = p.stats.baseDefense
     ctrl.defenseCpm = p.raidTier ? CpM.bossCpMultiplier[p.raidTier - 1] : CpM.cpMultiplier[38]
     ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
+  }
+
+  if (routeParams.attacker) {
+    ctrl.attacker = Pokemons[routeParams.attacker] || null
+    ctrl.onSelectedAttacker(ctrl.attacker)
+  }
+  if (routeParams.move) {
+    ctrl.move = Moves[routeParams.move] || null
+    ctrl.onSelectedMove(ctrl.move)
   }
 }
 

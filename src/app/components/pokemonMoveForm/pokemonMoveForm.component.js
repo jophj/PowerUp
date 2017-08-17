@@ -1,6 +1,6 @@
-PokemonMoveForm.$inject = ['Pokemons', 'Moves', 'ObjectToArray']
+PokemonMoveForm.$inject = ['$scope', 'Pokemons', 'Moves', 'ObjectToArray']
 
-function PokemonMoveForm(Pokemons, Moves, ObjectToArray) {
+function PokemonMoveForm(scope, Pokemons, Moves, ObjectToArray) {
   const ctrl = this
 
   const pokemons = ObjectToArray(Pokemons)
@@ -19,6 +19,9 @@ function PokemonMoveForm(Pokemons, Moves, ObjectToArray) {
   ctrl.onSelectedMoveChange = function(selectedMove) {
     ctrl.onSelectedMove({move: selectedMove})
   }
+
+  scope.$watch('$ctrl.pokemon', ctrl.onSelectedPokemonChange)
+  scope.$watch('$ctrl.move', ctrl.onSelectedMoveChange)
 }
 
 export default {
@@ -28,7 +31,9 @@ export default {
     controller: PokemonMoveForm,
     bindings: {
       onSelectedPokemon: '&',
-      onSelectedMove: '&'
+      onSelectedMove: '&',
+      pokemon: '=',
+      move: '='
     }
   }
 }
