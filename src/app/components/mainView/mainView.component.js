@@ -1,5 +1,5 @@
-MainViewController.$inject = ['$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
-function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
+MainViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
+function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
   const ctrl = this
   let attacker = null
   let defender = null
@@ -27,19 +27,24 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
   ctrl.onSelectedDefender = (p) => {
     if (!p) return
     location.search('defender', p.id)
-    location.search('level', p.level)
     defender = p
     ctrl.baseDefense = p.stats.baseDefense
     // level could be raid tier (T1, T2, ...) or pokemon level
-    if (p.level && p.level.startsWith('T')) {
-      const raidTier = parseInt(p.level.slice(1))
+    onSelectedLevel(p.level)
+    ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
+  }
+
+  function onSelectedLevel(level) {
+    if (level && level.startsWith('T')) {
+      const raidTier = parseInt(level.slice(1))
       ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
     }
     else {
-      ctrl.defenseCpm = p.level ? CpM.cpMultiplier[p.level] : CpM.cpMultiplier[38]
+      ctrl.defenseCpm = level ? CpM.cpMultiplier[p.level] : CpM.cpMultiplier[38]
     }
-    ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
   }
+
+  scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null
@@ -55,7 +60,7 @@ function MainViewController(location, routeParams, Moves, Pokemons, CpM, Effecti
   }
   if (routeParams.level) {
     ctrl.level = routeParams.level || null
-    ctrl.onSelectedDefender(ctrl.defender)
+    onSelectedLevel(ctrl.level)
   }
 }
 

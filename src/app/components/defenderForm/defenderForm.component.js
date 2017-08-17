@@ -16,6 +16,7 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
     ctrl.onSelectedPokemon({pokemon: selectedPokemon})
   }
   ctrl.onSelectedLevelChange = function(selectedLevel) {
+    console.log(selectedLevel)
     if (ctrl.pokemon) {
       ctrl.pokemon.level = selectedLevel
       ctrl.onSelectedPokemon({pokemon: ctrl.pokemon})
