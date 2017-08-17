@@ -10,17 +10,18 @@ function PokemonMoveForm(scope, Pokemons, Moves, ObjectToArray) {
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
     )
   }
-  ctrl.onSelectedPokemonChange = function(selectedPokemon) {
+  function onSelectedPokemonChange(selectedPokemon) {
+    console.log(selectedPokemon)
     ctrl.pokemonMoves =
-      selectedPokemon.quickMoves.concat(selectedPokemon.cinematicMoves)
-      .map(m => Moves[m])
-    ctrl.onSelectedPokemon({pokemon: selectedPokemon})
+      selectedPokemon.quickMoves
+        .concat(selectedPokemon.cinematicMoves)
+        .map(m => Moves[m])
   }
   ctrl.onSelectedMoveChange = function(selectedMove) {
     ctrl.onSelectedMove({move: selectedMove})
   }
 
-  scope.$watch('$ctrl.pokemon', ctrl.onSelectedPokemonChange)
+  scope.$watch('$ctrl.pokemon', onSelectedPokemonChange)
   scope.$watch('$ctrl.move', ctrl.onSelectedMoveChange)
 }
 
@@ -30,7 +31,6 @@ export default {
     template: require('./pokemonMoveForm.component.html'),
     controller: PokemonMoveForm,
     bindings: {
-      onSelectedPokemon: '&',
       onSelectedMove: '&',
       pokemon: '=',
       move: '='

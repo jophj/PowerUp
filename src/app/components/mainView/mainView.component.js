@@ -4,9 +4,8 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   let attacker = null
   let move = null
 
-  ctrl.onSelectedAttacker = (p) => {
+  function onSelectedAttacker(p) {
     if (!p) return
-    location.search('attacker', p.id)
     attacker = p
     ctrl.baseAttack = p.stats.baseAttack
     if (move) {
@@ -15,7 +14,6 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   }
   ctrl.onSelectedMove = (m) => {
     if (!m) return
-    location.search('move', m.id)
     move = m
     ctrl.power = m.power
     if (attacker) {
@@ -25,7 +23,6 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   }
   function onSelectedDefender(p) {
     if (!p) return
-    location.search('defender', p.id)
     ctrl.baseDefense = p.stats.baseDefense
     ctrl.effectiveness = computeEffectiveness(move, ctrl.defender, Effectiveness)
   }
@@ -41,12 +38,13 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     }
   }
 
+  scope.$watch('$ctrl.attacker', () => location.search('attacker', ctrl.attacker.id))
   scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
-  scope.$watch('$ctrl.defender', () => location.search('level', ctrl.level))
+  scope.$watch('$ctrl.defender', () => location.search('defender', ctrl.defender.id))
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null
-    ctrl.onSelectedAttacker(ctrl.attacker)
+    onSelectedAttacker(ctrl.attacker)
   }
   if (routeParams.move) {
     ctrl.move = Moves[routeParams.move] || null
