@@ -81,14 +81,14 @@ for (let typeEffectiveTemplate of typeEffectiveTemplates) {
 }
 
 const playerLevelTemplate = gamemaster.itemTemplates.filter(i => i.playerLevel)
-const cpMultiplayer = playerLevelTemplate[0].playerLevel.cpMultiplier
+const cpMultiplier = playerLevelTemplate[0].playerLevel.cpMultiplier
 const bossCpMultiplier = [0.61, 0.67, 0.73, 0.79, 0.79]
-const cpMultiplayerData = {
-  cpMultiplayer: cpMultiplayer,
+const cpMultiplierData = {
+  cpMultiplier: cpMultiplier,
   bossCpMultiplier: bossCpMultiplier
 }
 
 fs.writeFile('pokemonData.json', JSON.stringify(pokemonData))
 fs.writeFile('moveData.json', JSON.stringify(moveData))
 fs.writeFile('effectivenessData.json', JSON.stringify(effectivenessData))
-fs.writeFile('cpMultiplierData.json', JSON.stringify(cpMultiplayerData))
+fs.writeFile('cpMultiplierData.json', JSON.stringify(cpMultiplierData))

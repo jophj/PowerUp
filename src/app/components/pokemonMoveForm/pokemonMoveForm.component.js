@@ -27,7 +27,6 @@ export default {
     template: require('./pokemonMoveForm.component.html'),
     controller: PokemonMoveForm,
     bindings: {
-      label: '<',
       onSelectedPokemon: '&',
       onSelectedMove: '&'
     }
