@@ -12,7 +12,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
   }
-  ctrl.onSelectedMove = (m) => {
+  function onSelectedMove(m) {
     if (!m) return
     move = m
     ctrl.power = m.power
@@ -41,6 +41,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   scope.$watch('$ctrl.attacker', () => location.search('attacker', ctrl.attacker.id))
   scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
   scope.$watch('$ctrl.defender', () => location.search('defender', ctrl.defender.id))
+  scope.$watch('$ctrl.move', () => location.search('move', ctrl.move.id))
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null
@@ -48,7 +49,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   }
   if (routeParams.move) {
     ctrl.move = Moves[routeParams.move] || null
-    ctrl.onSelectedMove(ctrl.move)
+    onSelectedMove(ctrl.move)
   }
   if (routeParams.defender) {
     ctrl.defender = Pokemons[routeParams.defender] || null

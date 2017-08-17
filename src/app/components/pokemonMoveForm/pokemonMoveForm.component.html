@@ -19,7 +19,7 @@
     </md-autocomplete>
   <md-input-container style="margin-top: 0">
     <label>Move</label>
-    <md-select ng-model="$ctrl.move" ng-change="$ctrl.onSelectedMoveChange($ctrl.move)">
+    <md-select ng-model="$ctrl.move">
       <md-option
         ng-repeat="move in $ctrl.pokemonMoves"
         ng-value="move"

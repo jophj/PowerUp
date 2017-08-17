@@ -11,18 +11,13 @@ function PokemonMoveForm(scope, Pokemons, Moves, ObjectToArray) {
     )
   }
   function onSelectedPokemonChange(selectedPokemon) {
-    console.log(selectedPokemon)
     ctrl.pokemonMoves =
       selectedPokemon.quickMoves
         .concat(selectedPokemon.cinematicMoves)
         .map(m => Moves[m])
   }
-  ctrl.onSelectedMoveChange = function(selectedMove) {
-    ctrl.onSelectedMove({move: selectedMove})
-  }
 
   scope.$watch('$ctrl.pokemon', onSelectedPokemonChange)
-  scope.$watch('$ctrl.move', ctrl.onSelectedMoveChange)
 }
 
 export default {
@@ -31,7 +26,6 @@ export default {
     template: require('./pokemonMoveForm.component.html'),
     controller: PokemonMoveForm,
     bindings: {
-      onSelectedMove: '&',
       pokemon: '=',
       move: '='
     }
