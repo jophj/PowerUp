@@ -1,24 +1,26 @@
-<div layout-padding>
-  <div layout="row">
-    <div flex="50" layout="column">
-      <pokemon-move-form
-        on-selected-pokemon="$ctrl.onSelectedAttacker(pokemon)"
-        on-selected-move="$ctrl.onSelectedMove(move)"
+<div layout="row" layout-align="center center">
+  <div flex="100" flex-gt-sm="75" flex-gt-md="50" layout="column" layout-align="center stretch">
+    <div layout="row" layout-padding>
+      <div layout="column" flex>
+        <pokemon-move-form
+          on-selected-pokemon="$ctrl.onSelectedAttacker(pokemon)"
+          on-selected-move="$ctrl.onSelectedMove(move)"
+        />
+      </div>
+      <div layout="column" flex>
+        <defender-form on-selected-pokemon="$ctrl.onSelectedDefender(pokemon)"/>
+      </div>
+    </div>
+
+    <section>
+      <damage-table
+        base-attack="$ctrl.baseAttack"
+        power="$ctrl.power"
+        base-defense="$ctrl.baseDefense"
+        defense-cpm="$ctrl.defenseCpm"
+        stab="$ctrl.stab"
+        effectiveness="$ctrl.effectiveness"
       />
-    </div>
-    <div flex="50" layout="column">
-      <defender-form on-selected-pokemon="$ctrl.onSelectedDefender(pokemon)"/>
-    </div>
+    </section>
   </div>
 </div>
-
-<section>
-  <damage-table
-    base-attack="$ctrl.baseAttack"
-    power="$ctrl.power"
-    base-defense="$ctrl.baseDefense"
-    defense-cpm="$ctrl.defenseCpm"
-    stab="$ctrl.stab"
-    effectiveness="$ctrl.effectiveness"
-  />
-</section>
