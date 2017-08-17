@@ -29,12 +29,12 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
 
   function onSelectedLevel(level) {
     // level could be raid tier (T1, T2, ...) or pokemon level
-    if (level && level.startsWith('T')) {
+    if (typeof level === 'string' && level && level.startsWith('T')) {
       const raidTier = parseInt(level.slice(1))
       ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
     }
     else {
-      ctrl.defenseCpm = level ? CpM.cpMultiplier[p.level] : CpM.cpMultiplier[38]
+      ctrl.defenseCpm = level ? CpM.cpMultiplier[level-1] : CpM.cpMultiplier[39]
     }
   }
 

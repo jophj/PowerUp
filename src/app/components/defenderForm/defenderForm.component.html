@@ -18,14 +18,19 @@
     </div>
   </md-autocomplete>
   <md-input-container style="margin-top: 0">
-    <label>Raid tier</label>
+    <label>Level</label>
     <md-select ng-model="$ctrl.level">
-      <md-option ng-value="null"><em>None</em></md-option>
       <md-option
         ng-repeat="tier in $ctrl.raidTiers track by $index"
         ng-value="'T'+($index+1)"
       >
-        {{::$index + 1}}
+        Tier {{::$index + 1}}
+      </md-option>
+      <md-option
+        ng-repeat="defenderLevel in [1, 10, 20, 30, 39, 40]"
+        ng-value="defenderLevel"
+      >
+        {{::defenderLevel}}
       </md-option>
     </md-select>
   </md-input-container>
