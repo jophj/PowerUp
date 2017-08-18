@@ -1,30 +1,63 @@
-MainViewController.$inject = ['CpM', 'Effectiveness']
-function MainViewController(CpM, Effectiveness) {
+MainViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
+function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
   const ctrl = this
   let attacker = null
-  let defender = null
   let move = null
 
-  ctrl.onSelectedAttacker = (p) => {
+  function onSelectedAttacker(p) {
+    if (!p) return
     attacker = p
     ctrl.baseAttack = p.stats.baseAttack
     if (move) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
   }
-  ctrl.onSelectedMove = (m) => {
+  function onSelectedMove(m) {
+    if (!m) return
     move = m
     ctrl.power = m.power
     if (attacker) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
-    ctrl.effectiveness = computeEffectiveness(m, defender, Effectiveness)
+    ctrl.effectiveness = computeEffectiveness(m, ctrl.defender, Effectiveness)
   }
-  ctrl.onSelectedDefender = (p) => {
-    defender = p
+  function onSelectedDefender(p) {
+    if (!p) return
     ctrl.baseDefense = p.stats.baseDefense
-    ctrl.defenseCpm = p.raidTier ? CpM.bossCpMultiplier[p.raidTier - 1] : CpM.cpMultiplier[38]
-    ctrl.effectiveness = computeEffectiveness(move, defender, Effectiveness)
+    ctrl.effectiveness = computeEffectiveness(move, ctrl.defender, Effectiveness)
+  }
+
+  function onSelectedLevel(level) {
+    // level could be raid tier (T1, T2, ...) or pokemon level
+    if (typeof level === 'string' && level && level.startsWith('T')) {
+      const raidTier = parseInt(level.slice(1))
+      ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
+    }
+    else {
+      ctrl.defenseCpm = level ? CpM.cpMultiplier[level-1] : CpM.cpMultiplier[39]
+    }
+  }
+
+  scope.$watch('$ctrl.attacker', () => location.search('attacker', ctrl.attacker.id))
+  scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
+  scope.$watch('$ctrl.defender', () => location.search('defender', ctrl.defender.id))
+  scope.$watch('$ctrl.move', () => location.search('move', ctrl.move.id))
+
+  if (routeParams.attacker) {
+    ctrl.attacker = Pokemons[routeParams.attacker] || null
+    onSelectedAttacker(ctrl.attacker)
+  }
+  if (routeParams.move) {
+    ctrl.move = Moves[routeParams.move] || null
+    onSelectedMove(ctrl.move)
+  }
+  if (routeParams.defender) {
+    ctrl.defender = Pokemons[routeParams.defender] || null
+    onSelectedDefender(ctrl.defender)
+  }
+  if (routeParams.level) {
+    ctrl.level = routeParams.level || null
+    onSelectedLevel(ctrl.level)
   }
 }
 
