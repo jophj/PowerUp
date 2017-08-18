@@ -17209,9 +17209,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 212,
-        "baseAttack": 330,
-        "baseDefense": 200
+        "baseStamina": 193,
+        "baseAttack": 300,
+        "baseDefense": 182
       },
       "quickMoves": ["PSYCHO_CUT_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYCHIC", "SHADOW_BALL", "HYPER_BEAM", "FOCUS_BLAST"],

@@ -1,5 +1,5 @@
 // Only config needed is gamemaster path
-const gamemaster = require('./0691-GAME_MASTER.json')
+const gamemaster = require('./0692-GAME_MASTER.json')
 
 const fs = require('fs')
 
