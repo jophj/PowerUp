@@ -13,6 +13,7 @@ import DamageTable from 'app/components/damageTable/damageTable.component'
 import Pokemons from 'app/utils/pokemons.factory'
 import CpM from 'app/utils/cpM.factory'
 import Effectiveness from 'app/utils/effectiveness.factory'
+import damageCalculator from 'app/utils/damageCalculator.factory'
 import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
 
@@ -33,5 +34,6 @@ export default angular
   .factory(Moves.name, Moves.service)
   .factory(CpM.name, CpM.service)
   .factory(Effectiveness.name, Effectiveness.service)
+  .factory(damageCalculator.name, damageCalculator.service)
   .factory(ObjectToArray.name, ObjectToArray.service)
   .name
