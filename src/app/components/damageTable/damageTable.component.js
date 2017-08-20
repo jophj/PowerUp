@@ -35,6 +35,7 @@ function DamageTable(scope, CpM, damageCalculator) {
     )
   }
 
+  scope.$watch('$ctrl.durationMs', computeMinMaxDamage)
   scope.$watch('$ctrl.power', computeMinMaxDamage)
   scope.$watch('$ctrl.baseAttack', computeMinMaxDamage)
   scope.$watch('$ctrl.baseDefense', computeMinMaxDamage)
@@ -54,7 +55,8 @@ export default {
       baseDefense: '<',
       defenseCpm: '<',
       stab: '<',
-      effectiveness: '<'
+      effectiveness: '<',
+      durationMs: '<'
     }
   }
 }

@@ -16,6 +16,8 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     if (!m) return
     move = m
     ctrl.power = m.power
+    ctrl.durationMs = move.durationMs
+    console.log(move)
     if (attacker) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
