@@ -15,7 +15,6 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
   const mapMoveIdToMove = (mId) => Moves[mId]
 
   function computeRanking() {
-    console.log('asd')
     if (!ctrl.defenseCpm || !ctrl.pokemon) {
       return
     }
