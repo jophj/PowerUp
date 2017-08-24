@@ -18,8 +18,10 @@ import dpsCalculator from 'app/utils/dpsCalculator.factory'
 import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
 
+import DpsChartModule from 'app/dpsChart/dpsChart.module'
+
 export default angular
-  .module('powerUp', [ngMaterial, ngRoute])
+  .module('powerUp', [ngMaterial, ngRoute, DpsChartModule])
   .config(['$routeProvider', function(routeProvider) {
     routeProvider.otherwise('/')
     routeProvider.when('/', {

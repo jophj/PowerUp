@@ -28,7 +28,7 @@
             )"
           md-colors="{background: 'primary-100-{{(damage-$ctrl.minDamage)/($ctrl.maxDamage-$ctrl.minDamage)}}'}"
           ng-repeat="iv in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]"
-        ><md-tooltip>DPS: {{$ctrl.dpsCalculator(damage, $ctrl.durationMs)}}</md-tooltip>
+        ><md-tooltip>DPS: {{$ctrl.dpsCalculator(damage, $ctrl.durationMs) || '-'}}</md-tooltip>
           {{damage || '-'}}
         </td>
       </tr>

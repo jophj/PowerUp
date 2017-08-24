@@ -1,0 +1,27 @@
+<div layout="row" layout-align="center center">
+  <div flex="100" flex-gt-sm="75" flex-gt-md="50" layout="column" layout-align="center stretch">
+    <div layout="row">
+      <div layout="column" flex style="overflow: hidden">
+        <span>asdasd</span>
+      </div>
+      <div layout="column" flex style="overflow: hidden">
+        <defender-form
+          pokemon="$ctrl.defender"
+          level="$ctrl.level"
+        />
+      </div>
+    </div>
+
+    <section>
+      <damage-table
+        base-attack="$ctrl.baseAttack"
+        power="$ctrl.power"
+        base-defense="$ctrl.baseDefense"
+        defense-cpm="$ctrl.defenseCpm"
+        stab="$ctrl.stab"
+        effectiveness="$ctrl.effectiveness"
+        duration-ms="$ctrl.durationMs"
+      />
+    </section>
+  </div>
+</div>
