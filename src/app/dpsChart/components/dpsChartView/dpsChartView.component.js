@@ -1,11 +1,10 @@
-DpsChartViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
-function DpsChartViewController(scope, location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
+DpsChartViewController.$inject = ['$scope', '$location', '$routeParams', 'Pokemons', 'CpM']
+function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
   const ctrl = this
 
   function onSelectedDefender(p) {
     if (!p) return
     ctrl.baseDefense = p.stats.baseDefense
-    // ctrl.effectiveness = computeEffectiveness(move, ctrl.defender, Effectiveness)
   }
 
   function onSelectedLevel(level) {
