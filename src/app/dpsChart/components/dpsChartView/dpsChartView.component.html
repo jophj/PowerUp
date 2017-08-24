@@ -4,20 +4,23 @@
       <div layout="column" flex style="overflow: hidden" layout-padding>
         <h4 style="margin:0;" md-colors="{color: 'primary'}" class=".md-display-3 md-primary">Info</h4>
         <span class="md-subheader">DPS is calculated as damage/durationMs for both quick and cinematic moves.</span>
+        <md-input-container>
+          <md-checkbox ng-model="$ctrl.onlyQuickMoves" aria-label="Only quick moves">
+            Only quick moves
+          </md-checkbox>
+        </md-input-container>
       </div>
       <div layout="column" flex style="overflow: hidden">
         <defender-form
           pokemon="$ctrl.defender"
           level="$ctrl.level"
         />
-        <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
-            Checkbox 1: {{ data.cb1 }}
-          </md-checkbox>
       </div>
     </div>
 
     <section>
       <dps-chart-table
+        only-quick-moves="$ctrl.onlyQuickMoves"
         pokemon="$ctrl.pokemon"
         defense-cpm="$ctrl.defenseCpm"
       />

@@ -19,6 +19,7 @@ function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
 
   scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
   scope.$watch('$ctrl.defender', () => ctrl.defender ? location.search('defender', ctrl.defender.id) : null)
+  scope.$watch('$ctrl.onlyQuickMoves', () => location.search('onlyQuickMoves', ctrl.onlyQuickMoves))
 
   if (routeParams.defender) {
     ctrl.defender = Pokemons[routeParams.defender] || null
@@ -27,6 +28,9 @@ function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
   if (routeParams.level) {
     ctrl.level = routeParams.level || null
     onSelectedLevel(ctrl.level)
+  }
+  if (routeParams.onlyQuickMoves) {
+    ctrl.onlyQuickMoves = routeParams.onlyQuickMoves || null
   }
 }
 
