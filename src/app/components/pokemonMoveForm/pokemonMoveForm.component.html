@@ -1,18 +1,36 @@
 <div layout="column">
-  <md-input-container style="margin-bottom: 0">
-    <md-autocomplete md-floating-label="Attacker" md-no-cache="true" md-selected-item="selectedItem" md-items="item in ['Machamp', 'Zapdos']" md-item-text="item">
+    <md-autocomplete
+      md-floating-label="Attacker"
+      md-selected-item="$ctrl.pokemon"
+      md-items="pokemon in $ctrl.filteredPokemons"
+      md-item-text="pokemon.name"
+      md-search-text-change="$ctrl.searchTextChange(searchText)"
+      md-search-text="searchText"
+      md-autoselect="true"
+    >
       <md-item-template>
-        <span>sd</span>
+        <span>{{pokemon.name}}</span>
       </md-item-template>
-      <div style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);color: grey;">
-        Base attack: 234
+      <div
+        style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;color: grey;"
+      >
+        Base attack: {{$ctrl.pokemon.stats.baseAttack || '-'}}
       </div>
     </md-autocomplete>
-  </md-input-container>
   <md-input-container style="margin-top: 0">
-    <md-select ng-model="move">
-      <md-option ng-value="asd">Rock Throw</md-option>
-      <md-option>Rock Blast</md-option>
+    <label>Move</label>
+    <md-select ng-model="$ctrl.move">
+      <md-option
+        ng-repeat="move in $ctrl.pokemonMoves"
+        ng-value="move"
+      >
+        {{move.name}}
+      </md-option>
     </md-select>
+    <div
+      style="margin-top: 2px;font-size: 12px;line-height: 14px;color: grey;"
+    >
+      Power: {{$ctrl.move.power || '-'}}
+    </div>
   </md-input-container>
 </div>

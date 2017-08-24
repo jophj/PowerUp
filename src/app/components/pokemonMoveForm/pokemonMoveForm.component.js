@@ -1,5 +1,23 @@
-function PokemonMoveForm() {
+PokemonMoveForm.$inject = ['$scope', 'Pokemons', 'Moves', 'ObjectToArray']
+
+function PokemonMoveForm(scope, Pokemons, Moves, ObjectToArray) {
   const ctrl = this
+
+  const pokemons = ObjectToArray(Pokemons)
+
+  ctrl.searchTextChange = function(searchText) {
+    ctrl.filteredPokemons = pokemons.filter(
+      p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
+    )
+  }
+  function onSelectedPokemonChange(selectedPokemon) {
+    ctrl.pokemonMoves =
+      selectedPokemon.quickMoves
+        .concat(selectedPokemon.cinematicMoves)
+        .map(m => Moves[m])
+  }
+
+  scope.$watch('$ctrl.pokemon', onSelectedPokemonChange)
 }
 
 export default {
@@ -8,7 +26,8 @@ export default {
     template: require('./pokemonMoveForm.component.html'),
     controller: PokemonMoveForm,
     bindings: {
-      problem: '<',
+      pokemon: '=',
+      move: '='
     }
   }
 }

@@ -1,0 +1,37 @@
+<div layout="column">
+  <md-autocomplete
+    md-floating-label="Defender"
+    md-selected-item="$ctrl.pokemon"
+    md-items="pokemon in $ctrl.filteredPokemons"
+    md-item-text="pokemon.name"
+    md-search-text-change="$ctrl.searchTextChange(searchText)"
+    md-search-text="searchText"
+    md-autoselect="true"
+  >
+    <md-item-template>
+      <span>{{pokemon.name}}</span>
+    </md-item-template>
+    <div
+      style="position: absolute;left: 2px;right: auto;bottom: 7px;font-size: 12px;line-height: 14px;color: grey;"
+    >
+      Base defense: {{$ctrl.pokemon.stats.baseDefense || '-'}}
+    </div>
+  </md-autocomplete>
+  <md-input-container style="margin-top: 0">
+    <label>Level</label>
+    <md-select ng-model="$ctrl.level">
+      <md-option
+        ng-repeat="tier in $ctrl.raidTiers track by $index"
+        ng-value="'T'+($index+1)"
+      >
+        Tier {{::$index + 1}}
+      </md-option>
+      <md-option
+        ng-repeat="defenderLevel in [1, 10, 20, 30, 39, 40]"
+        ng-value="defenderLevel"
+      >
+        {{::defenderLevel}}
+      </md-option>
+    </md-select>
+  </md-input-container>
+</div>
