@@ -39,9 +39,9 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     }
   }
 
-  scope.$watch('$ctrl.attacker', () => location.search('attacker', ctrl.attacker.id))
+  scope.$watch('$ctrl.attacker', () => ctrl.attacker ? location.search('attacker', ctrl.attacker.id) : null)
   scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
-  scope.$watch('$ctrl.defender', () => location.search('defender', ctrl.defender.id))
+  scope.$watch('$ctrl.defender', () => ctrl.defender ? location.search('defender', ctrl.defender.id) : null)
   scope.$watch('$ctrl.move', () => location.search('move', ctrl.move.id))
 
   if (routeParams.attacker) {
