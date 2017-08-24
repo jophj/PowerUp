@@ -26,7 +26,8 @@ export default angular
   .config(['$routeProvider', function(routeProvider) {
     routeProvider.otherwise('/')
     routeProvider.when('/', {
-      template: '<main-view></main-view>'
+      template: '<main-view></main-view>',
+      // reloadOnSearch: false
     })
   }])
   .component(App.name, App.config)

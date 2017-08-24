@@ -8,7 +8,8 @@ export default angular
 .module('powerUp.dpsChart', [ngMaterial, ngRoute])
 .config(['$routeProvider', function(routeProvider) {
   routeProvider.when('/dps-chart', {
-    template: '<dps-chart-view></dps-chart-view>'
+    template: '<dps-chart-view></dps-chart-view>',
+    reloadOnSearch: false
   })
 }])
 .component(PokemonRankElement.name, PokemonRankElement.config)

@@ -15,7 +15,8 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
   const mapMoveIdToMove = (mId) => Moves[mId]
 
   function computeRanking() {
-    if (!ctrl.defenseCpm) {
+    console.log('asd')
+    if (!ctrl.defenseCpm || !ctrl.pokemon) {
       return
     }
     const ranking = pokemons.map((p) => {
@@ -25,7 +26,7 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
         const effectiveness = effectivenessCalculator(m.type, ctrl.pokemon.type, ctrl.pokemon.type2)
         for (let iv = 10; iv <= 15; iv++) {
           const dmgByLevel = []
-          for (let level = 1; level <= 40; level++) {
+          for (let level = 1; level <= 40; level += .5) {
             const dmg = damageCalculator(p.stats.baseAttack, iv, m.power, ctrl.cpM[level], ctrl.pokemon.stats.baseDefense, ctrl.defenseCpm, stab, effectiveness)
             dmgByLevel.push(dmg)
           }
@@ -43,9 +44,12 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
         }
       }
 
-      const quickRank = p.quickMoves.map(mapMoveIdToMove).map(mapMove)
-      const cinematicRank = p.cinematicMoves.map(mapMoveIdToMove).map(mapMove)
-      return quickRank.concat(cinematicRank)
+      let moveRanking = p.quickMoves.map(mapMoveIdToMove).map(mapMove)
+      if (!ctrl.onlyQuickMoves) {
+        const cinematicRank = p.cinematicMoves.map(mapMoveIdToMove).map(mapMove)
+        moveRanking = moveRanking.concat(cinematicRank)
+      }
+      return moveRanking
     })
     .reduce((p, c) => p.concat(c))
     .sort((a,b) => b.dps - a.dps)
@@ -55,16 +59,17 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
 
   scope.$watch('$ctrl.pokemon', computeRanking)
   scope.$watch('$ctrl.defenseCpm', computeRanking)
+  scope.$watch('$ctrl.onlyQuickMoves', computeRanking)
 }
 
 function getLastBreakPointData(dmgByLevel) {
   let breakpointLevel = 40
-  for (let level = breakpointLevel; level > 1; level--) {
-    if (dmgByLevel[level] > dmgByLevel[level - 1]) {
+  for (let i = dmgByLevel.length; i > 1; i--) {
+    if (dmgByLevel[i] > dmgByLevel[i - 1]) {
       return {
-        level: level,
-        damage: dmgByLevel[level],
-        increase: dmgByLevel[level]/dmgByLevel[level-1]
+        level: (i/2)+1,
+        damage: dmgByLevel[i],
+        increase: dmgByLevel[i]/dmgByLevel[i-1]
       }
     }
   }
@@ -76,8 +81,9 @@ export default {
     template: require('./dpsChartTable.component.html'),
     controller: DpsChartTable,
     bindings: {
-      defenseCpm: '<',
-      pokemon: '<'
+      defenseCpm: '=',
+      pokemon: '=',
+      onlyQuickMoves: '='
     }
   }
 }

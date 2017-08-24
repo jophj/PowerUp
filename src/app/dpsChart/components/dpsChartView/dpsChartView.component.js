@@ -2,10 +2,6 @@ DpsChartViewController.$inject = ['$scope', '$location', '$routeParams', 'Pokemo
 function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
   const ctrl = this
 
-  function onSelectedDefender(p) {
-    ctrl.pokemon = p
-  }
-
   function onSelectedLevel(level) {
     // level could be raid tier (T1, T2, ...) or pokemon level
     if (typeof level === 'string' && level && level.startsWith('T')) {
@@ -17,20 +13,22 @@ function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
     }
   }
 
-  scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
+  scope.$watch('$ctrl.level', () => {
+    onSelectedLevel(ctrl.level)
+    location.search('level', ctrl.level)
+  })
   scope.$watch('$ctrl.defender', () => ctrl.defender ? location.search('defender', ctrl.defender.id) : null)
   scope.$watch('$ctrl.onlyQuickMoves', () => location.search('onlyQuickMoves', ctrl.onlyQuickMoves))
 
   if (routeParams.defender) {
     ctrl.defender = Pokemons[routeParams.defender] || null
-    onSelectedDefender(ctrl.defender)
   }
   if (routeParams.level) {
     ctrl.level = routeParams.level || null
     onSelectedLevel(ctrl.level)
   }
   if (routeParams.onlyQuickMoves) {
-    ctrl.onlyQuickMoves = routeParams.onlyQuickMoves || null
+    ctrl.onlyQuickMoves = routeParams.onlyQuickMoves || false
   }
 }
 
