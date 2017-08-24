@@ -3,8 +3,7 @@ function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
   const ctrl = this
 
   function onSelectedDefender(p) {
-    if (!p) return
-    ctrl.baseDefense = p.stats.baseDefense
+    ctrl.pokemon = p
   }
 
   function onSelectedLevel(level) {
