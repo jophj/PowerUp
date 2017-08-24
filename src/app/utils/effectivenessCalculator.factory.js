@@ -1,5 +1,3 @@
-
-
 effectivenessCalculatorFactory.$inject = ['Effectiveness']
 function effectivenessCalculatorFactory(Effectiveness) {
   return function effectivenessCalculator(moveType, defenderType, defenderType2) {
