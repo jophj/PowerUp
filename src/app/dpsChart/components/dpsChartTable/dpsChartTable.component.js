@@ -33,7 +33,6 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
           moveData[iv] = breakpointLevel
         }
 
-
         const maxDmg = damageCalculator(p.stats.baseAttack, 15, m.power, ctrl.cpM[40], ctrl.pokemon.stats.baseDefense, ctrl.defenseCpm, stab, effectiveness)
         
         return {
@@ -51,7 +50,7 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
     .reduce((p, c) => p.concat(c))
     .sort((a,b) => b.dps - a.dps)
 
-    ctrl.ranking = ranking.slice(1,100)
+    ctrl.ranking = ranking.slice(0,100)
   }
 
   scope.$watch('$ctrl.pokemon', computeRanking)
