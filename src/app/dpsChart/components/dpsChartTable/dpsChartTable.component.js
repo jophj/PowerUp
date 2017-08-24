@@ -19,7 +19,7 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
       const mapMove = (m) => {
         const moveData = {}
         const stab = m.type === p.type || m.type === p.type2 ? 1.2 : 1
-        const effectiveness = effectivenessCalculator(m.type, p.type, p.type2)
+        const effectiveness = effectivenessCalculator(m.type, ctrl.pokemon.type, ctrl.pokemon.type2)
         for (let iv = 10; iv <= 15; iv++) {
           const dmgByLevel = []
           for (let level = 1; level <= 40; level++) {
@@ -29,6 +29,7 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
           const breakpointLevel = getLastBreakPointData(dmgByLevel)
           moveData[iv] = breakpointLevel
         }
+
 
         const maxDmg = damageCalculator(p.stats.baseAttack, 15, m.power, ctrl.cpM[40], ctrl.pokemon.stats.baseDefense, ctrl.defenseCpm, stab, effectiveness)
         

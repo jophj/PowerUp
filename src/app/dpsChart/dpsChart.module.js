@@ -1,5 +1,6 @@
 import ngMaterial from 'angular-material'
 import ngRoute from 'angular-route'
+import PokemonRankElement from 'app/dpsChart/components/pokemonRankElement/pokemonRankElement.component'
 import DpsChartView from 'app/dpsChart/components/dpsChartView/dpsChartView.component'
 import DpsChartTable from 'app/dpsChart/components/dpsChartTable/dpsChartTable.component'
 
@@ -10,6 +11,7 @@ export default angular
     template: '<dps-chart-view></dps-chart-view>'
   })
 }])
+.component(PokemonRankElement.name, PokemonRankElement.config)
 .component(DpsChartView.name, DpsChartView.config)
 .component(DpsChartTable.name, DpsChartTable.config)
 .name

@@ -4,7 +4,10 @@
     
   </table>
 </md-subheader class="md-primary">
-<div style="padding: 0 0px">
+<div layout="column">
+  <pokemon-rank-element ng-repeat="rank in $ctrl.ranking" rank-data="rank" rank="$index" layout-padding />
+</div>
+<!-- <div style="padding: 0 0px">
   <table style="width:100%; border-collapse: collapse; font-size:14px; padding: 0 8px; text-align:center">
     <thead md-colors="{color: 'primary'}">
         <tr>
@@ -41,17 +44,17 @@
         <td>{{rank.dps | number : 1}}</td>
         <td>{{rank.breakpointData[15].level}}</td>
         <td>{{rank.breakpointData[15].damage}}</td>
-        <td>{{rank.breakpointData[15].increase | number : 1}}</td>
+        <td>{{(rank.breakpointData[15].increase-1)*100 | number : 1}}</td>
         <td>{{rank.breakpointData[14].level}}</td>
         <td>{{rank.breakpointData[14].damage}}</td>
-        <td>{{rank.breakpointData[14].increase | number : 1}}</td>
+        <td>{{(rank.breakpointData[14].increase-1)*100 | number : 1}}</td>
         <td>{{rank.breakpointData[13].level}}</td>
         <td>{{rank.breakpointData[13].damage}}</td>
-        <td>{{rank.breakpointData[13].increase | number : 1}}</td>
+        <td>{{(rank.breakpointData[13].increase-1)*100 | number : 1}}</td>
         <td>{{rank.breakpointData[12].level}}</td>
         <td>{{rank.breakpointData[12].damage}}</td>
-        <td>{{rank.breakpointData[12].increase | number : 1}}</td>
+        <td>{{(rank.breakpointData[12].increase-1)*100 | number : 1}}</td>
         </tr>
     </tbody>
   </table>
-</div>
+</div> -->
