@@ -12,7 +12,7 @@
       </div>
     </div>
     <div>
-      <table style="width:100%; table-layout:fixed; border-collapse: collapse; font-size:14px; padding: 0 8px; text-align:center">
+      <table style="width:100%; table-layout:fixed; border-collapse: collapse; font-size:14px; padding: 0 8px; text-align:center; margin-top: 8px;">
         <thead md-colors="{color: 'primary'}">
           <tr>
             <th colspan="3">15</th>
@@ -23,32 +23,32 @@
           <tr>
             <th>Lvl</th>
             <th>Dmg</th>
-            <th>Inc%</th>
+            <th>Inc</th>
             <th>Lvl</th>
             <th>Dmg</th>
-            <th>Inc%</th>
+            <th>Inc</th>
             <th>Lvl</th>
             <th>Dmg</th>
-            <th>Inc%</th>
+            <th>Inc</th>
             <th>Lvl</th>
             <th>Dmg</th>
-            <th>Inc%</th>
+            <th>Inc</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>{{$ctrl.rankData.breakpointData[15].level}}</td>
-            <td>{{$ctrl.rankData.breakpointData[15].damage}}</td>
-            <td>{{($ctrl.rankData.breakpointData[15].increase-1)*100 | number : 1}}</td>
-            <td>{{$ctrl.rankData.breakpointData[14].level}}</td>
-            <td>{{$ctrl.rankData.breakpointData[14].damage}}</td>
-            <td>{{($ctrl.rankData.breakpointData[14].increase-1)*100 | number : 1}}</td>
-            <td>{{$ctrl.rankData.breakpointData[13].level}}</td>
-            <td>{{$ctrl.rankData.breakpointData[13].damage}}</td>
-            <td>{{($ctrl.rankData.breakpointData[13].increase-1)*100 | number : 1}}</td>
-            <td>{{$ctrl.rankData.breakpointData[12].level}}</td>
-            <td>{{$ctrl.rankData.breakpointData[12].damage}}</td>
-            <td>{{($ctrl.rankData.breakpointData[12].increase-1)*100 | number : 1}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[15].level}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[15].damage}}</td>
+            <td>{{::($ctrl.rankData.breakpointData[15].increase-1)*100 | number : 1}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[14].level}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[14].damage}}</td>
+            <td>{{::($ctrl.rankData.breakpointData[14].increase-1)*100 | number : 1}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[13].level}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[13].damage}}</td>
+            <td>{{::($ctrl.rankData.breakpointData[13].increase-1)*100 | number : 1}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[12].level}}</td>
+            <td>{{::$ctrl.rankData.breakpointData[12].damage}}</td>
+            <td>{{::($ctrl.rankData.breakpointData[12].increase-1)*100 | number : 1}}</td>
           </tr>
         </tbody>
       </table>

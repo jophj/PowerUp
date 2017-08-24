@@ -15,6 +15,9 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
   const mapMoveIdToMove = (mId) => Moves[mId]
 
   function computeRanking() {
+    if (!ctrl.defenseCpm) {
+      return
+    }
     const ranking = pokemons.map((p) => {
       const mapMove = (m) => {
         const moveData = {}
@@ -48,7 +51,7 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenes
     .reduce((p, c) => p.concat(c))
     .sort((a,b) => b.dps - a.dps)
 
-    ctrl.ranking = ranking.slice(1,10)
+    ctrl.ranking = ranking.slice(1,100)
   }
 
   scope.$watch('$ctrl.pokemon', computeRanking)
