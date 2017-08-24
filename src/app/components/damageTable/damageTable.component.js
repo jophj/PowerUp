@@ -1,8 +1,9 @@
-DamageTable.$inject = ['$scope', 'CpM', 'damageCalculator']
-function DamageTable(scope, CpM, damageCalculator) {
+DamageTable.$inject = ['$scope', 'CpM', 'damageCalculator', 'dpsCalculator']
+function DamageTable(scope, CpM, damageCalculator, dpsCalculator) {
   const ctrl = this
 
   ctrl.damageCalculator = damageCalculator
+  ctrl.dpsCalculator = dpsCalculator
   ctrl.floor = Math.floor
   ctrl.cpM = {}
   CpM.cpMultiplier.forEach((cpm, i) => {
