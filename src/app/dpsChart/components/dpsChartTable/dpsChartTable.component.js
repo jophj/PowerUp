@@ -1,10 +1,9 @@
-DpsChartTable.$inject = ['$scope', 'CpM', 'damageCalculator', 'dpsCalculator']
-function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator) {
+DpsChartTable.$inject = ['$scope', 'CpM', 'damageCalculator', 'dpsCalculator', 'effectivenessCalculator', 'ObjectToArray', 'Pokemons', 'Moves']
+function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenessCalculator, ObjectToArray, Pokemons, Moves) {
   const ctrl = this
 
-  ctrl.damageCalculator = damageCalculator
+  const pokemons = ObjectToArray(Pokemons)
   ctrl.dpsCalculator = dpsCalculator
-  ctrl.floor = Math.floor
   ctrl.cpM = {}
   CpM.cpMultiplier.forEach((cpm, i) => {
     ctrl.cpM[i+1] = cpm
@@ -13,8 +12,27 @@ function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator) {
     }
   })
 
-  function computeRanking() {
+  const mapMoveIdToMove = (mId) => Moves[mId]
 
+  function computeRanking() {
+    pokemons.map((p) => {
+      const mapMove = (m) => {
+        const stab = m.type === p.type || m.type === p.type2 ? 1.2 : 1
+        const effectiveness = effectivenessCalculator(m.type, p.type, p.type2)
+        const dmg = damageCalculator(p.stats.baseAttack, 15, m.power, ctrl.cpM[39], ctrl.pokemon.stats.baseDefense, ctrl.defenseCpm, stab, effectiveness)
+        console.log(dmg)
+        return {
+          pokemonName: p.name,
+          moveName: m.name,
+          dps: dpsCalculator()
+        }
+      }
+
+      const quickRank = p.quickMoves.map(mapMoveIdToMove).map(mapMove)
+      const cinematicRank = p.cinematicMoves.map(mapMoveIdToMove).map(mapMove)
+
+      return quickRank.concat(cinematicRank)
+    })
   }
 
   scope.$watch('$ctrl.pokemon', computeRanking)

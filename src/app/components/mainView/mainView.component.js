@@ -1,5 +1,5 @@
-MainViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'Effectiveness']
-function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, Effectiveness) {
+MainViewController.$inject = ['$scope', '$location', '$routeParams','Moves', 'Pokemons', 'CpM', 'effectivenessCalculator']
+function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, effectivenessCalculator) {
   const ctrl = this
   let attacker = null
   let move = null
@@ -20,17 +20,22 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     if (attacker) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
     }
-    ctrl.effectiveness = computeEffectiveness(m, ctrl.defender, Effectiveness)
+    if (m && ctrl.defender) {
+      ctrl.effectiveness = effectivenessCalculator(m.type, ctrl.defender.type, ctrl.defender.type2)
+    }
+    
   }
   function onSelectedDefender(p) {
     if (!p) return
     ctrl.baseDefense = p.stats.baseDefense
-    ctrl.effectiveness = computeEffectiveness(move, ctrl.defender, Effectiveness)
+    if (move && ctrl.defender) {      
+      ctrl.effectiveness = effectivenessCalculator(move.type, ctrl.defender.type, ctrl.defender.type2)
+    }
   }
 
   function onSelectedLevel(level) {
     // level could be raid tier (T1, T2, ...) or pokemon level
-    if (typeof level === 'string' && level && level.startsWith('T')) {
+    if (level && typeof level === 'string' && level.startsWith('T')) {
       const raidTier = parseInt(level.slice(1))
       ctrl.defenseCpm = CpM.bossCpMultiplier[raidTier - 1]
     }
@@ -60,17 +65,6 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     ctrl.level = routeParams.level || null
     onSelectedLevel(ctrl.level)
   }
-}
-
-function computeEffectiveness(move, defender, effectiveness) {
-  let e = 1
-  if (defender && move) {
-    e = effectiveness[move.type][defender.type]
-    if (defender.type2) {
-      e *= effectiveness[move.type][defender.type2]
-    }
-  }
-  return e
 }
 
 export default {
