@@ -19,10 +19,10 @@ import effectivenessCalculator from 'app/utils/effectivenessCalculator.factory'
 import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
 
-import DpsChartModule from 'app/dpsChart/dpsChart.module'
+import DpsRankModule from 'app/dpsRank/dpsRank.module'
 
 export default angular
-  .module('powerUp', [ngMaterial, ngRoute, DpsChartModule])
+  .module('powerUp', [ngMaterial, ngRoute, DpsRankModule])
   .config(['$routeProvider', function(routeProvider) {
     routeProvider.otherwise('/')
     routeProvider.when('/', {

@@ -1,5 +1,5 @@
-DpsChartViewController.$inject = ['$scope', '$location', '$routeParams', 'Pokemons', 'CpM']
-function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
+DpsRankViewController.$inject = ['$scope', '$location', '$routeParams', 'Pokemons', 'CpM']
+function DpsRankViewController(scope, location, routeParams, Pokemons, CpM) {
   const ctrl = this
 
   function onSelectedLevel(level) {
@@ -33,9 +33,9 @@ function DpsChartViewController(scope, location, routeParams, Pokemons, CpM) {
 }
 
 export default {
-  name: 'dpsChartView',
+  name: 'dpsRankView',
   config: {
-    template: require('./dpsChartView.component.html'),
-    controller: DpsChartViewController
+    template: require('./dpsRankView.component.html'),
+    controller: DpsRankViewController
   }
 }

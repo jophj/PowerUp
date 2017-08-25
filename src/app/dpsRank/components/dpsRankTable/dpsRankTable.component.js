@@ -1,5 +1,5 @@
-DpsChartTable.$inject = ['$scope', 'CpM', 'damageCalculator', 'dpsCalculator', 'effectivenessCalculator', 'ObjectToArray', 'Pokemons', 'Moves']
-function DpsChartTable(scope, CpM, damageCalculator, dpsCalculator, effectivenessCalculator, ObjectToArray, Pokemons, Moves) {
+DpsRankTable.$inject = ['$scope', 'CpM', 'damageCalculator', 'dpsCalculator', 'effectivenessCalculator', 'ObjectToArray', 'Pokemons', 'Moves']
+function DpsRankTable(scope, CpM, damageCalculator, dpsCalculator, effectivenessCalculator, ObjectToArray, Pokemons, Moves) {
   const ctrl = this
 
   const pokemons = ObjectToArray(Pokemons)
@@ -75,10 +75,10 @@ function getLastBreakPointData(dmgByLevel) {
 }
 
 export default {
-  name: 'dpsChartTable',
+  name: 'dpsRankTable',
   config: {
-    template: require('./dpsChartTable.component.html'),
-    controller: DpsChartTable,
+    template: require('./dpsRankTable.component.html'),
+    controller: DpsRankTable,
     bindings: {
       defenseCpm: '=',
       pokemon: '=',
