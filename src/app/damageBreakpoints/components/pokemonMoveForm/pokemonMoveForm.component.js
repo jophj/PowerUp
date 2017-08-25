@@ -11,6 +11,7 @@ function PokemonMoveForm(scope, Pokemons, Moves, ObjectToArray) {
     )
   }
   function onSelectedPokemonChange(selectedPokemon) {
+    if (!selectedPokemon) return
     ctrl.pokemonMoves =
       selectedPokemon.quickMoves
         .concat(selectedPokemon.cinematicMoves)
