@@ -5,13 +5,7 @@ import DpsRankView from 'app/dpsRank/components/dpsRankView/dpsRankView.componen
 import DpsRankTable from 'app/dpsRank/components/dpsRankTable/dpsRankTable.component'
 
 export default angular
-.module('powerUp.dpsRank', [ngMaterial, ngRoute])
-.config(['$routeProvider', function(routeProvider) {
-  routeProvider.when('/dps-rank', {
-    template: '<dps-rank-view></dps-rank-view>',
-    reloadOnSearch: false
-  })
-}])
+.module('powerUp.damageBreakpoints', [ngMaterial, ngRoute])
 .component(PokemonRankElement.name, PokemonRankElement.config)
 .component(DpsRankView.name, DpsRankView.config)
 .component(DpsRankTable.name, DpsRankTable.config)

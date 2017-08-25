@@ -7,12 +7,6 @@ import DamageTable from 'app/damageBreakpoints/components/damageTable/damageTabl
 
 export default angular
 .module('powerUp.dpsRank', [ngMaterial, ngRoute])
-.config(['$routeProvider', function(routeProvider) {
-  routeProvider.when('/dps-rank', {
-    template: '<dps-rank-view></dps-rank-view>',
-    reloadOnSearch: false
-  })
-}])
 .component(MainView.name, MainView.config)
 .component(PokemonMoveForm.name, PokemonMoveForm.config)
 .component(DefenderForm.name, DefenderForm.config)

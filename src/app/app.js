@@ -16,16 +16,20 @@ import effectivenessCalculator from 'app/utils/effectivenessCalculator.factory'
 import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
 
-import DpsRankModule from 'app/dpsRank/dpsRank.module'
 import DamageBreakpointsModule from 'app/damageBreakpoints/damageBreakpoints.module'
+import DpsRankModule from 'app/dpsRank/dpsRank.module'
 
 export default angular
-  .module('powerUp', [ngMaterial, ngRoute, DpsRankModule, DamageBreakpointsModule])
+  .module('powerUp', [ngMaterial, ngRoute, DamageBreakpointsModule, DpsRankModule])
   .config(['$routeProvider', function(routeProvider) {
     routeProvider.otherwise('/')
     routeProvider.when('/', {
       template: '<main-view></main-view>',
-      // reloadOnSearch: false
+      reloadOnSearch: false
+    })
+    .when('/dps-rank', {
+      template: '<dps-rank-view></dps-rank-view>',
+      reloadOnSearch: false
     })
   }])
   .component(App.name, App.config)
