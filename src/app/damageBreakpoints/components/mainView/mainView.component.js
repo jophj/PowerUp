@@ -44,10 +44,22 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     }
   }
 
-  scope.$watch('$ctrl.attacker', () => ctrl.attacker ? location.search('attacker', ctrl.attacker.id) : null)
-  scope.$watch('$ctrl.level', () => location.search('level', ctrl.level))
-  scope.$watch('$ctrl.defender', () => ctrl.defender ? location.search('defender', ctrl.defender.id) : null)
-  scope.$watch('$ctrl.move', () => location.search('move', ctrl.move.id))
+  scope.$watch('$ctrl.attacker', () => {
+    onSelectedAttacker(ctrl.attacker)
+    ctrl.attacker ? location.search('attacker', ctrl.attacker.id) : null
+  })
+  scope.$watch('$ctrl.level', () => {
+    onSelectedLevel(ctrl.level)    
+    location.search('level', ctrl.level)
+  })
+  scope.$watch('$ctrl.defender', () => {
+    onSelectedDefender(ctrl.defender)
+    ctrl.defender ? location.search('defender', ctrl.defender.id) : null
+  })
+  scope.$watch('$ctrl.move', () => {
+    onSelectedMove(ctrl.move)
+    location.search('move', ctrl.move.id)
+  })
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null

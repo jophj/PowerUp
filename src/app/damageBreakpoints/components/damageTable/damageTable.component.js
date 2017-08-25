@@ -51,13 +51,13 @@ export default {
     template: require('./damageTable.component.html'),
     controller: DamageTable,
     bindings: {
-      baseAttack: '<',
-      power: '<',
-      baseDefense: '<',
-      defenseCpm: '<',
-      stab: '<',
-      effectiveness: '<',
-      durationMs: '<'
+      baseAttack: '=',
+      power: '=',
+      baseDefense: '=',
+      defenseCpm: '=',
+      stab: '=',
+      effectiveness: '=',
+      durationMs: '='
     }
   }
 }
