@@ -6,10 +6,7 @@ import 'angular-material/angular-material.css'
 import ngRoute from 'angular-route'
 
 import App from 'app/components/app.component'
-import MainView from 'app/components/mainView/mainView.component'
-import PokemonMoveForm from 'app/components/pokemonMoveForm/pokemonMoveForm.component'
-import DefenderForm from 'app/components/defenderForm/defenderForm.component'
-import DamageTable from 'app/components/damageTable/damageTable.component'
+
 import Pokemons from 'app/utils/pokemons.factory'
 import CpM from 'app/utils/cpM.factory'
 import Effectiveness from 'app/utils/effectiveness.factory'
@@ -20,9 +17,10 @@ import Moves from 'app/utils/moves.factory'
 import ObjectToArray from 'app/utils/objectToArray.factory'
 
 import DpsRankModule from 'app/dpsRank/dpsRank.module'
+import DamageBreakpointsModule from 'app/damageBreakpoints/damageBreakpoints.module'
 
 export default angular
-  .module('powerUp', [ngMaterial, ngRoute, DpsRankModule])
+  .module('powerUp', [ngMaterial, ngRoute, DpsRankModule, DamageBreakpointsModule])
   .config(['$routeProvider', function(routeProvider) {
     routeProvider.otherwise('/')
     routeProvider.when('/', {
@@ -31,10 +29,6 @@ export default angular
     })
   }])
   .component(App.name, App.config)
-  .component(MainView.name, MainView.config)
-  .component(PokemonMoveForm.name, PokemonMoveForm.config)
-  .component(DefenderForm.name, DefenderForm.config)
-  .component(DamageTable.name, DamageTable.config)
   .factory(Pokemons.name, Pokemons.service)
   .factory(Moves.name, Moves.service)
   .factory(CpM.name, CpM.service)
