@@ -1,4 +1,4 @@
-import style from './pokemonRankElement.component.css'
+import './pokemonRankElement.component.css'
 
 PokemonRankElement.$inject = ['$scope', '$location', '$routeParams', 'Pokemons', 'CpM']
 function PokemonRankElement(scope, location, routeParams, Pokemons, CpM) {
