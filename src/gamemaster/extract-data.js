@@ -11,7 +11,12 @@ const pokemonTemplates = gamemaster.itemTemplates.filter(i => i.pokemonSettings)
 const legacyPokemonTemplates = legacyGamemaster.itemTemplates.filter(i => i.pokemonSettings)
 // Adding legacy moves to pokemons
 pokemonTemplates.forEach(p => {
-  const legacyPokemon = legacyPokemonTemplates.find(lp => lp.pokemonId === p.pokemonId).pokemonSettings
+  const legacyPokemon = legacyPokemonTemplates.find(lp => lp.templateId === p.templateId).pokemonSettings
+  console.log(legacyPokemon)
+  console.log()
+  console.log()
+  console.log()
+
   const legacyQuickMoves = legacyPokemon.quickMoves.filter(m => !p.pokemonSettings.quickMoves.includes(m))
   p.pokemonSettings.quickMoves = p.pokemonSettings.quickMoves.concat(legacyQuickMoves)
 })
