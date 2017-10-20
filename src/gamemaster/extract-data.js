@@ -1,4 +1,5 @@
 // Only config needed is gamemaster path
+const oldGamemaster = require('./OLD-GAME_MASTER.json')
 const legacyGamemaster = require('./LEGACY-GAME_MASTER.json')
 const gamemaster = require('./0793-GAME_MASTER.json')
 
@@ -9,6 +10,7 @@ const fs = require('fs')
  */
 const pokemonTemplates = gamemaster.itemTemplates.filter(i => i.pokemonSettings)
 const legacyPokemonTemplates = legacyGamemaster.itemTemplates.filter(i => i.pokemonSettings)
+const oldPokemonTemplates = oldGamemaster.itemTemplates.filter(i => i.pokemonSettings)
 // Adding legacy moves to pokemons
 pokemonTemplates.forEach(p => {
   const legacyPokemonTemplate = legacyPokemonTemplates.find(lp => lp.templateId === p.templateId)
@@ -16,6 +18,9 @@ pokemonTemplates.forEach(p => {
   const legacyPokemon = legacyPokemonTemplate.pokemonSettings
   const legacyQuickMoves = legacyPokemon.quickMoves.filter(m => !p.pokemonSettings.quickMoves.includes(m))
   p.pokemonSettings.quickMoves = p.pokemonSettings.quickMoves.concat(legacyQuickMoves)
+
+  const legacyCinematicMoves = legacyPokemon.cinematicMoves.filter(m => !p.pokemonSettings.cinematicMoves.includes(m))
+  p.pokemonSettings.cinematicMoves = p.pokemonSettings.cinematicMoves.concat(legacyCinematicMoves)
 })
 
 const pokemonData = {}
