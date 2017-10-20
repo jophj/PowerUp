@@ -49,6 +49,7 @@ function DpsRankTable(scope, CpM, damageCalculator, dpsCalculator, totalDpsCalcu
       })
     })
     ctrl.ranking = everyPokemonMovesetData
+      .filter(p => p.dps)
       .sort((a, b) => b.dps - a.dps)
       .slice(0, 256)
   }
