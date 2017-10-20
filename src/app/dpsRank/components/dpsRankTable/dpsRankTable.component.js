@@ -96,8 +96,7 @@ export default {
     controller: DpsRankTable,
     bindings: {
       defenseCpm: '=',
-      pokemon: '=',
-      onlyQuickMoves: '='
+      pokemon: '='
     }
   }
 }
