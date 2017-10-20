@@ -57,7 +57,8 @@ for(let moveTemplate of moveTemplates) {
     name: name,
     type: moveSettings.pokemonType,
     power: moveSettings.power,
-    durationMs: moveSettings.durationMs
+    durationMs: moveSettings.durationMs,
+    energyDelta: moveSettings.energyDelta
   }
 
   moveData[move.id] = move
