@@ -29,9 +29,9 @@
           ng-repeat="iv in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]"
         >
           <md-tooltip>
-            Lvl: {{::level}}
-            IV: {{::iv}}
-            DPS: {{::$ctrl.dpsCalculator($ctrl.damageCalculator(
+            Lvl: {{::level}} / 
+            IV: {{::iv}} / 
+            DPS: {{$ctrl.dpsCalculator($ctrl.damageCalculator(
             $ctrl.baseAttack,
             iv,
             $ctrl.power,
@@ -40,7 +40,7 @@
             $ctrl.defenseCpm,
             $ctrl.stab,
             $ctrl.effectiveness
-          ), $ctrl.durationMs) || '-'}}
+          ), $ctrl.durationMs) || '-' | number:1}}
           </md-tooltip>
           {{$ctrl.damageCalculator(
             $ctrl.baseAttack,

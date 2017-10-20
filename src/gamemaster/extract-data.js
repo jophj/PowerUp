@@ -1,9 +1,23 @@
 // Only config needed is gamemaster path
-const gamemaster = require('./0692-GAME_MASTER.json')
+const legacyGamemaster = require('./LEGACY-GAME_MASTER.json')
+const gamemaster = require('./0793-GAME_MASTER.json')
 
 const fs = require('fs')
 
+/**
+ * Pokemon data parsing
+ */
 const pokemonTemplates = gamemaster.itemTemplates.filter(i => i.pokemonSettings)
+const legacyPokemonTemplates = legacyGamemaster.itemTemplates.filter(i => i.pokemonSettings)
+// Adding legacy moves to pokemons
+pokemonTemplates.forEach(p => {
+  const legacyPokemonTemplate = legacyPokemonTemplates.find(lp => lp.templateId === p.templateId)
+  if (!legacyPokemonTemplate) return
+  const legacyPokemon = legacyPokemonTemplate.pokemonSettings
+  const legacyQuickMoves = legacyPokemon.quickMoves.filter(m => !p.pokemonSettings.quickMoves.includes(m))
+  p.pokemonSettings.quickMoves = p.pokemonSettings.quickMoves.concat(legacyQuickMoves)
+})
+
 const pokemonData = {}
 let ndex = 0
 for (let pokemonTemplate of pokemonTemplates) {
@@ -26,6 +40,9 @@ for (let pokemonTemplate of pokemonTemplates) {
   pokemonData[pokemon.id] = pokemon
 }
 
+/**
+ * Move data parsing
+ */
 const moveTemplates = gamemaster.itemTemplates.filter(i => i.moveSettings)
 const moveData = {}
 for(let moveTemplate of moveTemplates) {
@@ -42,12 +59,16 @@ for(let moveTemplate of moveTemplates) {
     name: name,
     type: moveSettings.pokemonType,
     power: moveSettings.power,
-    durationMs: moveSettings.durationMs
+    durationMs: moveSettings.durationMs,
+    energyDelta: moveSettings.energyDelta
   }
 
   moveData[move.id] = move
 }
 
+/**
+ * Type effectiveness data parsing
+ */
 const typeEffectiveTemplates = gamemaster.itemTemplates.filter(i => i.typeEffective)
 const effectivenessData = {}
 const types = [
