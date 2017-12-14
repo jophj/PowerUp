@@ -27,7 +27,7 @@
         Tier {{::$index + 1}}
       </md-option>
       <md-option
-        ng-repeat="defenderLevel in [1, 10, 20, 30, 39, 40]"
+        ng-repeat="defenderLevel in $ctrl.defenderLevels"
         ng-value="defenderLevel"
       >
         {{::defenderLevel}}
