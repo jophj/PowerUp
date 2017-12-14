@@ -87,6 +87,10 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     ctrl.level = routeParams.level || null
     onSelectedLevel(ctrl.level)
   }
+  if (routeParams.weatherBoost) {
+    ctrl.weatherBoost = routeParams.weatherBoost || null
+    onSelectedWeatherBoost(ctrl.weatherBoost)
+  }
 }
 
 export default {
