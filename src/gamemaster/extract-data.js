@@ -1,10 +1,10 @@
 // Only config needed is gamemasters path
 const gamemasters = [
-  require('./LEGACY-GAME_MASTER.json'),
-  require('./0691-GAME_MASTER.json'),
-  require('./0692-GAME_MASTER.json'),
+  require('./0.85.2-2-GAME_MASTER.json'),
   require('./0793-GAME_MASTER.json'),
-  require('./0.85.2-2-GAME_MASTER.json')
+  require('./0692-GAME_MASTER.json'),
+  require('./0691-GAME_MASTER.json'),
+  require('./LEGACY-GAME_MASTER.json')
 ]
 
 const fs = require('fs')
@@ -28,17 +28,6 @@ pokemonTemplates.forEach(p => {
 
   allMovesets.quickMoves = allMovesets.quickMoves.concat(p.quickMoves.filter(m => !allMovesets.quickMoves.includes(m)))
   allMovesets.cinematicMoves = allMovesets.cinematicMoves.concat(p.cinematicMoves.filter(m => !allMovesets.cinematicMoves.includes(m)))
-
-
-
-//   const legacyPokemonTemplate = legacyPokemonTemplates.find(lp => lp.templateId === p.templateId)
-//   if (!legacyPokemonTemplate) return
-//   const legacyPokemon = legacyPokemonTemplate.pokemonSettings
-//   const legacyQuickMoves = legacyPokemon.quickMoves.filter(m => !p.pokemonSettings.quickMoves.includes(m))
-//   p.pokemonSettings.quickMoves = p.pokemonSettings.quickMoves.concat(legacyQuickMoves)
-
-//   const legacyCinematicMoves = legacyPokemon.cinematicMoves.filter(m => !p.pokemonSettings.cinematicMoves.includes(m))
-//   p.pokemonSettings.cinematicMoves = p.pokemonSettings.cinematicMoves.concat(legacyCinematicMoves)
 })
 
 const pokemonData = {}
@@ -66,7 +55,7 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
 /**
  * Move data parsing
  */
-const moveTemplates = gamemasters[gamemasters.length - 1].itemTemplates.filter(i => i.moveSettings)
+const moveTemplates = gamemasters[0].itemTemplates.filter(i => i.moveSettings)
 const moveData = {}
 for(let moveTemplate of moveTemplates) {
   const moveSettings = moveTemplate.moveSettings
@@ -92,7 +81,7 @@ for(let moveTemplate of moveTemplates) {
 /**
  * Type effectiveness data parsing
  */
-const typeEffectiveTemplates = gamemasters[gamemasters.length - 1].itemTemplates.filter(i => i.typeEffective)
+const typeEffectiveTemplates = gamemasters[0].itemTemplates.filter(i => i.typeEffective)
 const effectivenessData = {}
 const types = [
   'POKEMON_TYPE_NORMAL',
@@ -124,7 +113,7 @@ for (let typeEffectiveTemplate of typeEffectiveTemplates) {
   effectivenessData[typeEffectiveness.id] = typeEffectiveness
 }
 
-const playerLevelTemplate = gamemasters[gamemasters.length - 1].itemTemplates.filter(i => i.playerLevel)
+const playerLevelTemplate = gamemasters[0].itemTemplates.filter(i => i.playerLevel)
 const cpMultiplier = playerLevelTemplate[0].playerLevel.cpMultiplier
 const bossCpMultiplier = [0.61, 0.67, 0.73, 0.79, 0.79]
 const cpMultiplierData = {
