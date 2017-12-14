@@ -6,6 +6,11 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
   const pokemons = ObjectToArray(Pokemons)
   ctrl.raidTiers = CpM.bossCpMultiplier
 
+  ctrl.defenderLevels = []
+  for(let i = 1; i < 41; i += 1) {
+    ctrl.defenderLevels.push(i)
+  }
+
   ctrl.searchTextChange = function(searchText) {
     ctrl.filteredPokemons = pokemons.filter(
       p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
