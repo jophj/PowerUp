@@ -15,7 +15,7 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   function onSelectedMove(m) {
     if (!m) return
     move = m
-    ctrl.power = m.power
+    ctrl.power = m.power + (m.power * .2 * ctrl.weatherBoost||0 )
     ctrl.durationMs = move.durationMs
     if (attacker) {
       ctrl.stab = move.type === attacker.type || move.type === attacker.type2 ? 1.2 : 1
@@ -44,6 +44,12 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     }
   }
 
+  function onSelectedWeatherBoost(boost) {
+    if (!move) return
+    ctrl.power = move.power + (move.power * .2 * ctrl.weatherBoost||0 )
+    console.log(ctrl.power)
+  }
+
   scope.$watch('$ctrl.attacker', () => {
     onSelectedAttacker(ctrl.attacker)
     ctrl.attacker ? location.search('attacker', ctrl.attacker.id) : null
@@ -59,6 +65,10 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   scope.$watch('$ctrl.move', () => {
     onSelectedMove(ctrl.move)
     location.search('move', ctrl.move.id)
+  })
+  scope.$watch('$ctrl.weatherBoost', () => {
+    onSelectedWeatherBoost(ctrl.weatherBoost)
+    location.search('weatherBoost', ctrl.weatherBoost)
   })
 
   if (routeParams.attacker) {
@@ -76,6 +86,10 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
   if (routeParams.level) {
     ctrl.level = routeParams.level || null
     onSelectedLevel(ctrl.level)
+  }
+  if (routeParams.weatherBoost) {
+    ctrl.weatherBoost = routeParams.weatherBoost || null
+    onSelectedWeatherBoost(ctrl.weatherBoost)
   }
 }
 
