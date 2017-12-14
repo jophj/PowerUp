@@ -60,6 +60,9 @@ function MainViewController(scope, location, routeParams, Moves, Pokemons, CpM, 
     onSelectedMove(ctrl.move)
     location.search('move', ctrl.move.id)
   })
+  scope.$watch('$ctrl.weatherBoost', () => {
+    location.search('weatherBoost', ctrl.weatherBoost)
+  })
 
   if (routeParams.attacker) {
     ctrl.attacker = Pokemons[routeParams.attacker] || null

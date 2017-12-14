@@ -28,7 +28,8 @@ export default {
     controller: PokemonMoveForm,
     bindings: {
       pokemon: '=',
-      move: '='
+      move: '=',
+      weatherBoost : '='
     }
   }
 }
