@@ -30,7 +30,12 @@
     <div
       style="margin-top: 2px;font-size: 12px;line-height: 14px;color: grey;"
     >
-      Power: {{$ctrl.move.power || '-'}}
+      Power: {{$ctrl.move.power + (.2 * $ctrl.move.power * $ctrl.weatherBoost||0) || '-'}}
     </div>
+  </md-input-container>
+  <md-input-container>
+    <md-checkbox ng-model="$ctrl.weatherBoost" aria-label="Weather boost">
+      Weather Boost
+    </md-checkbox>
   </md-input-container>
 </div>
