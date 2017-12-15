@@ -115,7 +115,7 @@ for (let typeEffectiveTemplate of typeEffectiveTemplates) {
 
 const playerLevelTemplate = gamemasters[0].itemTemplates.filter(i => i.playerLevel)
 const cpMultiplier = playerLevelTemplate[0].playerLevel.cpMultiplier
-const bossCpMultiplier = [0.61, 0.67, 0.73, 0.79, 0.79]
+const bossCpMultiplier = [0.59740001, 0.67, 0.73, 0.79, 0.79]
 const cpMultiplierData = {
   cpMultiplier: cpMultiplier,
   bossCpMultiplier: bossCpMultiplier
