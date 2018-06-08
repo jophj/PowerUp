@@ -1,5 +1,6 @@
 // Only config needed is gamemasters path
 const gamemasters = [
+  require('./0.105.0-GAME_MASTER.json'),
   require('./0.85.2-2-GAME_MASTER.json'),
   require('./0793-GAME_MASTER.json'),
   require('./0692-GAME_MASTER.json'),
@@ -15,13 +16,15 @@ const fs = require('fs')
 const gameMastersItemTemplates =
   gamemasters.map(g => g.itemTemplates)
 const itemTemplates = [].concat.apply([], gameMastersItemTemplates)
-const pokemonTemplates = itemTemplates.filter(i => i.pokemonSettings).map(i => i.pokemonSettings)
+const pokemonTemplates = itemTemplates.filter(i => i.pokemonSettings).map(i => {
+  return {...i.pokemonSettings, templateId: i.templateId}
+})
 // Adding legacy moves to pokemons
 const pokemonTemplatesAllMovesets = {}
 pokemonTemplates.forEach(p => {
-  let allMovesets = pokemonTemplatesAllMovesets[p.pokemonId]
+  let allMovesets = pokemonTemplatesAllMovesets[p.templateId]
   if (!allMovesets) {
-    pokemonTemplatesAllMovesets[p.pokemonId] = p
+    pokemonTemplatesAllMovesets[p.templateId] = p
     allMovesets = p
     return
   }
@@ -31,13 +34,10 @@ pokemonTemplates.forEach(p => {
 })
 
 const pokemonData = {}
-let ndex = 0
 for (let pokemonId in pokemonTemplatesAllMovesets) {
-  ndex += 1
   const pokemonSettings = pokemonTemplatesAllMovesets[pokemonId]
   const pokemon = {
-    id: pokemonSettings.pokemonId,
-    ndex: ndex,
+    id: pokemonSettings.templateId,
     name: pokemonSettings.pokemonId.charAt(0) + pokemonSettings.pokemonId.slice(1).toLowerCase(),
     stats: pokemonSettings.stats,
     type: pokemonSettings.type,
@@ -47,8 +47,8 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
   }
   pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
   pokemon.name = pokemon.name.replace('-female', ' ♀')
-  pokemon.name  = pokemon.name.replace('-male', '	♂')
-
+  pokemon.name  = pokemon.name.replace('-male', '	♂') 
+  
   pokemonData[pokemon.id] = pokemon
 }
 
@@ -121,7 +121,7 @@ const cpMultiplierData = {
   bossCpMultiplier: bossCpMultiplier
 }
 
-fs.writeFile('pokemonData.json', JSON.stringify(pokemonData))
-fs.writeFile('moveData.json', JSON.stringify(moveData))
-fs.writeFile('effectivenessData.json', JSON.stringify(effectivenessData))
-fs.writeFile('cpMultiplierData.json', JSON.stringify(cpMultiplierData))
+fs.writeFileSync('pokemonData.json', JSON.stringify(pokemonData))
+fs.writeFileSync('moveData.json', JSON.stringify(moveData))
+fs.writeFileSync('effectivenessData.json', JSON.stringify(effectivenessData))
+fs.writeFileSync('cpMultiplierData.json', JSON.stringify(cpMultiplierData))

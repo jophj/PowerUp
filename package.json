@@ -1,7 +1,7 @@
 {
   "name": "my-vet",
   "version": "0.0.1",
-  "description": "MyVet",
+  "description": "PowerUp",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --host 0.0.0.0 --history-api-fallback --inline --progress",
@@ -10,15 +10,10 @@
     "start": "npm run server"
   },
   "repository": {
-    "type": "git",
-    "url": "http://git.jop.space:jophj/my-vet.git.git"
+    "type": "git"
   },
   "author": "Giovanni Pinto",
   "license": "MIT",
-  "bugs": {
-    "url": "http://git.jop.space:jophj/my-vet.git/issues"
-  },
-  "homepage": "http://git.jop.space:jophj/my-vet.git",
   "dependencies": {
     "angular": "^1.6.4",
     "angular-animate": "^1.6.4",
