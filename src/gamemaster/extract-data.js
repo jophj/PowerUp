@@ -1,5 +1,6 @@
 // Only config needed is gamemasters path
 const gamemasters = [
+  require('./0.105.0-GAME_MASTER.json'),
   require('./0.85.2-2-GAME_MASTER.json'),
   require('./0793-GAME_MASTER.json'),
   require('./0692-GAME_MASTER.json'),
@@ -121,7 +122,7 @@ const cpMultiplierData = {
   bossCpMultiplier: bossCpMultiplier
 }
 
-fs.writeFile('pokemonData.json', JSON.stringify(pokemonData))
-fs.writeFile('moveData.json', JSON.stringify(moveData))
-fs.writeFile('effectivenessData.json', JSON.stringify(effectivenessData))
-fs.writeFile('cpMultiplierData.json', JSON.stringify(cpMultiplierData))
+fs.writeFileSync('pokemonData.json', JSON.stringify(pokemonData))
+fs.writeFileSync('moveData.json', JSON.stringify(moveData))
+fs.writeFileSync('effectivenessData.json', JSON.stringify(effectivenessData))
+fs.writeFileSync('cpMultiplierData.json', JSON.stringify(cpMultiplierData))
