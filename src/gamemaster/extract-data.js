@@ -16,13 +16,15 @@ const fs = require('fs')
 const gameMastersItemTemplates =
   gamemasters.map(g => g.itemTemplates)
 const itemTemplates = [].concat.apply([], gameMastersItemTemplates)
-const pokemonTemplates = itemTemplates.filter(i => i.pokemonSettings).map(i => i.pokemonSettings)
+const pokemonTemplates = itemTemplates.filter(i => i.pokemonSettings).map(i => {
+  return {...i.pokemonSettings, templateId: i.templateId}
+})
 // Adding legacy moves to pokemons
 const pokemonTemplatesAllMovesets = {}
 pokemonTemplates.forEach(p => {
-  let allMovesets = pokemonTemplatesAllMovesets[p.pokemonId]
+  let allMovesets = pokemonTemplatesAllMovesets[p.templateId]
   if (!allMovesets) {
-    pokemonTemplatesAllMovesets[p.pokemonId] = p
+    pokemonTemplatesAllMovesets[p.templateId] = p
     allMovesets = p
     return
   }
@@ -37,7 +39,7 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
   ndex += 1
   const pokemonSettings = pokemonTemplatesAllMovesets[pokemonId]
   const pokemon = {
-    id: pokemonSettings.pokemonId,
+    id: pokemonSettings.templateId,
     ndex: ndex,
     name: pokemonSettings.pokemonId.charAt(0) + pokemonSettings.pokemonId.slice(1).toLowerCase(),
     stats: pokemonSettings.stats,

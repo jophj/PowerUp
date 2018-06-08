@@ -1,6 +1,6 @@
 {
-    "BULBASAUR": {
-        "id": "BULBASAUR",
+    "V0001_POKEMON_BULBASAUR": {
+        "id": "V0001_POKEMON_BULBASAUR",
         "ndex": 1,
         "name": "Bulbasaur",
         "stats": {
@@ -20,8 +20,8 @@
             "POWER_WHIP"
         ]
     },
-    "IVYSAUR": {
-        "id": "IVYSAUR",
+    "V0002_POKEMON_IVYSAUR": {
+        "id": "V0002_POKEMON_IVYSAUR",
         "ndex": 2,
         "name": "Ivysaur",
         "stats": {
@@ -41,8 +41,8 @@
             "POWER_WHIP"
         ]
     },
-    "VENUSAUR": {
-        "id": "VENUSAUR",
+    "V0003_POKEMON_VENUSAUR": {
+        "id": "V0003_POKEMON_VENUSAUR",
         "ndex": 3,
         "name": "Venusaur",
         "stats": {
@@ -62,8 +62,8 @@
             "SOLAR_BEAM"
         ]
     },
-    "CHARMANDER": {
-        "id": "CHARMANDER",
+    "V0004_POKEMON_CHARMANDER": {
+        "id": "V0004_POKEMON_CHARMANDER",
         "ndex": 4,
         "name": "Charmander",
         "stats": {
@@ -82,8 +82,8 @@
             "FLAMETHROWER"
         ]
     },
-    "CHARMELEON": {
-        "id": "CHARMELEON",
+    "V0005_POKEMON_CHARMELEON": {
+        "id": "V0005_POKEMON_CHARMELEON",
         "ndex": 5,
         "name": "Charmeleon",
         "stats": {
@@ -103,8 +103,8 @@
             "FLAMETHROWER"
         ]
     },
-    "CHARIZARD": {
-        "id": "CHARIZARD",
+    "V0006_POKEMON_CHARIZARD": {
+        "id": "V0006_POKEMON_CHARIZARD",
         "ndex": 6,
         "name": "Charizard",
         "stats": {
@@ -127,8 +127,8 @@
             "FLAMETHROWER"
         ]
     },
-    "SQUIRTLE": {
-        "id": "SQUIRTLE",
+    "V0007_POKEMON_SQUIRTLE": {
+        "id": "V0007_POKEMON_SQUIRTLE",
         "ndex": 7,
         "name": "Squirtle",
         "stats": {
@@ -147,8 +147,8 @@
             "WATER_PULSE"
         ]
     },
-    "WARTORTLE": {
-        "id": "WARTORTLE",
+    "V0008_POKEMON_WARTORTLE": {
+        "id": "V0008_POKEMON_WARTORTLE",
         "ndex": 8,
         "name": "Wartortle",
         "stats": {
@@ -167,8 +167,8 @@
             "HYDRO_PUMP"
         ]
     },
-    "BLASTOISE": {
-        "id": "BLASTOISE",
+    "V0009_POKEMON_BLASTOISE": {
+        "id": "V0009_POKEMON_BLASTOISE",
         "ndex": 9,
         "name": "Blastoise",
         "stats": {
@@ -187,8 +187,8 @@
             "HYDRO_PUMP"
         ]
     },
-    "CATERPIE": {
-        "id": "CATERPIE",
+    "V0010_POKEMON_CATERPIE": {
+        "id": "V0010_POKEMON_CATERPIE",
         "ndex": 10,
         "name": "Caterpie",
         "stats": {
@@ -205,8 +205,8 @@
             "STRUGGLE"
         ]
     },
-    "METAPOD": {
-        "id": "METAPOD",
+    "V0011_POKEMON_METAPOD": {
+        "id": "V0011_POKEMON_METAPOD",
         "ndex": 11,
         "name": "Metapod",
         "stats": {
@@ -223,8 +223,8 @@
             "STRUGGLE"
         ]
     },
-    "BUTTERFREE": {
-        "id": "BUTTERFREE",
+    "V0012_POKEMON_BUTTERFREE": {
+        "id": "V0012_POKEMON_BUTTERFREE",
         "ndex": 12,
         "name": "Butterfree",
         "stats": {
@@ -245,8 +245,8 @@
             "SIGNAL_BEAM"
         ]
     },
-    "WEEDLE": {
-        "id": "WEEDLE",
+    "V0013_POKEMON_WEEDLE": {
+        "id": "V0013_POKEMON_WEEDLE",
         "ndex": 13,
         "name": "Weedle",
         "stats": {
@@ -264,8 +264,8 @@
             "STRUGGLE"
         ]
     },
-    "KAKUNA": {
-        "id": "KAKUNA",
+    "V0014_POKEMON_KAKUNA": {
+        "id": "V0014_POKEMON_KAKUNA",
         "ndex": 14,
         "name": "Kakuna",
         "stats": {
@@ -283,8 +283,8 @@
             "STRUGGLE"
         ]
     },
-    "BEEDRILL": {
-        "id": "BEEDRILL",
+    "V0015_POKEMON_BEEDRILL": {
+        "id": "V0015_POKEMON_BEEDRILL",
         "ndex": 15,
         "name": "Beedrill",
         "stats": {
@@ -305,8 +305,8 @@
             "X_SCISSOR"
         ]
     },
-    "PIDGEY": {
-        "id": "PIDGEY",
+    "V0016_POKEMON_PIDGEY": {
+        "id": "V0016_POKEMON_PIDGEY",
         "ndex": 16,
         "name": "Pidgey",
         "stats": {
@@ -326,8 +326,8 @@
             "AIR_CUTTER"
         ]
     },
-    "PIDGEOTTO": {
-        "id": "PIDGEOTTO",
+    "V0017_POKEMON_PIDGEOTTO": {
+        "id": "V0017_POKEMON_PIDGEOTTO",
         "ndex": 17,
         "name": "Pidgeotto",
         "stats": {
@@ -347,8 +347,8 @@
             "AIR_CUTTER"
         ]
     },
-    "PIDGEOT": {
-        "id": "PIDGEOT",
+    "V0018_POKEMON_PIDGEOT": {
+        "id": "V0018_POKEMON_PIDGEOT",
         "ndex": 18,
         "name": "Pidgeot",
         "stats": {
@@ -370,8 +370,8 @@
             "AIR_CUTTER"
         ]
     },
-    "RATTATA": {
-        "id": "RATTATA",
+    "V0019_POKEMON_RATTATA": {
+        "id": "V0019_POKEMON_RATTATA",
         "ndex": 19,
         "name": "Rattata",
         "stats": {
@@ -390,8 +390,8 @@
             "BODY_SLAM"
         ]
     },
-    "RATICATE": {
-        "id": "RATICATE",
+    "V0020_POKEMON_RATICATE": {
+        "id": "V0020_POKEMON_RATICATE",
         "ndex": 20,
         "name": "Raticate",
         "stats": {
@@ -410,8 +410,8 @@
             "HYPER_BEAM"
         ]
     },
-    "SPEAROW": {
-        "id": "SPEAROW",
+    "V0021_POKEMON_SPEAROW": {
+        "id": "V0021_POKEMON_SPEAROW",
         "ndex": 21,
         "name": "Spearow",
         "stats": {
@@ -432,8 +432,8 @@
             "TWISTER"
         ]
     },
-    "FEAROW": {
-        "id": "FEAROW",
+    "V0022_POKEMON_FEAROW": {
+        "id": "V0022_POKEMON_FEAROW",
         "ndex": 22,
         "name": "Fearow",
         "stats": {
@@ -454,8 +454,8 @@
             "TWISTER"
         ]
     },
-    "EKANS": {
-        "id": "EKANS",
+    "V0023_POKEMON_EKANS": {
+        "id": "V0023_POKEMON_EKANS",
         "ndex": 23,
         "name": "Ekans",
         "stats": {
@@ -475,8 +475,8 @@
             "GUNK_SHOT"
         ]
     },
-    "ARBOK": {
-        "id": "ARBOK",
+    "V0024_POKEMON_ARBOK": {
+        "id": "V0024_POKEMON_ARBOK",
         "ndex": 24,
         "name": "Arbok",
         "stats": {
@@ -495,8 +495,8 @@
             "GUNK_SHOT"
         ]
     },
-    "PIKACHU": {
-        "id": "PIKACHU",
+    "V0025_POKEMON_PIKACHU": {
+        "id": "V0025_POKEMON_PIKACHU",
         "ndex": 25,
         "name": "Pikachu",
         "stats": {
@@ -516,8 +516,8 @@
             "THUNDER"
         ]
     },
-    "RAICHU": {
-        "id": "RAICHU",
+    "V0026_POKEMON_RAICHU": {
+        "id": "V0026_POKEMON_RAICHU",
         "ndex": 26,
         "name": "Raichu",
         "stats": {
@@ -538,8 +538,8 @@
             "THUNDER"
         ]
     },
-    "SANDSHREW": {
-        "id": "SANDSHREW",
+    "V0027_POKEMON_SANDSHREW": {
+        "id": "V0027_POKEMON_SANDSHREW",
         "ndex": 27,
         "name": "Sandshrew",
         "stats": {
@@ -559,8 +559,8 @@
             "ROCK_TOMB"
         ]
     },
-    "SANDSLASH": {
-        "id": "SANDSLASH",
+    "V0028_POKEMON_SANDSLASH": {
+        "id": "V0028_POKEMON_SANDSLASH",
         "ndex": 28,
         "name": "Sandslash",
         "stats": {
@@ -579,8 +579,8 @@
             "BULLDOZE"
         ]
     },
-    "NIDORAN_FEMALE": {
-        "id": "NIDORAN_FEMALE",
+    "V0029_POKEMON_NIDORAN": {
+        "id": "V0029_POKEMON_NIDORAN",
         "ndex": 29,
         "name": "Nidoran ♀",
         "stats": {
@@ -599,8 +599,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "NIDORINA": {
-        "id": "NIDORINA",
+    "V0030_POKEMON_NIDORINA": {
+        "id": "V0030_POKEMON_NIDORINA",
         "ndex": 30,
         "name": "Nidorina",
         "stats": {
@@ -619,8 +619,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "NIDOQUEEN": {
-        "id": "NIDOQUEEN",
+    "V0031_POKEMON_NIDOQUEEN": {
+        "id": "V0031_POKEMON_NIDOQUEEN",
         "ndex": 31,
         "name": "Nidoqueen",
         "stats": {
@@ -640,8 +640,8 @@
             "STONE_EDGE"
         ]
     },
-    "NIDORAN_MALE": {
-        "id": "NIDORAN_MALE",
+    "V0032_POKEMON_NIDORAN": {
+        "id": "V0032_POKEMON_NIDORAN",
         "ndex": 32,
         "name": "Nidoran\t♂",
         "stats": {
@@ -660,8 +660,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "NIDORINO": {
-        "id": "NIDORINO",
+    "V0033_POKEMON_NIDORINO": {
+        "id": "V0033_POKEMON_NIDORINO",
         "ndex": 33,
         "name": "Nidorino",
         "stats": {
@@ -680,8 +680,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "NIDOKING": {
-        "id": "NIDOKING",
+    "V0034_POKEMON_NIDOKING": {
+        "id": "V0034_POKEMON_NIDOKING",
         "ndex": 34,
         "name": "Nidoking",
         "stats": {
@@ -702,8 +702,8 @@
             "MEGAHORN"
         ]
     },
-    "CLEFAIRY": {
-        "id": "CLEFAIRY",
+    "V0035_POKEMON_CLEFAIRY": {
+        "id": "V0035_POKEMON_CLEFAIRY",
         "ndex": 35,
         "name": "Clefairy",
         "stats": {
@@ -722,8 +722,8 @@
             "MOONBLAST"
         ]
     },
-    "CLEFABLE": {
-        "id": "CLEFABLE",
+    "V0036_POKEMON_CLEFABLE": {
+        "id": "V0036_POKEMON_CLEFABLE",
         "ndex": 36,
         "name": "Clefable",
         "stats": {
@@ -743,8 +743,8 @@
             "MOONBLAST"
         ]
     },
-    "VULPIX": {
-        "id": "VULPIX",
+    "V0037_POKEMON_VULPIX": {
+        "id": "V0037_POKEMON_VULPIX",
         "ndex": 37,
         "name": "Vulpix",
         "stats": {
@@ -763,8 +763,8 @@
             "FLAME_CHARGE"
         ]
     },
-    "NINETALES": {
-        "id": "NINETALES",
+    "V0038_POKEMON_NINETALES": {
+        "id": "V0038_POKEMON_NINETALES",
         "ndex": 38,
         "name": "Ninetales",
         "stats": {
@@ -786,8 +786,8 @@
             "FIRE_BLAST"
         ]
     },
-    "JIGGLYPUFF": {
-        "id": "JIGGLYPUFF",
+    "V0039_POKEMON_JIGGLYPUFF": {
+        "id": "V0039_POKEMON_JIGGLYPUFF",
         "ndex": 39,
         "name": "Jigglypuff",
         "stats": {
@@ -809,8 +809,8 @@
             "PLAY_ROUGH"
         ]
     },
-    "WIGGLYTUFF": {
-        "id": "WIGGLYTUFF",
+    "V0040_POKEMON_WIGGLYTUFF": {
+        "id": "V0040_POKEMON_WIGGLYTUFF",
         "ndex": 40,
         "name": "Wigglytuff",
         "stats": {
@@ -830,8 +830,8 @@
             "PLAY_ROUGH"
         ]
     },
-    "ZUBAT": {
-        "id": "ZUBAT",
+    "V0041_POKEMON_ZUBAT": {
+        "id": "V0041_POKEMON_ZUBAT",
         "ndex": 41,
         "name": "Zubat",
         "stats": {
@@ -852,8 +852,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "GOLBAT": {
-        "id": "GOLBAT",
+    "V0042_POKEMON_GOLBAT": {
+        "id": "V0042_POKEMON_GOLBAT",
         "ndex": 42,
         "name": "Golbat",
         "stats": {
@@ -874,8 +874,8 @@
             "OMINOUS_WIND"
         ]
     },
-    "ODDISH": {
-        "id": "ODDISH",
+    "V0043_POKEMON_ODDISH": {
+        "id": "V0043_POKEMON_ODDISH",
         "ndex": 43,
         "name": "Oddish",
         "stats": {
@@ -895,8 +895,8 @@
             "MOONBLAST"
         ]
     },
-    "GLOOM": {
-        "id": "GLOOM",
+    "V0044_POKEMON_GLOOM": {
+        "id": "V0044_POKEMON_GLOOM",
         "ndex": 44,
         "name": "Gloom",
         "stats": {
@@ -916,8 +916,8 @@
             "MOONBLAST"
         ]
     },
-    "VILEPLUME": {
-        "id": "VILEPLUME",
+    "V0045_POKEMON_VILEPLUME": {
+        "id": "V0045_POKEMON_VILEPLUME",
         "ndex": 45,
         "name": "Vileplume",
         "stats": {
@@ -937,8 +937,8 @@
             "MOONBLAST"
         ]
     },
-    "PARAS": {
-        "id": "PARAS",
+    "V0046_POKEMON_PARAS": {
+        "id": "V0046_POKEMON_PARAS",
         "ndex": 46,
         "name": "Paras",
         "stats": {
@@ -958,8 +958,8 @@
             "SEED_BOMB"
         ]
     },
-    "PARASECT": {
-        "id": "PARASECT",
+    "V0047_POKEMON_PARASECT": {
+        "id": "V0047_POKEMON_PARASECT",
         "ndex": 47,
         "name": "Parasect",
         "stats": {
@@ -980,8 +980,8 @@
             "SOLAR_BEAM"
         ]
     },
-    "VENONAT": {
-        "id": "VENONAT",
+    "V0048_POKEMON_VENONAT": {
+        "id": "V0048_POKEMON_VENONAT",
         "ndex": 48,
         "name": "Venonat",
         "stats": {
@@ -1001,8 +1001,8 @@
             "SIGNAL_BEAM"
         ]
     },
-    "VENOMOTH": {
-        "id": "VENOMOTH",
+    "V0049_POKEMON_VENOMOTH": {
+        "id": "V0049_POKEMON_VENOMOTH",
         "ndex": 49,
         "name": "Venomoth",
         "stats": {
@@ -1024,8 +1024,8 @@
             "POISON_FANG"
         ]
     },
-    "DIGLETT": {
-        "id": "DIGLETT",
+    "V0050_POKEMON_DIGLETT": {
+        "id": "V0050_POKEMON_DIGLETT",
         "ndex": 50,
         "name": "Diglett",
         "stats": {
@@ -1045,8 +1045,8 @@
             "ROCK_TOMB"
         ]
     },
-    "DUGTRIO": {
-        "id": "DUGTRIO",
+    "V0051_POKEMON_DUGTRIO": {
+        "id": "V0051_POKEMON_DUGTRIO",
         "ndex": 51,
         "name": "Dugtrio",
         "stats": {
@@ -1066,8 +1066,8 @@
             "STONE_EDGE"
         ]
     },
-    "MEOWTH": {
-        "id": "MEOWTH",
+    "V0052_POKEMON_MEOWTH": {
+        "id": "V0052_POKEMON_MEOWTH",
         "ndex": 52,
         "name": "Meowth",
         "stats": {
@@ -1087,8 +1087,8 @@
             "BODY_SLAM"
         ]
     },
-    "PERSIAN": {
-        "id": "PERSIAN",
+    "V0053_POKEMON_PERSIAN": {
+        "id": "V0053_POKEMON_PERSIAN",
         "ndex": 53,
         "name": "Persian",
         "stats": {
@@ -1108,8 +1108,8 @@
             "NIGHT_SLASH"
         ]
     },
-    "PSYDUCK": {
-        "id": "PSYDUCK",
+    "V0054_POKEMON_PSYDUCK": {
+        "id": "V0054_POKEMON_PSYDUCK",
         "ndex": 54,
         "name": "Psyduck",
         "stats": {
@@ -1128,8 +1128,8 @@
             "CROSS_CHOP"
         ]
     },
-    "GOLDUCK": {
-        "id": "GOLDUCK",
+    "V0055_POKEMON_GOLDUCK": {
+        "id": "V0055_POKEMON_GOLDUCK",
         "ndex": 55,
         "name": "Golduck",
         "stats": {
@@ -1148,8 +1148,8 @@
             "ICE_BEAM"
         ]
     },
-    "MANKEY": {
-        "id": "MANKEY",
+    "V0056_POKEMON_MANKEY": {
+        "id": "V0056_POKEMON_MANKEY",
         "ndex": 56,
         "name": "Mankey",
         "stats": {
@@ -1168,8 +1168,8 @@
             "BRICK_BREAK"
         ]
     },
-    "PRIMEAPE": {
-        "id": "PRIMEAPE",
+    "V0057_POKEMON_PRIMEAPE": {
+        "id": "V0057_POKEMON_PRIMEAPE",
         "ndex": 57,
         "name": "Primeape",
         "stats": {
@@ -1190,8 +1190,8 @@
             "CROSS_CHOP"
         ]
     },
-    "GROWLITHE": {
-        "id": "GROWLITHE",
+    "V0058_POKEMON_GROWLITHE": {
+        "id": "V0058_POKEMON_GROWLITHE",
         "ndex": 58,
         "name": "Growlithe",
         "stats": {
@@ -1210,8 +1210,8 @@
             "FLAMETHROWER"
         ]
     },
-    "ARCANINE": {
-        "id": "ARCANINE",
+    "V0059_POKEMON_ARCANINE": {
+        "id": "V0059_POKEMON_ARCANINE",
         "ndex": 59,
         "name": "Arcanine",
         "stats": {
@@ -1233,8 +1233,8 @@
             "BULLDOZE"
         ]
     },
-    "POLIWAG": {
-        "id": "POLIWAG",
+    "V0060_POKEMON_POLIWAG": {
+        "id": "V0060_POKEMON_POLIWAG",
         "ndex": 60,
         "name": "Poliwag",
         "stats": {
@@ -1253,8 +1253,8 @@
             "BODY_SLAM"
         ]
     },
-    "POLIWHIRL": {
-        "id": "POLIWHIRL",
+    "V0061_POKEMON_POLIWHIRL": {
+        "id": "V0061_POKEMON_POLIWHIRL",
         "ndex": 61,
         "name": "Poliwhirl",
         "stats": {
@@ -1274,8 +1274,8 @@
             "SCALD"
         ]
     },
-    "POLIWRATH": {
-        "id": "POLIWRATH",
+    "V0062_POKEMON_POLIWRATH": {
+        "id": "V0062_POKEMON_POLIWRATH",
         "ndex": 62,
         "name": "Poliwrath",
         "stats": {
@@ -1297,8 +1297,8 @@
             "SUBMISSION"
         ]
     },
-    "ABRA": {
-        "id": "ABRA",
+    "V0063_POKEMON_ABRA": {
+        "id": "V0063_POKEMON_ABRA",
         "ndex": 63,
         "name": "Abra",
         "stats": {
@@ -1317,8 +1317,8 @@
             "SHADOW_BALL"
         ]
     },
-    "KADABRA": {
-        "id": "KADABRA",
+    "V0064_POKEMON_KADABRA": {
+        "id": "V0064_POKEMON_KADABRA",
         "ndex": 64,
         "name": "Kadabra",
         "stats": {
@@ -1337,8 +1337,8 @@
             "SHADOW_BALL"
         ]
     },
-    "ALAKAZAM": {
-        "id": "ALAKAZAM",
+    "V0065_POKEMON_ALAKAZAM": {
+        "id": "V0065_POKEMON_ALAKAZAM",
         "ndex": 65,
         "name": "Alakazam",
         "stats": {
@@ -1359,8 +1359,8 @@
             "DAZZLING_GLEAM"
         ]
     },
-    "MACHOP": {
-        "id": "MACHOP",
+    "V0066_POKEMON_MACHOP": {
+        "id": "V0066_POKEMON_MACHOP",
         "ndex": 66,
         "name": "Machop",
         "stats": {
@@ -1380,8 +1380,8 @@
             "CROSS_CHOP"
         ]
     },
-    "MACHOKE": {
-        "id": "MACHOKE",
+    "V0067_POKEMON_MACHOKE": {
+        "id": "V0067_POKEMON_MACHOKE",
         "ndex": 67,
         "name": "Machoke",
         "stats": {
@@ -1401,8 +1401,8 @@
             "CROSS_CHOP"
         ]
     },
-    "MACHAMP": {
-        "id": "MACHAMP",
+    "V0068_POKEMON_MACHAMP": {
+        "id": "V0068_POKEMON_MACHAMP",
         "ndex": 68,
         "name": "Machamp",
         "stats": {
@@ -1425,8 +1425,8 @@
             "CROSS_CHOP"
         ]
     },
-    "BELLSPROUT": {
-        "id": "BELLSPROUT",
+    "V0069_POKEMON_BELLSPROUT": {
+        "id": "V0069_POKEMON_BELLSPROUT",
         "ndex": 69,
         "name": "Bellsprout",
         "stats": {
@@ -1446,8 +1446,8 @@
             "WRAP"
         ]
     },
-    "WEEPINBELL": {
-        "id": "WEEPINBELL",
+    "V0070_POKEMON_WEEPINBELL": {
+        "id": "V0070_POKEMON_WEEPINBELL",
         "ndex": 70,
         "name": "Weepinbell",
         "stats": {
@@ -1468,8 +1468,8 @@
             "SEED_BOMB"
         ]
     },
-    "VICTREEBEL": {
-        "id": "VICTREEBEL",
+    "V0071_POKEMON_VICTREEBEL": {
+        "id": "V0071_POKEMON_VICTREEBEL",
         "ndex": 71,
         "name": "Victreebel",
         "stats": {
@@ -1489,8 +1489,8 @@
             "SOLAR_BEAM"
         ]
     },
-    "TENTACOOL": {
-        "id": "TENTACOOL",
+    "V0072_POKEMON_TENTACOOL": {
+        "id": "V0072_POKEMON_TENTACOOL",
         "ndex": 72,
         "name": "Tentacool",
         "stats": {
@@ -1510,8 +1510,8 @@
             "WRAP"
         ]
     },
-    "TENTACRUEL": {
-        "id": "TENTACRUEL",
+    "V0073_POKEMON_TENTACRUEL": {
+        "id": "V0073_POKEMON_TENTACRUEL",
         "ndex": 73,
         "name": "Tentacruel",
         "stats": {
@@ -1531,8 +1531,8 @@
             "BLIZZARD"
         ]
     },
-    "GEODUDE": {
-        "id": "GEODUDE",
+    "V0074_POKEMON_GEODUDE": {
+        "id": "V0074_POKEMON_GEODUDE",
         "ndex": 74,
         "name": "Geodude",
         "stats": {
@@ -1552,8 +1552,8 @@
             "DIG"
         ]
     },
-    "GRAVELER": {
-        "id": "GRAVELER",
+    "V0075_POKEMON_GRAVELER": {
+        "id": "V0075_POKEMON_GRAVELER",
         "ndex": 75,
         "name": "Graveler",
         "stats": {
@@ -1575,8 +1575,8 @@
             "ROCK_SLIDE"
         ]
     },
-    "GOLEM": {
-        "id": "GOLEM",
+    "V0076_POKEMON_GOLEM": {
+        "id": "V0076_POKEMON_GOLEM",
         "ndex": 76,
         "name": "Golem",
         "stats": {
@@ -1598,8 +1598,8 @@
             "ANCIENT_POWER"
         ]
     },
-    "PONYTA": {
-        "id": "PONYTA",
+    "V0077_POKEMON_PONYTA": {
+        "id": "V0077_POKEMON_PONYTA",
         "ndex": 77,
         "name": "Ponyta",
         "stats": {
@@ -1619,8 +1619,8 @@
             "FIRE_BLAST"
         ]
     },
-    "RAPIDASH": {
-        "id": "RAPIDASH",
+    "V0078_POKEMON_RAPIDASH": {
+        "id": "V0078_POKEMON_RAPIDASH",
         "ndex": 78,
         "name": "Rapidash",
         "stats": {
@@ -1640,8 +1640,8 @@
             "HEAT_WAVE"
         ]
     },
-    "SLOWPOKE": {
-        "id": "SLOWPOKE",
+    "V0079_POKEMON_SLOWPOKE": {
+        "id": "V0079_POKEMON_SLOWPOKE",
         "ndex": 79,
         "name": "Slowpoke",
         "stats": {
@@ -1661,8 +1661,8 @@
             "PSYCHIC"
         ]
     },
-    "SLOWBRO": {
-        "id": "SLOWBRO",
+    "V0080_POKEMON_SLOWBRO": {
+        "id": "V0080_POKEMON_SLOWBRO",
         "ndex": 80,
         "name": "Slowbro",
         "stats": {
@@ -1682,8 +1682,8 @@
             "ICE_BEAM"
         ]
     },
-    "MAGNEMITE": {
-        "id": "MAGNEMITE",
+    "V0081_POKEMON_MAGNEMITE": {
+        "id": "V0081_POKEMON_MAGNEMITE",
         "ndex": 81,
         "name": "Magnemite",
         "stats": {
@@ -1703,8 +1703,8 @@
             "THUNDERBOLT"
         ]
     },
-    "MAGNETON": {
-        "id": "MAGNETON",
+    "V0082_POKEMON_MAGNETON": {
+        "id": "V0082_POKEMON_MAGNETON",
         "ndex": 82,
         "name": "Magneton",
         "stats": {
@@ -1726,8 +1726,8 @@
             "DISCHARGE"
         ]
     },
-    "FARFETCHD": {
-        "id": "FARFETCHD",
+    "V0083_POKEMON_FARFETCHD": {
+        "id": "V0083_POKEMON_FARFETCHD",
         "ndex": 83,
         "name": "Farfetchd",
         "stats": {
@@ -1748,8 +1748,8 @@
             "LEAF_BLADE"
         ]
     },
-    "DODUO": {
-        "id": "DODUO",
+    "V0084_POKEMON_DODUO": {
+        "id": "V0084_POKEMON_DODUO",
         "ndex": 84,
         "name": "Doduo",
         "stats": {
@@ -1770,8 +1770,8 @@
             "SWIFT"
         ]
     },
-    "DODRIO": {
-        "id": "DODRIO",
+    "V0085_POKEMON_DODRIO": {
+        "id": "V0085_POKEMON_DODRIO",
         "ndex": 85,
         "name": "Dodrio",
         "stats": {
@@ -1792,8 +1792,8 @@
             "AIR_CUTTER"
         ]
     },
-    "SEEL": {
-        "id": "SEEL",
+    "V0086_POKEMON_SEEL": {
+        "id": "V0086_POKEMON_SEEL",
         "ndex": 86,
         "name": "Seel",
         "stats": {
@@ -1814,8 +1814,8 @@
             "AQUA_JET"
         ]
     },
-    "DEWGONG": {
-        "id": "DEWGONG",
+    "V0087_POKEMON_DEWGONG": {
+        "id": "V0087_POKEMON_DEWGONG",
         "ndex": 87,
         "name": "Dewgong",
         "stats": {
@@ -1838,8 +1838,8 @@
             "AQUA_JET"
         ]
     },
-    "GRIMER": {
-        "id": "GRIMER",
+    "V0088_POKEMON_GRIMER": {
+        "id": "V0088_POKEMON_GRIMER",
         "ndex": 88,
         "name": "Grimer",
         "stats": {
@@ -1859,8 +1859,8 @@
             "SLUDGE_BOMB"
         ]
     },
-    "MUK": {
-        "id": "MUK",
+    "V0089_POKEMON_MUK": {
+        "id": "V0089_POKEMON_MUK",
         "ndex": 89,
         "name": "Muk",
         "stats": {
@@ -1881,8 +1881,8 @@
             "SLUDGE_WAVE"
         ]
     },
-    "SHELLDER": {
-        "id": "SHELLDER",
+    "V0090_POKEMON_SHELLDER": {
+        "id": "V0090_POKEMON_SHELLDER",
         "ndex": 90,
         "name": "Shellder",
         "stats": {
@@ -1901,8 +1901,8 @@
             "ICY_WIND"
         ]
     },
-    "CLOYSTER": {
-        "id": "CLOYSTER",
+    "V0091_POKEMON_CLOYSTER": {
+        "id": "V0091_POKEMON_CLOYSTER",
         "ndex": 91,
         "name": "Cloyster",
         "stats": {
@@ -1924,8 +1924,8 @@
             "BLIZZARD"
         ]
     },
-    "GASTLY": {
-        "id": "GASTLY",
+    "V0092_POKEMON_GASTLY": {
+        "id": "V0092_POKEMON_GASTLY",
         "ndex": 92,
         "name": "Gastly",
         "stats": {
@@ -1947,8 +1947,8 @@
             "OMINOUS_WIND"
         ]
     },
-    "HAUNTER": {
-        "id": "HAUNTER",
+    "V0093_POKEMON_HAUNTER": {
+        "id": "V0093_POKEMON_HAUNTER",
         "ndex": 93,
         "name": "Haunter",
         "stats": {
@@ -1970,8 +1970,8 @@
             "SHADOW_BALL"
         ]
     },
-    "GENGAR": {
-        "id": "GENGAR",
+    "V0094_POKEMON_GENGAR": {
+        "id": "V0094_POKEMON_GENGAR",
         "ndex": 94,
         "name": "Gengar",
         "stats": {
@@ -1994,8 +1994,8 @@
             "SLUDGE_WAVE"
         ]
     },
-    "ONIX": {
-        "id": "ONIX",
+    "V0095_POKEMON_ONIX": {
+        "id": "V0095_POKEMON_ONIX",
         "ndex": 95,
         "name": "Onix",
         "stats": {
@@ -2017,8 +2017,8 @@
             "IRON_HEAD"
         ]
     },
-    "DROWZEE": {
-        "id": "DROWZEE",
+    "V0096_POKEMON_DROWZEE": {
+        "id": "V0096_POKEMON_DROWZEE",
         "ndex": 96,
         "name": "Drowzee",
         "stats": {
@@ -2037,8 +2037,8 @@
             "PSYCHIC"
         ]
     },
-    "HYPNO": {
-        "id": "HYPNO",
+    "V0097_POKEMON_HYPNO": {
+        "id": "V0097_POKEMON_HYPNO",
         "ndex": 97,
         "name": "Hypno",
         "stats": {
@@ -2059,8 +2059,8 @@
             "SHADOW_BALL"
         ]
     },
-    "KRABBY": {
-        "id": "KRABBY",
+    "V0098_POKEMON_KRABBY": {
+        "id": "V0098_POKEMON_KRABBY",
         "ndex": 98,
         "name": "Krabby",
         "stats": {
@@ -2079,8 +2079,8 @@
             "WATER_PULSE"
         ]
     },
-    "KINGLER": {
-        "id": "KINGLER",
+    "V0099_POKEMON_KINGLER": {
+        "id": "V0099_POKEMON_KINGLER",
         "ndex": 99,
         "name": "Kingler",
         "stats": {
@@ -2100,8 +2100,8 @@
             "WATER_PULSE"
         ]
     },
-    "VOLTORB": {
-        "id": "VOLTORB",
+    "V0100_POKEMON_VOLTORB": {
+        "id": "V0100_POKEMON_VOLTORB",
         "ndex": 100,
         "name": "Voltorb",
         "stats": {
@@ -2121,8 +2121,8 @@
             "SIGNAL_BEAM"
         ]
     },
-    "ELECTRODE": {
-        "id": "ELECTRODE",
+    "V0101_POKEMON_ELECTRODE": {
+        "id": "V0101_POKEMON_ELECTRODE",
         "ndex": 101,
         "name": "Electrode",
         "stats": {
@@ -2142,8 +2142,8 @@
             "HYPER_BEAM"
         ]
     },
-    "EXEGGCUTE": {
-        "id": "EXEGGCUTE",
+    "V0102_POKEMON_EXEGGCUTE": {
+        "id": "V0102_POKEMON_EXEGGCUTE",
         "ndex": 102,
         "name": "Exeggcute",
         "stats": {
@@ -2163,8 +2163,8 @@
             "ANCIENT_POWER"
         ]
     },
-    "EXEGGUTOR": {
-        "id": "EXEGGUTOR",
+    "V0103_POKEMON_EXEGGUTOR": {
+        "id": "V0103_POKEMON_EXEGGUTOR",
         "ndex": 103,
         "name": "Exeggutor",
         "stats": {
@@ -2186,9 +2186,51 @@
             "SOLAR_BEAM"
         ]
     },
-    "CUBONE": {
-        "id": "CUBONE",
+    "V0103_POKEMON_EXEGGUTOR_ALOLA": {
+        "id": "V0103_POKEMON_EXEGGUTOR_ALOLA",
         "ndex": 104,
+        "name": "Exeggutor",
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 230,
+            "baseDefense": 158
+        },
+        "type": "POKEMON_TYPE_GRASS",
+        "type2": "POKEMON_TYPE_DRAGON",
+        "quickMoves": [
+            "BULLET_SEED_FAST",
+            "DRAGON_TAIL_FAST"
+        ],
+        "cinematicMoves": [
+            "SEED_BOMB",
+            "DRAGON_PULSE",
+            "SOLAR_BEAM"
+        ]
+    },
+    "V0103_POKEMON_EXEGGUTOR_NORMAL": {
+        "id": "V0103_POKEMON_EXEGGUTOR_NORMAL",
+        "ndex": 105,
+        "name": "Exeggutor",
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 233,
+            "baseDefense": 158
+        },
+        "type": "POKEMON_TYPE_GRASS",
+        "type2": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "BULLET_SEED_FAST",
+            "EXTRASENSORY_FAST"
+        ],
+        "cinematicMoves": [
+            "SEED_BOMB",
+            "PSYCHIC",
+            "SOLAR_BEAM"
+        ]
+    },
+    "V0104_POKEMON_CUBONE": {
+        "id": "V0104_POKEMON_CUBONE",
+        "ndex": 106,
         "name": "Cubone",
         "stats": {
             "baseStamina": 100,
@@ -2206,9 +2248,9 @@
             "BULLDOZE"
         ]
     },
-    "MAROWAK": {
-        "id": "MAROWAK",
-        "ndex": 105,
+    "V0105_POKEMON_MAROWAK": {
+        "id": "V0105_POKEMON_MAROWAK",
+        "ndex": 107,
         "name": "Marowak",
         "stats": {
             "baseStamina": 120,
@@ -2226,9 +2268,9 @@
             "EARTHQUAKE"
         ]
     },
-    "HITMONLEE": {
-        "id": "HITMONLEE",
-        "ndex": 106,
+    "V0106_POKEMON_HITMONLEE": {
+        "id": "V0106_POKEMON_HITMONLEE",
+        "ndex": 108,
         "name": "Hitmonlee",
         "stats": {
             "baseStamina": 100,
@@ -2248,9 +2290,9 @@
             "STOMP"
         ]
     },
-    "HITMONCHAN": {
-        "id": "HITMONCHAN",
-        "ndex": 107,
+    "V0107_POKEMON_HITMONCHAN": {
+        "id": "V0107_POKEMON_HITMONCHAN",
+        "ndex": 109,
         "name": "Hitmonchan",
         "stats": {
             "baseStamina": 100,
@@ -2271,9 +2313,9 @@
             "BRICK_BREAK"
         ]
     },
-    "LICKITUNG": {
-        "id": "LICKITUNG",
-        "ndex": 108,
+    "V0108_POKEMON_LICKITUNG": {
+        "id": "V0108_POKEMON_LICKITUNG",
+        "ndex": 110,
         "name": "Lickitung",
         "stats": {
             "baseStamina": 180,
@@ -2291,9 +2333,9 @@
             "POWER_WHIP"
         ]
     },
-    "KOFFING": {
-        "id": "KOFFING",
-        "ndex": 109,
+    "V0109_POKEMON_KOFFING": {
+        "id": "V0109_POKEMON_KOFFING",
+        "ndex": 111,
         "name": "Koffing",
         "stats": {
             "baseStamina": 80,
@@ -2312,9 +2354,9 @@
             "DARK_PULSE"
         ]
     },
-    "WEEZING": {
-        "id": "WEEZING",
-        "ndex": 110,
+    "V0110_POKEMON_WEEZING": {
+        "id": "V0110_POKEMON_WEEZING",
+        "ndex": 112,
         "name": "Weezing",
         "stats": {
             "baseStamina": 130,
@@ -2333,9 +2375,9 @@
             "DARK_PULSE"
         ]
     },
-    "RHYHORN": {
-        "id": "RHYHORN",
-        "ndex": 111,
+    "V0111_POKEMON_RHYHORN": {
+        "id": "V0111_POKEMON_RHYHORN",
+        "ndex": 113,
         "name": "Rhyhorn",
         "stats": {
             "baseStamina": 160,
@@ -2354,9 +2396,9 @@
             "STOMP"
         ]
     },
-    "RHYDON": {
-        "id": "RHYDON",
-        "ndex": 112,
+    "V0112_POKEMON_RHYDON": {
+        "id": "V0112_POKEMON_RHYDON",
+        "ndex": 114,
         "name": "Rhydon",
         "stats": {
             "baseStamina": 210,
@@ -2376,9 +2418,9 @@
             "MEGAHORN"
         ]
     },
-    "CHANSEY": {
-        "id": "CHANSEY",
-        "ndex": 113,
+    "V0113_POKEMON_CHANSEY": {
+        "id": "V0113_POKEMON_CHANSEY",
+        "ndex": 115,
         "name": "Chansey",
         "stats": {
             "baseStamina": 500,
@@ -2397,9 +2439,9 @@
             "PSYBEAM"
         ]
     },
-    "TANGELA": {
-        "id": "TANGELA",
-        "ndex": 114,
+    "V0114_POKEMON_TANGELA": {
+        "id": "V0114_POKEMON_TANGELA",
+        "ndex": 116,
         "name": "Tangela",
         "stats": {
             "baseStamina": 130,
@@ -2418,9 +2460,9 @@
             "POWER_WHIP"
         ]
     },
-    "KANGASKHAN": {
-        "id": "KANGASKHAN",
-        "ndex": 115,
+    "V0115_POKEMON_KANGASKHAN": {
+        "id": "V0115_POKEMON_KANGASKHAN",
+        "ndex": 117,
         "name": "Kangaskhan",
         "stats": {
             "baseStamina": 210,
@@ -2440,9 +2482,9 @@
             "STOMP"
         ]
     },
-    "HORSEA": {
-        "id": "HORSEA",
-        "ndex": 116,
+    "V0116_POKEMON_HORSEA": {
+        "id": "V0116_POKEMON_HORSEA",
+        "ndex": 118,
         "name": "Horsea",
         "stats": {
             "baseStamina": 60,
@@ -2460,9 +2502,9 @@
             "FLASH_CANNON"
         ]
     },
-    "SEADRA": {
-        "id": "SEADRA",
-        "ndex": 117,
+    "V0117_POKEMON_SEADRA": {
+        "id": "V0117_POKEMON_SEADRA",
+        "ndex": 119,
         "name": "Seadra",
         "stats": {
             "baseStamina": 110,
@@ -2481,9 +2523,9 @@
             "BLIZZARD"
         ]
     },
-    "GOLDEEN": {
-        "id": "GOLDEEN",
-        "ndex": 118,
+    "V0118_POKEMON_GOLDEEN": {
+        "id": "V0118_POKEMON_GOLDEEN",
+        "ndex": 120,
         "name": "Goldeen",
         "stats": {
             "baseStamina": 90,
@@ -2501,9 +2543,9 @@
             "AQUA_TAIL"
         ]
     },
-    "SEAKING": {
-        "id": "SEAKING",
-        "ndex": 119,
+    "V0119_POKEMON_SEAKING": {
+        "id": "V0119_POKEMON_SEAKING",
+        "ndex": 121,
         "name": "Seaking",
         "stats": {
             "baseStamina": 160,
@@ -2524,9 +2566,9 @@
             "DRILL_RUN"
         ]
     },
-    "STARYU": {
-        "id": "STARYU",
-        "ndex": 120,
+    "V0120_POKEMON_STARYU": {
+        "id": "V0120_POKEMON_STARYU",
+        "ndex": 122,
         "name": "Staryu",
         "stats": {
             "baseStamina": 60,
@@ -2545,9 +2587,9 @@
             "POWER_GEM"
         ]
     },
-    "STARMIE": {
-        "id": "STARMIE",
-        "ndex": 121,
+    "V0121_POKEMON_STARMIE": {
+        "id": "V0121_POKEMON_STARMIE",
+        "ndex": 123,
         "name": "Starmie",
         "stats": {
             "baseStamina": 120,
@@ -2569,9 +2611,9 @@
             "PSYBEAM"
         ]
     },
-    "MR_MIME": {
-        "id": "MR_MIME",
-        "ndex": 122,
+    "V0122_POKEMON_MR_MIME": {
+        "id": "V0122_POKEMON_MR_MIME",
+        "ndex": 124,
         "name": "Mr-mime",
         "stats": {
             "baseStamina": 80,
@@ -2590,9 +2632,9 @@
             "SHADOW_BALL"
         ]
     },
-    "SCYTHER": {
-        "id": "SCYTHER",
-        "ndex": 123,
+    "V0123_POKEMON_SCYTHER": {
+        "id": "V0123_POKEMON_SCYTHER",
+        "ndex": 125,
         "name": "Scyther",
         "stats": {
             "baseStamina": 140,
@@ -2613,9 +2655,9 @@
             "BUG_BUZZ"
         ]
     },
-    "JYNX": {
-        "id": "JYNX",
-        "ndex": 124,
+    "V0124_POKEMON_JYNX": {
+        "id": "V0124_POKEMON_JYNX",
+        "ndex": 126,
         "name": "Jynx",
         "stats": {
             "baseStamina": 130,
@@ -2636,9 +2678,9 @@
             "ICE_PUNCH"
         ]
     },
-    "ELECTABUZZ": {
-        "id": "ELECTABUZZ",
-        "ndex": 125,
+    "V0125_POKEMON_ELECTABUZZ": {
+        "id": "V0125_POKEMON_ELECTABUZZ",
+        "ndex": 127,
         "name": "Electabuzz",
         "stats": {
             "baseStamina": 130,
@@ -2656,9 +2698,9 @@
             "THUNDER"
         ]
     },
-    "MAGMAR": {
-        "id": "MAGMAR",
-        "ndex": 126,
+    "V0126_POKEMON_MAGMAR": {
+        "id": "V0126_POKEMON_MAGMAR",
+        "ndex": 128,
         "name": "Magmar",
         "stats": {
             "baseStamina": 130,
@@ -2676,9 +2718,9 @@
             "FLAMETHROWER"
         ]
     },
-    "PINSIR": {
-        "id": "PINSIR",
-        "ndex": 127,
+    "V0127_POKEMON_PINSIR": {
+        "id": "V0127_POKEMON_PINSIR",
+        "ndex": 129,
         "name": "Pinsir",
         "stats": {
             "baseStamina": 130,
@@ -2698,9 +2740,9 @@
             "SUBMISSION"
         ]
     },
-    "TAUROS": {
-        "id": "TAUROS",
-        "ndex": 128,
+    "V0128_POKEMON_TAUROS": {
+        "id": "V0128_POKEMON_TAUROS",
+        "ndex": 130,
         "name": "Tauros",
         "stats": {
             "baseStamina": 150,
@@ -2718,9 +2760,9 @@
             "EARTHQUAKE"
         ]
     },
-    "MAGIKARP": {
-        "id": "MAGIKARP",
-        "ndex": 129,
+    "V0129_POKEMON_MAGIKARP": {
+        "id": "V0129_POKEMON_MAGIKARP",
+        "ndex": 131,
         "name": "Magikarp",
         "stats": {
             "baseStamina": 40,
@@ -2735,9 +2777,9 @@
             "STRUGGLE"
         ]
     },
-    "GYARADOS": {
-        "id": "GYARADOS",
-        "ndex": 130,
+    "V0130_POKEMON_GYARADOS": {
+        "id": "V0130_POKEMON_GYARADOS",
+        "ndex": 132,
         "name": "Gyarados",
         "stats": {
             "baseStamina": 190,
@@ -2760,9 +2802,9 @@
             "DRAGON_PULSE"
         ]
     },
-    "LAPRAS": {
-        "id": "LAPRAS",
-        "ndex": 131,
+    "V0131_POKEMON_LAPRAS": {
+        "id": "V0131_POKEMON_LAPRAS",
+        "ndex": 133,
         "name": "Lapras",
         "stats": {
             "baseStamina": 260,
@@ -2784,9 +2826,9 @@
             "DRAGON_PULSE"
         ]
     },
-    "DITTO": {
-        "id": "DITTO",
-        "ndex": 132,
+    "V0132_POKEMON_DITTO": {
+        "id": "V0132_POKEMON_DITTO",
+        "ndex": 134,
         "name": "Ditto",
         "stats": {
             "baseStamina": 96,
@@ -2801,9 +2843,9 @@
             "STRUGGLE"
         ]
     },
-    "EEVEE": {
-        "id": "EEVEE",
-        "ndex": 133,
+    "V0133_POKEMON_EEVEE": {
+        "id": "V0133_POKEMON_EEVEE",
+        "ndex": 135,
         "name": "Eevee",
         "stats": {
             "baseStamina": 110,
@@ -2821,9 +2863,9 @@
             "BODY_SLAM"
         ]
     },
-    "VAPOREON": {
-        "id": "VAPOREON",
-        "ndex": 134,
+    "V0134_POKEMON_VAPOREON": {
+        "id": "V0134_POKEMON_VAPOREON",
+        "ndex": 136,
         "name": "Vaporeon",
         "stats": {
             "baseStamina": 260,
@@ -2840,9 +2882,9 @@
             "AQUA_TAIL"
         ]
     },
-    "JOLTEON": {
-        "id": "JOLTEON",
-        "ndex": 135,
+    "V0135_POKEMON_JOLTEON": {
+        "id": "V0135_POKEMON_JOLTEON",
+        "ndex": 137,
         "name": "Jolteon",
         "stats": {
             "baseStamina": 130,
@@ -2860,9 +2902,9 @@
             "THUNDER"
         ]
     },
-    "FLAREON": {
-        "id": "FLAREON",
-        "ndex": 136,
+    "V0136_POKEMON_FLAREON": {
+        "id": "V0136_POKEMON_FLAREON",
+        "ndex": 138,
         "name": "Flareon",
         "stats": {
             "baseStamina": 130,
@@ -2881,9 +2923,9 @@
             "HEAT_WAVE"
         ]
     },
-    "PORYGON": {
-        "id": "PORYGON",
-        "ndex": 137,
+    "V0137_POKEMON_PORYGON": {
+        "id": "V0137_POKEMON_PORYGON",
+        "ndex": 139,
         "name": "Porygon",
         "stats": {
             "baseStamina": 130,
@@ -2907,9 +2949,9 @@
             "DISCHARGE"
         ]
     },
-    "OMANYTE": {
-        "id": "OMANYTE",
-        "ndex": 138,
+    "V0138_POKEMON_OMANYTE": {
+        "id": "V0138_POKEMON_OMANYTE",
+        "ndex": 140,
         "name": "Omanyte",
         "stats": {
             "baseStamina": 70,
@@ -2930,9 +2972,9 @@
             "ROCK_TOMB"
         ]
     },
-    "OMASTAR": {
-        "id": "OMASTAR",
-        "ndex": 139,
+    "V0139_POKEMON_OMASTAR": {
+        "id": "V0139_POKEMON_OMASTAR",
+        "ndex": 141,
         "name": "Omastar",
         "stats": {
             "baseStamina": 140,
@@ -2953,9 +2995,9 @@
             "ROCK_SLIDE"
         ]
     },
-    "KABUTO": {
-        "id": "KABUTO",
-        "ndex": 140,
+    "V0140_POKEMON_KABUTO": {
+        "id": "V0140_POKEMON_KABUTO",
+        "ndex": 142,
         "name": "Kabuto",
         "stats": {
             "baseStamina": 60,
@@ -2974,9 +3016,9 @@
             "ROCK_TOMB"
         ]
     },
-    "KABUTOPS": {
-        "id": "KABUTOPS",
-        "ndex": 141,
+    "V0141_POKEMON_KABUTOPS": {
+        "id": "V0141_POKEMON_KABUTOPS",
+        "ndex": 143,
         "name": "Kabutops",
         "stats": {
             "baseStamina": 120,
@@ -2996,9 +3038,9 @@
             "STONE_EDGE"
         ]
     },
-    "AERODACTYL": {
-        "id": "AERODACTYL",
-        "ndex": 142,
+    "V0142_POKEMON_AERODACTYL": {
+        "id": "V0142_POKEMON_AERODACTYL",
+        "ndex": 144,
         "name": "Aerodactyl",
         "stats": {
             "baseStamina": 160,
@@ -3017,9 +3059,9 @@
             "HYPER_BEAM"
         ]
     },
-    "SNORLAX": {
-        "id": "SNORLAX",
-        "ndex": 143,
+    "V0143_POKEMON_SNORLAX": {
+        "id": "V0143_POKEMON_SNORLAX",
+        "ndex": 145,
         "name": "Snorlax",
         "stats": {
             "baseStamina": 320,
@@ -3038,9 +3080,9 @@
             "BODY_SLAM"
         ]
     },
-    "ARTICUNO": {
-        "id": "ARTICUNO",
-        "ndex": 144,
+    "V0144_POKEMON_ARTICUNO": {
+        "id": "V0144_POKEMON_ARTICUNO",
+        "ndex": 146,
         "name": "Articuno",
         "stats": {
             "baseStamina": 180,
@@ -3058,9 +3100,9 @@
             "BLIZZARD"
         ]
     },
-    "ZAPDOS": {
-        "id": "ZAPDOS",
-        "ndex": 145,
+    "V0145_POKEMON_ZAPDOS": {
+        "id": "V0145_POKEMON_ZAPDOS",
+        "ndex": 147,
         "name": "Zapdos",
         "stats": {
             "baseStamina": 180,
@@ -3080,9 +3122,9 @@
             "DISCHARGE"
         ]
     },
-    "MOLTRES": {
-        "id": "MOLTRES",
-        "ndex": 146,
+    "V0146_POKEMON_MOLTRES": {
+        "id": "V0146_POKEMON_MOLTRES",
+        "ndex": 148,
         "name": "Moltres",
         "stats": {
             "baseStamina": 180,
@@ -3102,9 +3144,9 @@
             "FLAMETHROWER"
         ]
     },
-    "DRATINI": {
-        "id": "DRATINI",
-        "ndex": 147,
+    "V0147_POKEMON_DRATINI": {
+        "id": "V0147_POKEMON_DRATINI",
+        "ndex": 149,
         "name": "Dratini",
         "stats": {
             "baseStamina": 82,
@@ -3122,9 +3164,9 @@
             "AQUA_TAIL"
         ]
     },
-    "DRAGONAIR": {
-        "id": "DRAGONAIR",
-        "ndex": 148,
+    "V0148_POKEMON_DRAGONAIR": {
+        "id": "V0148_POKEMON_DRAGONAIR",
+        "ndex": 150,
         "name": "Dragonair",
         "stats": {
             "baseStamina": 122,
@@ -3142,9 +3184,9 @@
             "DRAGON_PULSE"
         ]
     },
-    "DRAGONITE": {
-        "id": "DRAGONITE",
-        "ndex": 149,
+    "V0149_POKEMON_DRAGONITE": {
+        "id": "V0149_POKEMON_DRAGONITE",
+        "ndex": 151,
         "name": "Dragonite",
         "stats": {
             "baseStamina": 182,
@@ -3166,9 +3208,9 @@
             "DRAGON_CLAW"
         ]
     },
-    "MEWTWO": {
-        "id": "MEWTWO",
-        "ndex": 150,
+    "V0150_POKEMON_MEWTWO": {
+        "id": "V0150_POKEMON_MEWTWO",
+        "ndex": 152,
         "name": "Mewtwo",
         "stats": {
             "baseStamina": 193,
@@ -3187,9 +3229,9 @@
             "FOCUS_BLAST"
         ]
     },
-    "MEW": {
-        "id": "MEW",
-        "ndex": 151,
+    "V0151_POKEMON_MEW": {
+        "id": "V0151_POKEMON_MEW",
+        "ndex": 153,
         "name": "Mew",
         "stats": {
             "baseStamina": 200,
@@ -3198,25 +3240,67 @@
         },
         "type": "POKEMON_TYPE_PSYCHIC",
         "quickMoves": [
-            "POUND_FAST"
+            "POUND_FAST",
+            "STEEL_WING_FAST",
+            "CHARGE_BEAM_FAST",
+            "SHADOW_CLAW_FAST",
+            "VOLT_SWITCH_FAST",
+            "STRUGGLE_BUG_FAST",
+            "FROST_BREATH_FAST",
+            "DRAGON_TAIL_FAST",
+            "INFESTATION_FAST",
+            "POISON_JAB_FAST",
+            "ROCK_SMASH_FAST",
+            "SNARL_FAST",
+            "CUT_FAST",
+            "WATERFALL_FAST"
         ],
         "cinematicMoves": [
-            "BLIZZARD",
-            "EARTHQUAKE",
             "PSYCHIC",
-            "FOCUS_BLAST",
-            "THUNDER",
-            "FIRE_BLAST",
-            "SOLAR_BEAM",
+            "ANCIENT_POWER",
+            "DRAGON_CLAW",
+            "PSYSHOCK",
+            "ICE_BEAM",
+            "BLIZZARD",
             "HYPER_BEAM",
+            "SOLAR_BEAM",
+            "THUNDERBOLT",
+            "THUNDER",
+            "PSYCHIC",
+            "ANCIENT_POWER",
+            "DRAGON_CLAW",
+            "PSYSHOCK",
+            "ICE_BEAM",
+            "BLIZZARD",
+            "HYPER_BEAM",
+            "SOLAR_BEAM",
+            "THUNDERBOLT",
+            "THUNDER",
+            "FLAME_CHARGE",
+            "LOW_SWEEP",
+            "OVERHEAT",
+            "FOCUS_BLAST",
+            "ENERGY_BALL",
+            "STONE_EDGE",
+            "GYRO_BALL",
+            "BULLDOZE",
+            "ROCK_SLIDE",
+            "GRASS_KNOT",
+            "FLASH_CANNON",
+            "WILD_CHARGE",
+            "DARK_PULSE",
+            "DAZZLING_GLEAM",
+            "SURF",
+            "EARTHQUAKE",
+            "FIRE_BLAST",
             "DRAGON_PULSE",
             "HURRICANE",
             "MOONBLAST"
         ]
     },
-    "CHIKORITA": {
-        "id": "CHIKORITA",
-        "ndex": 152,
+    "V0152_POKEMON_CHIKORITA": {
+        "id": "V0152_POKEMON_CHIKORITA",
+        "ndex": 154,
         "name": "Chikorita",
         "stats": {
             "baseStamina": 90,
@@ -3234,9 +3318,9 @@
             "BODY_SLAM"
         ]
     },
-    "BAYLEEF": {
-        "id": "BAYLEEF",
-        "ndex": 153,
+    "V0153_POKEMON_BAYLEEF": {
+        "id": "V0153_POKEMON_BAYLEEF",
+        "ndex": 155,
         "name": "Bayleef",
         "stats": {
             "baseStamina": 120,
@@ -3254,9 +3338,9 @@
             "ANCIENT_POWER"
         ]
     },
-    "MEGANIUM": {
-        "id": "MEGANIUM",
-        "ndex": 154,
+    "V0154_POKEMON_MEGANIUM": {
+        "id": "V0154_POKEMON_MEGANIUM",
+        "ndex": 156,
         "name": "Meganium",
         "stats": {
             "baseStamina": 160,
@@ -3274,9 +3358,9 @@
             "EARTHQUAKE"
         ]
     },
-    "CYNDAQUIL": {
-        "id": "CYNDAQUIL",
-        "ndex": 155,
+    "V0155_POKEMON_CYNDAQUIL": {
+        "id": "V0155_POKEMON_CYNDAQUIL",
+        "ndex": 157,
         "name": "Cyndaquil",
         "stats": {
             "baseStamina": 78,
@@ -3294,9 +3378,9 @@
             "FLAMETHROWER"
         ]
     },
-    "QUILAVA": {
-        "id": "QUILAVA",
-        "ndex": 156,
+    "V0156_POKEMON_QUILAVA": {
+        "id": "V0156_POKEMON_QUILAVA",
+        "ndex": 158,
         "name": "Quilava",
         "stats": {
             "baseStamina": 116,
@@ -3314,9 +3398,9 @@
             "FLAMETHROWER"
         ]
     },
-    "TYPHLOSION": {
-        "id": "TYPHLOSION",
-        "ndex": 157,
+    "V0157_POKEMON_TYPHLOSION": {
+        "id": "V0157_POKEMON_TYPHLOSION",
+        "ndex": 159,
         "name": "Typhlosion",
         "stats": {
             "baseStamina": 156,
@@ -3334,9 +3418,9 @@
             "SOLAR_BEAM"
         ]
     },
-    "TOTODILE": {
-        "id": "TOTODILE",
-        "ndex": 158,
+    "V0158_POKEMON_TOTODILE": {
+        "id": "V0158_POKEMON_TOTODILE",
+        "ndex": 160,
         "name": "Totodile",
         "stats": {
             "baseStamina": 100,
@@ -3354,9 +3438,9 @@
             "WATER_PULSE"
         ]
     },
-    "CROCONAW": {
-        "id": "CROCONAW",
-        "ndex": 159,
+    "V0159_POKEMON_CROCONAW": {
+        "id": "V0159_POKEMON_CROCONAW",
+        "ndex": 161,
         "name": "Croconaw",
         "stats": {
             "baseStamina": 130,
@@ -3374,9 +3458,9 @@
             "WATER_PULSE"
         ]
     },
-    "FERALIGATR": {
-        "id": "FERALIGATR",
-        "ndex": 160,
+    "V0160_POKEMON_FERALIGATR": {
+        "id": "V0160_POKEMON_FERALIGATR",
+        "ndex": 162,
         "name": "Feraligatr",
         "stats": {
             "baseStamina": 170,
@@ -3395,9 +3479,9 @@
             "ICE_BEAM"
         ]
     },
-    "SENTRET": {
-        "id": "SENTRET",
-        "ndex": 161,
+    "V0161_POKEMON_SENTRET": {
+        "id": "V0161_POKEMON_SENTRET",
+        "ndex": 163,
         "name": "Sentret",
         "stats": {
             "baseStamina": 70,
@@ -3415,9 +3499,9 @@
             "GRASS_KNOT"
         ]
     },
-    "FURRET": {
-        "id": "FURRET",
-        "ndex": 162,
+    "V0162_POKEMON_FURRET": {
+        "id": "V0162_POKEMON_FURRET",
+        "ndex": 164,
         "name": "Furret",
         "stats": {
             "baseStamina": 170,
@@ -3435,9 +3519,9 @@
             "HYPER_BEAM"
         ]
     },
-    "HOOTHOOT": {
-        "id": "HOOTHOOT",
-        "ndex": 163,
+    "V0163_POKEMON_HOOTHOOT": {
+        "id": "V0163_POKEMON_HOOTHOOT",
+        "ndex": 165,
         "name": "Hoothoot",
         "stats": {
             "baseStamina": 120,
@@ -3456,9 +3540,9 @@
             "NIGHT_SHADE"
         ]
     },
-    "NOCTOWL": {
-        "id": "NOCTOWL",
-        "ndex": 164,
+    "V0164_POKEMON_NOCTOWL": {
+        "id": "V0164_POKEMON_NOCTOWL",
+        "ndex": 166,
         "name": "Noctowl",
         "stats": {
             "baseStamina": 200,
@@ -3477,9 +3561,9 @@
             "NIGHT_SHADE"
         ]
     },
-    "LEDYBA": {
-        "id": "LEDYBA",
-        "ndex": 165,
+    "V0165_POKEMON_LEDYBA": {
+        "id": "V0165_POKEMON_LEDYBA",
+        "ndex": 167,
         "name": "Ledyba",
         "stats": {
             "baseStamina": 80,
@@ -3498,9 +3582,9 @@
             "AERIAL_ACE"
         ]
     },
-    "LEDIAN": {
-        "id": "LEDIAN",
-        "ndex": 166,
+    "V0166_POKEMON_LEDIAN": {
+        "id": "V0166_POKEMON_LEDIAN",
+        "ndex": 168,
         "name": "Ledian",
         "stats": {
             "baseStamina": 110,
@@ -3519,9 +3603,9 @@
             "AERIAL_ACE"
         ]
     },
-    "SPINARAK": {
-        "id": "SPINARAK",
-        "ndex": 167,
+    "V0167_POKEMON_SPINARAK": {
+        "id": "V0167_POKEMON_SPINARAK",
+        "ndex": 169,
         "name": "Spinarak",
         "stats": {
             "baseStamina": 80,
@@ -3540,9 +3624,9 @@
             "CROSS_POISON"
         ]
     },
-    "ARIADOS": {
-        "id": "ARIADOS",
-        "ndex": 168,
+    "V0168_POKEMON_ARIADOS": {
+        "id": "V0168_POKEMON_ARIADOS",
+        "ndex": 170,
         "name": "Ariados",
         "stats": {
             "baseStamina": 140,
@@ -3561,9 +3645,9 @@
             "CROSS_POISON"
         ]
     },
-    "CROBAT": {
-        "id": "CROBAT",
-        "ndex": 169,
+    "V0169_POKEMON_CROBAT": {
+        "id": "V0169_POKEMON_CROBAT",
+        "ndex": 171,
         "name": "Crobat",
         "stats": {
             "baseStamina": 170,
@@ -3582,9 +3666,9 @@
             "SLUDGE_BOMB"
         ]
     },
-    "CHINCHOU": {
-        "id": "CHINCHOU",
-        "ndex": 170,
+    "V0170_POKEMON_CHINCHOU": {
+        "id": "V0170_POKEMON_CHINCHOU",
+        "ndex": 172,
         "name": "Chinchou",
         "stats": {
             "baseStamina": 150,
@@ -3603,9 +3687,9 @@
             "BUBBLE_BEAM"
         ]
     },
-    "LANTURN": {
-        "id": "LANTURN",
-        "ndex": 171,
+    "V0171_POKEMON_LANTURN": {
+        "id": "V0171_POKEMON_LANTURN",
+        "ndex": 173,
         "name": "Lanturn",
         "stats": {
             "baseStamina": 250,
@@ -3624,9 +3708,9 @@
             "THUNDER"
         ]
     },
-    "PICHU": {
-        "id": "PICHU",
-        "ndex": 172,
+    "V0172_POKEMON_PICHU": {
+        "id": "V0172_POKEMON_PICHU",
+        "ndex": 174,
         "name": "Pichu",
         "stats": {
             "baseStamina": 40,
@@ -3644,9 +3728,9 @@
             "THUNDER_PUNCH"
         ]
     },
-    "CLEFFA": {
-        "id": "CLEFFA",
-        "ndex": 173,
+    "V0173_POKEMON_CLEFFA": {
+        "id": "V0173_POKEMON_CLEFFA",
+        "ndex": 175,
         "name": "Cleffa",
         "stats": {
             "baseStamina": 100,
@@ -3666,9 +3750,9 @@
             "PSYCHIC"
         ]
     },
-    "IGGLYBUFF": {
-        "id": "IGGLYBUFF",
-        "ndex": 174,
+    "V0174_POKEMON_IGGLYBUFF": {
+        "id": "V0174_POKEMON_IGGLYBUFF",
+        "ndex": 176,
         "name": "Igglybuff",
         "stats": {
             "baseStamina": 180,
@@ -3688,9 +3772,9 @@
             "BODY_SLAM"
         ]
     },
-    "TOGEPI": {
-        "id": "TOGEPI",
-        "ndex": 175,
+    "V0175_POKEMON_TOGEPI": {
+        "id": "V0175_POKEMON_TOGEPI",
+        "ndex": 177,
         "name": "Togepi",
         "stats": {
             "baseStamina": 70,
@@ -3709,9 +3793,9 @@
             "DAZZLING_GLEAM"
         ]
     },
-    "TOGETIC": {
-        "id": "TOGETIC",
-        "ndex": 176,
+    "V0176_POKEMON_TOGETIC": {
+        "id": "V0176_POKEMON_TOGETIC",
+        "ndex": 178,
         "name": "Togetic",
         "stats": {
             "baseStamina": 110,
@@ -3730,9 +3814,9 @@
             "AERIAL_ACE"
         ]
     },
-    "NATU": {
-        "id": "NATU",
-        "ndex": 177,
+    "V0177_POKEMON_NATU": {
+        "id": "V0177_POKEMON_NATU",
+        "ndex": 179,
         "name": "Natu",
         "stats": {
             "baseStamina": 80,
@@ -3751,9 +3835,9 @@
             "DRILL_PECK"
         ]
     },
-    "XATU": {
-        "id": "XATU",
-        "ndex": 178,
+    "V0178_POKEMON_XATU": {
+        "id": "V0178_POKEMON_XATU",
+        "ndex": 180,
         "name": "Xatu",
         "stats": {
             "baseStamina": 130,
@@ -3772,9 +3856,9 @@
             "AERIAL_ACE"
         ]
     },
-    "MAREEP": {
-        "id": "MAREEP",
-        "ndex": 179,
+    "V0179_POKEMON_MAREEP": {
+        "id": "V0179_POKEMON_MAREEP",
+        "ndex": 181,
         "name": "Mareep",
         "stats": {
             "baseStamina": 110,
@@ -3792,9 +3876,9 @@
             "DISCHARGE"
         ]
     },
-    "FLAAFFY": {
-        "id": "FLAAFFY",
-        "ndex": 180,
+    "V0180_POKEMON_FLAAFFY": {
+        "id": "V0180_POKEMON_FLAAFFY",
+        "ndex": 182,
         "name": "Flaaffy",
         "stats": {
             "baseStamina": 140,
@@ -3812,9 +3896,9 @@
             "DISCHARGE"
         ]
     },
-    "AMPHAROS": {
-        "id": "AMPHAROS",
-        "ndex": 181,
+    "V0181_POKEMON_AMPHAROS": {
+        "id": "V0181_POKEMON_AMPHAROS",
+        "ndex": 183,
         "name": "Ampharos",
         "stats": {
             "baseStamina": 180,
@@ -3832,9 +3916,9 @@
             "THUNDER"
         ]
     },
-    "BELLOSSOM": {
-        "id": "BELLOSSOM",
-        "ndex": 182,
+    "V0182_POKEMON_BELLOSSOM": {
+        "id": "V0182_POKEMON_BELLOSSOM",
+        "ndex": 184,
         "name": "Bellossom",
         "stats": {
             "baseStamina": 150,
@@ -3852,9 +3936,9 @@
             "DAZZLING_GLEAM"
         ]
     },
-    "MARILL": {
-        "id": "MARILL",
-        "ndex": 183,
+    "V0183_POKEMON_MARILL": {
+        "id": "V0183_POKEMON_MARILL",
+        "ndex": 185,
         "name": "Marill",
         "stats": {
             "baseStamina": 140,
@@ -3873,9 +3957,9 @@
             "BODY_SLAM"
         ]
     },
-    "AZUMARILL": {
-        "id": "AZUMARILL",
-        "ndex": 184,
+    "V0184_POKEMON_AZUMARILL": {
+        "id": "V0184_POKEMON_AZUMARILL",
+        "ndex": 186,
         "name": "Azumarill",
         "stats": {
             "baseStamina": 200,
@@ -3894,9 +3978,9 @@
             "ICE_BEAM"
         ]
     },
-    "SUDOWOODO": {
-        "id": "SUDOWOODO",
-        "ndex": 185,
+    "V0185_POKEMON_SUDOWOODO": {
+        "id": "V0185_POKEMON_SUDOWOODO",
+        "ndex": 187,
         "name": "Sudowoodo",
         "stats": {
             "baseStamina": 140,
@@ -3914,9 +3998,9 @@
             "ROCK_SLIDE"
         ]
     },
-    "POLITOED": {
-        "id": "POLITOED",
-        "ndex": 186,
+    "V0186_POKEMON_POLITOED": {
+        "id": "V0186_POKEMON_POLITOED",
+        "ndex": 188,
         "name": "Politoed",
         "stats": {
             "baseStamina": 180,
@@ -3935,9 +4019,9 @@
             "EARTHQUAKE"
         ]
     },
-    "HOPPIP": {
-        "id": "HOPPIP",
-        "ndex": 187,
+    "V0187_POKEMON_HOPPIP": {
+        "id": "V0187_POKEMON_HOPPIP",
+        "ndex": 189,
         "name": "Hoppip",
         "stats": {
             "baseStamina": 70,
@@ -3956,9 +4040,9 @@
             "SEED_BOMB"
         ]
     },
-    "SKIPLOOM": {
-        "id": "SKIPLOOM",
-        "ndex": 188,
+    "V0188_POKEMON_SKIPLOOM": {
+        "id": "V0188_POKEMON_SKIPLOOM",
+        "ndex": 190,
         "name": "Skiploom",
         "stats": {
             "baseStamina": 110,
@@ -3977,9 +4061,9 @@
             "ENERGY_BALL"
         ]
     },
-    "JUMPLUFF": {
-        "id": "JUMPLUFF",
-        "ndex": 189,
+    "V0189_POKEMON_JUMPLUFF": {
+        "id": "V0189_POKEMON_JUMPLUFF",
+        "ndex": 191,
         "name": "Jumpluff",
         "stats": {
             "baseStamina": 150,
@@ -3998,9 +4082,9 @@
             "SOLAR_BEAM"
         ]
     },
-    "AIPOM": {
-        "id": "AIPOM",
-        "ndex": 190,
+    "V0190_POKEMON_AIPOM": {
+        "id": "V0190_POKEMON_AIPOM",
+        "ndex": 192,
         "name": "Aipom",
         "stats": {
             "baseStamina": 110,
@@ -4018,9 +4102,9 @@
             "AERIAL_ACE"
         ]
     },
-    "SUNKERN": {
-        "id": "SUNKERN",
-        "ndex": 191,
+    "V0191_POKEMON_SUNKERN": {
+        "id": "V0191_POKEMON_SUNKERN",
+        "ndex": 193,
         "name": "Sunkern",
         "stats": {
             "baseStamina": 60,
@@ -4038,9 +4122,9 @@
             "SEED_BOMB"
         ]
     },
-    "SUNFLORA": {
-        "id": "SUNFLORA",
-        "ndex": 192,
+    "V0192_POKEMON_SUNFLORA": {
+        "id": "V0192_POKEMON_SUNFLORA",
+        "ndex": 194,
         "name": "Sunflora",
         "stats": {
             "baseStamina": 150,
@@ -4058,9 +4142,9 @@
             "SLUDGE_BOMB"
         ]
     },
-    "YANMA": {
-        "id": "YANMA",
-        "ndex": 193,
+    "V0193_POKEMON_YANMA": {
+        "id": "V0193_POKEMON_YANMA",
+        "ndex": 195,
         "name": "Yanma",
         "stats": {
             "baseStamina": 130,
@@ -4079,9 +4163,9 @@
             "SILVER_WIND"
         ]
     },
-    "WOOPER": {
-        "id": "WOOPER",
-        "ndex": 194,
+    "V0194_POKEMON_WOOPER": {
+        "id": "V0194_POKEMON_WOOPER",
+        "ndex": 196,
         "name": "Wooper",
         "stats": {
             "baseStamina": 110,
@@ -4100,9 +4184,9 @@
             "BODY_SLAM"
         ]
     },
-    "QUAGSIRE": {
-        "id": "QUAGSIRE",
-        "ndex": 195,
+    "V0195_POKEMON_QUAGSIRE": {
+        "id": "V0195_POKEMON_QUAGSIRE",
+        "ndex": 197,
         "name": "Quagsire",
         "stats": {
             "baseStamina": 190,
@@ -4121,9 +4205,9 @@
             "STONE_EDGE"
         ]
     },
-    "ESPEON": {
-        "id": "ESPEON",
-        "ndex": 196,
+    "V0196_POKEMON_ESPEON": {
+        "id": "V0196_POKEMON_ESPEON",
+        "ndex": 198,
         "name": "Espeon",
         "stats": {
             "baseStamina": 130,
@@ -4141,9 +4225,9 @@
             "FUTURESIGHT"
         ]
     },
-    "UMBREON": {
-        "id": "UMBREON",
-        "ndex": 197,
+    "V0197_POKEMON_UMBREON": {
+        "id": "V0197_POKEMON_UMBREON",
+        "ndex": 199,
         "name": "Umbreon",
         "stats": {
             "baseStamina": 190,
@@ -4160,9 +4244,9 @@
             "FOUL_PLAY"
         ]
     },
-    "MURKROW": {
-        "id": "MURKROW",
-        "ndex": 198,
+    "V0198_POKEMON_MURKROW": {
+        "id": "V0198_POKEMON_MURKROW",
+        "ndex": 200,
         "name": "Murkrow",
         "stats": {
             "baseStamina": 120,
@@ -4181,9 +4265,9 @@
             "DARK_PULSE"
         ]
     },
-    "SLOWKING": {
-        "id": "SLOWKING",
-        "ndex": 199,
+    "V0199_POKEMON_SLOWKING": {
+        "id": "V0199_POKEMON_SLOWKING",
+        "ndex": 201,
         "name": "Slowking",
         "stats": {
             "baseStamina": 190,
@@ -4202,9 +4286,9 @@
             "FIRE_BLAST"
         ]
     },
-    "MISDREAVUS": {
-        "id": "MISDREAVUS",
-        "ndex": 200,
+    "V0200_POKEMON_MISDREAVUS": {
+        "id": "V0200_POKEMON_MISDREAVUS",
+        "ndex": 202,
         "name": "Misdreavus",
         "stats": {
             "baseStamina": 120,
@@ -4222,9 +4306,9 @@
             "OMINOUS_WIND"
         ]
     },
-    "UNOWN": {
-        "id": "UNOWN",
-        "ndex": 201,
+    "V0201_POKEMON_UNOWN": {
+        "id": "V0201_POKEMON_UNOWN",
+        "ndex": 203,
         "name": "Unown",
         "stats": {
             "baseStamina": 96,
@@ -4239,9 +4323,9 @@
             "STRUGGLE"
         ]
     },
-    "WOBBUFFET": {
-        "id": "WOBBUFFET",
-        "ndex": 202,
+    "V0202_POKEMON_WOBBUFFET": {
+        "id": "V0202_POKEMON_WOBBUFFET",
+        "ndex": 204,
         "name": "Wobbuffet",
         "stats": {
             "baseStamina": 380,
@@ -4257,9 +4341,9 @@
             "MIRROR_COAT"
         ]
     },
-    "GIRAFARIG": {
-        "id": "GIRAFARIG",
-        "ndex": 203,
+    "V0203_POKEMON_GIRAFARIG": {
+        "id": "V0203_POKEMON_GIRAFARIG",
+        "ndex": 205,
         "name": "Girafarig",
         "stats": {
             "baseStamina": 140,
@@ -4278,9 +4362,9 @@
             "MIRROR_COAT"
         ]
     },
-    "PINECO": {
-        "id": "PINECO",
-        "ndex": 204,
+    "V0204_POKEMON_PINECO": {
+        "id": "V0204_POKEMON_PINECO",
+        "ndex": 206,
         "name": "Pineco",
         "stats": {
             "baseStamina": 100,
@@ -4298,9 +4382,9 @@
             "SAND_TOMB"
         ]
     },
-    "FORRETRESS": {
-        "id": "FORRETRESS",
-        "ndex": 205,
+    "V0205_POKEMON_FORRETRESS": {
+        "id": "V0205_POKEMON_FORRETRESS",
+        "ndex": 207,
         "name": "Forretress",
         "stats": {
             "baseStamina": 150,
@@ -4319,9 +4403,9 @@
             "ROCK_TOMB"
         ]
     },
-    "DUNSPARCE": {
-        "id": "DUNSPARCE",
-        "ndex": 206,
+    "V0206_POKEMON_DUNSPARCE": {
+        "id": "V0206_POKEMON_DUNSPARCE",
+        "ndex": 208,
         "name": "Dunsparce",
         "stats": {
             "baseStamina": 200,
@@ -4339,9 +4423,9 @@
             "DRILL_RUN"
         ]
     },
-    "GLIGAR": {
-        "id": "GLIGAR",
-        "ndex": 207,
+    "V0207_POKEMON_GLIGAR": {
+        "id": "V0207_POKEMON_GLIGAR",
+        "ndex": 209,
         "name": "Gligar",
         "stats": {
             "baseStamina": 130,
@@ -4360,9 +4444,9 @@
             "NIGHT_SLASH"
         ]
     },
-    "STEELIX": {
-        "id": "STEELIX",
-        "ndex": 208,
+    "V0208_POKEMON_STEELIX": {
+        "id": "V0208_POKEMON_STEELIX",
+        "ndex": 210,
         "name": "Steelix",
         "stats": {
             "baseStamina": 150,
@@ -4381,9 +4465,9 @@
             "CRUNCH"
         ]
     },
-    "SNUBBULL": {
-        "id": "SNUBBULL",
-        "ndex": 209,
+    "V0209_POKEMON_SNUBBULL": {
+        "id": "V0209_POKEMON_SNUBBULL",
+        "ndex": 211,
         "name": "Snubbull",
         "stats": {
             "baseStamina": 120,
@@ -4401,9 +4485,9 @@
             "BRICK_BREAK"
         ]
     },
-    "GRANBULL": {
-        "id": "GRANBULL",
-        "ndex": 210,
+    "V0210_POKEMON_GRANBULL": {
+        "id": "V0210_POKEMON_GRANBULL",
+        "ndex": 212,
         "name": "Granbull",
         "stats": {
             "baseStamina": 180,
@@ -4421,9 +4505,9 @@
             "CLOSE_COMBAT"
         ]
     },
-    "QWILFISH": {
-        "id": "QWILFISH",
-        "ndex": 211,
+    "V0211_POKEMON_QWILFISH": {
+        "id": "V0211_POKEMON_QWILFISH",
+        "ndex": 213,
         "name": "Qwilfish",
         "stats": {
             "baseStamina": 130,
@@ -4442,9 +4526,9 @@
             "SLUDGE_WAVE"
         ]
     },
-    "SCIZOR": {
-        "id": "SCIZOR",
-        "ndex": 212,
+    "V0212_POKEMON_SCIZOR": {
+        "id": "V0212_POKEMON_SCIZOR",
+        "ndex": 214,
         "name": "Scizor",
         "stats": {
             "baseStamina": 140,
@@ -4463,9 +4547,9 @@
             "NIGHT_SLASH"
         ]
     },
-    "SHUCKLE": {
-        "id": "SHUCKLE",
-        "ndex": 213,
+    "V0213_POKEMON_SHUCKLE": {
+        "id": "V0213_POKEMON_SHUCKLE",
+        "ndex": 215,
         "name": "Shuckle",
         "stats": {
             "baseStamina": 40,
@@ -4484,9 +4568,9 @@
             "GYRO_BALL"
         ]
     },
-    "HERACROSS": {
-        "id": "HERACROSS",
-        "ndex": 214,
+    "V0214_POKEMON_HERACROSS": {
+        "id": "V0214_POKEMON_HERACROSS",
+        "ndex": 216,
         "name": "Heracross",
         "stats": {
             "baseStamina": 160,
@@ -4505,9 +4589,9 @@
             "EARTHQUAKE"
         ]
     },
-    "SNEASEL": {
-        "id": "SNEASEL",
-        "ndex": 215,
+    "V0215_POKEMON_SNEASEL": {
+        "id": "V0215_POKEMON_SNEASEL",
+        "ndex": 217,
         "name": "Sneasel",
         "stats": {
             "baseStamina": 110,
@@ -4526,9 +4610,9 @@
             "FOUL_PLAY"
         ]
     },
-    "TEDDIURSA": {
-        "id": "TEDDIURSA",
-        "ndex": 216,
+    "V0216_POKEMON_TEDDIURSA": {
+        "id": "V0216_POKEMON_TEDDIURSA",
+        "ndex": 218,
         "name": "Teddiursa",
         "stats": {
             "baseStamina": 120,
@@ -4546,9 +4630,9 @@
             "PLAY_ROUGH"
         ]
     },
-    "URSARING": {
-        "id": "URSARING",
-        "ndex": 217,
+    "V0217_POKEMON_URSARING": {
+        "id": "V0217_POKEMON_URSARING",
+        "ndex": 219,
         "name": "Ursaring",
         "stats": {
             "baseStamina": 180,
@@ -4566,9 +4650,9 @@
             "PLAY_ROUGH"
         ]
     },
-    "SLUGMA": {
-        "id": "SLUGMA",
-        "ndex": 218,
+    "V0218_POKEMON_SLUGMA": {
+        "id": "V0218_POKEMON_SLUGMA",
+        "ndex": 220,
         "name": "Slugma",
         "stats": {
             "baseStamina": 80,
@@ -4586,9 +4670,9 @@
             "ROCK_SLIDE"
         ]
     },
-    "MAGCARGO": {
-        "id": "MAGCARGO",
-        "ndex": 219,
+    "V0219_POKEMON_MAGCARGO": {
+        "id": "V0219_POKEMON_MAGCARGO",
+        "ndex": 221,
         "name": "Magcargo",
         "stats": {
             "baseStamina": 100,
@@ -4607,9 +4691,9 @@
             "STONE_EDGE"
         ]
     },
-    "SWINUB": {
-        "id": "SWINUB",
-        "ndex": 220,
+    "V0220_POKEMON_SWINUB": {
+        "id": "V0220_POKEMON_SWINUB",
+        "ndex": 222,
         "name": "Swinub",
         "stats": {
             "baseStamina": 100,
@@ -4628,9 +4712,9 @@
             "ROCK_SLIDE"
         ]
     },
-    "PILOSWINE": {
-        "id": "PILOSWINE",
-        "ndex": 221,
+    "V0221_POKEMON_PILOSWINE": {
+        "id": "V0221_POKEMON_PILOSWINE",
+        "ndex": 223,
         "name": "Piloswine",
         "stats": {
             "baseStamina": 200,
@@ -4649,9 +4733,9 @@
             "STONE_EDGE"
         ]
     },
-    "CORSOLA": {
-        "id": "CORSOLA",
-        "ndex": 222,
+    "V0222_POKEMON_CORSOLA": {
+        "id": "V0222_POKEMON_CORSOLA",
+        "ndex": 224,
         "name": "Corsola",
         "stats": {
             "baseStamina": 110,
@@ -4670,9 +4754,9 @@
             "BUBBLE_BEAM"
         ]
     },
-    "REMORAID": {
-        "id": "REMORAID",
-        "ndex": 223,
+    "V0223_POKEMON_REMORAID": {
+        "id": "V0223_POKEMON_REMORAID",
+        "ndex": 225,
         "name": "Remoraid",
         "stats": {
             "baseStamina": 70,
@@ -4690,9 +4774,9 @@
             "ROCK_BLAST"
         ]
     },
-    "OCTILLERY": {
-        "id": "OCTILLERY",
-        "ndex": 224,
+    "V0224_POKEMON_OCTILLERY": {
+        "id": "V0224_POKEMON_OCTILLERY",
+        "ndex": 226,
         "name": "Octillery",
         "stats": {
             "baseStamina": 150,
@@ -4710,9 +4794,9 @@
             "AURORA_BEAM"
         ]
     },
-    "DELIBIRD": {
-        "id": "DELIBIRD",
-        "ndex": 225,
+    "V0225_POKEMON_DELIBIRD": {
+        "id": "V0225_POKEMON_DELIBIRD",
+        "ndex": 227,
         "name": "Delibird",
         "stats": {
             "baseStamina": 90,
@@ -4722,6 +4806,7 @@
         "type": "POKEMON_TYPE_ICE",
         "type2": "POKEMON_TYPE_FLYING",
         "quickMoves": [
+            "PRESENT_FAST",
             "ICE_SHARD_FAST",
             "QUICK_ATTACK_FAST"
         ],
@@ -4731,9 +4816,9 @@
             "AERIAL_ACE"
         ]
     },
-    "MANTINE": {
-        "id": "MANTINE",
-        "ndex": 226,
+    "V0226_POKEMON_MANTINE": {
+        "id": "V0226_POKEMON_MANTINE",
+        "ndex": 228,
         "name": "Mantine",
         "stats": {
             "baseStamina": 130,
@@ -4752,9 +4837,9 @@
             "AERIAL_ACE"
         ]
     },
-    "SKARMORY": {
-        "id": "SKARMORY",
-        "ndex": 227,
+    "V0227_POKEMON_SKARMORY": {
+        "id": "V0227_POKEMON_SKARMORY",
+        "ndex": 229,
         "name": "Skarmory",
         "stats": {
             "baseStamina": 130,
@@ -4773,9 +4858,9 @@
             "FLASH_CANNON"
         ]
     },
-    "HOUNDOUR": {
-        "id": "HOUNDOUR",
-        "ndex": 228,
+    "V0228_POKEMON_HOUNDOUR": {
+        "id": "V0228_POKEMON_HOUNDOUR",
+        "ndex": 230,
         "name": "Houndour",
         "stats": {
             "baseStamina": 90,
@@ -4794,9 +4879,9 @@
             "DARK_PULSE"
         ]
     },
-    "HOUNDOOM": {
-        "id": "HOUNDOOM",
-        "ndex": 229,
+    "V0229_POKEMON_HOUNDOOM": {
+        "id": "V0229_POKEMON_HOUNDOOM",
+        "ndex": 231,
         "name": "Houndoom",
         "stats": {
             "baseStamina": 150,
@@ -4815,9 +4900,9 @@
             "FOUL_PLAY"
         ]
     },
-    "KINGDRA": {
-        "id": "KINGDRA",
-        "ndex": 230,
+    "V0230_POKEMON_KINGDRA": {
+        "id": "V0230_POKEMON_KINGDRA",
+        "ndex": 232,
         "name": "Kingdra",
         "stats": {
             "baseStamina": 150,
@@ -4837,9 +4922,9 @@
             "OUTRAGE"
         ]
     },
-    "PHANPY": {
-        "id": "PHANPY",
-        "ndex": 231,
+    "V0231_POKEMON_PHANPY": {
+        "id": "V0231_POKEMON_PHANPY",
+        "ndex": 233,
         "name": "Phanpy",
         "stats": {
             "baseStamina": 180,
@@ -4857,9 +4942,9 @@
             "BODY_SLAM"
         ]
     },
-    "DONPHAN": {
-        "id": "DONPHAN",
-        "ndex": 232,
+    "V0232_POKEMON_DONPHAN": {
+        "id": "V0232_POKEMON_DONPHAN",
+        "ndex": 234,
         "name": "Donphan",
         "stats": {
             "baseStamina": 180,
@@ -4877,9 +4962,9 @@
             "PLAY_ROUGH"
         ]
     },
-    "PORYGON2": {
-        "id": "PORYGON2",
-        "ndex": 233,
+    "V0233_POKEMON_PORYGON2": {
+        "id": "V0233_POKEMON_PORYGON2",
+        "ndex": 235,
         "name": "Porygon2",
         "stats": {
             "baseStamina": 170,
@@ -4897,9 +4982,9 @@
             "ZAP_CANNON"
         ]
     },
-    "STANTLER": {
-        "id": "STANTLER",
-        "ndex": 234,
+    "V0234_POKEMON_STANTLER": {
+        "id": "V0234_POKEMON_STANTLER",
+        "ndex": 236,
         "name": "Stantler",
         "stats": {
             "baseStamina": 146,
@@ -4917,9 +5002,9 @@
             "MEGAHORN"
         ]
     },
-    "SMEARGLE": {
-        "id": "SMEARGLE",
-        "ndex": 235,
+    "V0235_POKEMON_SMEARGLE": {
+        "id": "V0235_POKEMON_SMEARGLE",
+        "ndex": 237,
         "name": "Smeargle",
         "stats": {
             "baseStamina": 110,
@@ -4934,9 +5019,9 @@
             "STRUGGLE"
         ]
     },
-    "TYROGUE": {
-        "id": "TYROGUE",
-        "ndex": 236,
+    "V0236_POKEMON_TYROGUE": {
+        "id": "V0236_POKEMON_TYROGUE",
+        "ndex": 238,
         "name": "Tyrogue",
         "stats": {
             "baseStamina": 70,
@@ -4956,9 +5041,9 @@
             "BODY_SLAM"
         ]
     },
-    "HITMONTOP": {
-        "id": "HITMONTOP",
-        "ndex": 237,
+    "V0237_POKEMON_HITMONTOP": {
+        "id": "V0237_POKEMON_HITMONTOP",
+        "ndex": 239,
         "name": "Hitmontop",
         "stats": {
             "baseStamina": 100,
@@ -4976,9 +5061,9 @@
             "STONE_EDGE"
         ]
     },
-    "SMOOCHUM": {
-        "id": "SMOOCHUM",
-        "ndex": 238,
+    "V0238_POKEMON_SMOOCHUM": {
+        "id": "V0238_POKEMON_SMOOCHUM",
+        "ndex": 240,
         "name": "Smoochum",
         "stats": {
             "baseStamina": 90,
@@ -4998,9 +5083,9 @@
             "PSYSHOCK"
         ]
     },
-    "ELEKID": {
-        "id": "ELEKID",
-        "ndex": 239,
+    "V0239_POKEMON_ELEKID": {
+        "id": "V0239_POKEMON_ELEKID",
+        "ndex": 241,
         "name": "Elekid",
         "stats": {
             "baseStamina": 90,
@@ -5019,9 +5104,9 @@
             "THUNDERBOLT"
         ]
     },
-    "MAGBY": {
-        "id": "MAGBY",
-        "ndex": 240,
+    "V0240_POKEMON_MAGBY": {
+        "id": "V0240_POKEMON_MAGBY",
+        "ndex": 242,
         "name": "Magby",
         "stats": {
             "baseStamina": 90,
@@ -5040,9 +5125,9 @@
             "FLAMETHROWER"
         ]
     },
-    "MILTANK": {
-        "id": "MILTANK",
-        "ndex": 241,
+    "V0241_POKEMON_MILTANK": {
+        "id": "V0241_POKEMON_MILTANK",
+        "ndex": 243,
         "name": "Miltank",
         "stats": {
             "baseStamina": 190,
@@ -5060,9 +5145,9 @@
             "GYRO_BALL"
         ]
     },
-    "BLISSEY": {
-        "id": "BLISSEY",
-        "ndex": 242,
+    "V0242_POKEMON_BLISSEY": {
+        "id": "V0242_POKEMON_BLISSEY",
+        "ndex": 244,
         "name": "Blissey",
         "stats": {
             "baseStamina": 510,
@@ -5080,9 +5165,9 @@
             "DAZZLING_GLEAM"
         ]
     },
-    "RAIKOU": {
-        "id": "RAIKOU",
-        "ndex": 243,
+    "V0243_POKEMON_RAIKOU": {
+        "id": "V0243_POKEMON_RAIKOU",
+        "ndex": 245,
         "name": "Raikou",
         "stats": {
             "baseStamina": 180,
@@ -5100,9 +5185,9 @@
             "WILD_CHARGE"
         ]
     },
-    "ENTEI": {
-        "id": "ENTEI",
-        "ndex": 244,
+    "V0244_POKEMON_ENTEI": {
+        "id": "V0244_POKEMON_ENTEI",
+        "ndex": 246,
         "name": "Entei",
         "stats": {
             "baseStamina": 230,
@@ -5120,9 +5205,9 @@
             "OVERHEAT"
         ]
     },
-    "SUICUNE": {
-        "id": "SUICUNE",
-        "ndex": 245,
+    "V0245_POKEMON_SUICUNE": {
+        "id": "V0245_POKEMON_SUICUNE",
+        "ndex": 247,
         "name": "Suicune",
         "stats": {
             "baseStamina": 200,
@@ -5141,9 +5226,9 @@
             "WATER_PULSE"
         ]
     },
-    "LARVITAR": {
-        "id": "LARVITAR",
-        "ndex": 246,
+    "V0246_POKEMON_LARVITAR": {
+        "id": "V0246_POKEMON_LARVITAR",
+        "ndex": 248,
         "name": "Larvitar",
         "stats": {
             "baseStamina": 100,
@@ -5162,9 +5247,9 @@
             "ANCIENT_POWER"
         ]
     },
-    "PUPITAR": {
-        "id": "PUPITAR",
-        "ndex": 247,
+    "V0247_POKEMON_PUPITAR": {
+        "id": "V0247_POKEMON_PUPITAR",
+        "ndex": 249,
         "name": "Pupitar",
         "stats": {
             "baseStamina": 140,
@@ -5183,9 +5268,9 @@
             "ANCIENT_POWER"
         ]
     },
-    "TYRANITAR": {
-        "id": "TYRANITAR",
-        "ndex": 248,
+    "V0248_POKEMON_TYRANITAR": {
+        "id": "V0248_POKEMON_TYRANITAR",
+        "ndex": 250,
         "name": "Tyranitar",
         "stats": {
             "baseStamina": 200,
@@ -5204,9 +5289,9 @@
             "STONE_EDGE"
         ]
     },
-    "LUGIA": {
-        "id": "LUGIA",
-        "ndex": 249,
+    "V0249_POKEMON_LUGIA": {
+        "id": "V0249_POKEMON_LUGIA",
+        "ndex": 251,
         "name": "Lugia",
         "stats": {
             "baseStamina": 212,
@@ -5225,9 +5310,9 @@
             "FUTURESIGHT"
         ]
     },
-    "HO_OH": {
-        "id": "HO_OH",
-        "ndex": 250,
+    "V0250_POKEMON_HO_OH": {
+        "id": "V0250_POKEMON_HO_OH",
+        "ndex": 252,
         "name": "Ho-oh",
         "stats": {
             "baseStamina": 193,
@@ -5246,9 +5331,9 @@
             "SOLAR_BEAM"
         ]
     },
-    "CELEBI": {
-        "id": "CELEBI",
-        "ndex": 251,
+    "V0251_POKEMON_CELEBI": {
+        "id": "V0251_POKEMON_CELEBI",
+        "ndex": 253,
         "name": "Celebi",
         "stats": {
             "baseStamina": 200,
@@ -5267,9 +5352,9 @@
             "DAZZLING_GLEAM"
         ]
     },
-    "TREECKO": {
-        "id": "TREECKO",
-        "ndex": 252,
+    "V0252_POKEMON_TREECKO": {
+        "id": "V0252_POKEMON_TREECKO",
+        "ndex": 254,
         "name": "Treecko",
         "stats": {
             "baseStamina": 80,
@@ -5289,9 +5374,9 @@
             "STRUGGLE"
         ]
     },
-    "GROVYLE": {
-        "id": "GROVYLE",
-        "ndex": 253,
+    "V0253_POKEMON_GROVYLE": {
+        "id": "V0253_POKEMON_GROVYLE",
+        "ndex": 255,
         "name": "Grovyle",
         "stats": {
             "baseStamina": 100,
@@ -5311,9 +5396,9 @@
             "STRUGGLE"
         ]
     },
-    "SCEPTILE": {
-        "id": "SCEPTILE",
-        "ndex": 254,
+    "V0254_POKEMON_SCEPTILE": {
+        "id": "V0254_POKEMON_SCEPTILE",
+        "ndex": 256,
         "name": "Sceptile",
         "stats": {
             "baseStamina": 140,
@@ -5333,9 +5418,9 @@
             "STRUGGLE"
         ]
     },
-    "TORCHIC": {
-        "id": "TORCHIC",
-        "ndex": 255,
+    "V0255_POKEMON_TORCHIC": {
+        "id": "V0255_POKEMON_TORCHIC",
+        "ndex": 257,
         "name": "Torchic",
         "stats": {
             "baseStamina": 90,
@@ -5355,9 +5440,9 @@
             "STRUGGLE"
         ]
     },
-    "COMBUSKEN": {
-        "id": "COMBUSKEN",
-        "ndex": 256,
+    "V0256_POKEMON_COMBUSKEN": {
+        "id": "V0256_POKEMON_COMBUSKEN",
+        "ndex": 258,
         "name": "Combusken",
         "stats": {
             "baseStamina": 120,
@@ -5378,9 +5463,9 @@
             "STRUGGLE"
         ]
     },
-    "BLAZIKEN": {
-        "id": "BLAZIKEN",
-        "ndex": 257,
+    "V0257_POKEMON_BLAZIKEN": {
+        "id": "V0257_POKEMON_BLAZIKEN",
+        "ndex": 259,
         "name": "Blaziken",
         "stats": {
             "baseStamina": 160,
@@ -5401,9 +5486,9 @@
             "STRUGGLE"
         ]
     },
-    "MUDKIP": {
-        "id": "MUDKIP",
-        "ndex": 258,
+    "V0258_POKEMON_MUDKIP": {
+        "id": "V0258_POKEMON_MUDKIP",
+        "ndex": 260,
         "name": "Mudkip",
         "stats": {
             "baseStamina": 100,
@@ -5423,9 +5508,9 @@
             "STRUGGLE"
         ]
     },
-    "MARSHTOMP": {
-        "id": "MARSHTOMP",
-        "ndex": 259,
+    "V0259_POKEMON_MARSHTOMP": {
+        "id": "V0259_POKEMON_MARSHTOMP",
+        "ndex": 261,
         "name": "Marshtomp",
         "stats": {
             "baseStamina": 140,
@@ -5446,9 +5531,9 @@
             "STRUGGLE"
         ]
     },
-    "SWAMPERT": {
-        "id": "SWAMPERT",
-        "ndex": 260,
+    "V0260_POKEMON_SWAMPERT": {
+        "id": "V0260_POKEMON_SWAMPERT",
+        "ndex": 262,
         "name": "Swampert",
         "stats": {
             "baseStamina": 200,
@@ -5469,9 +5554,9 @@
             "STRUGGLE"
         ]
     },
-    "POOCHYENA": {
-        "id": "POOCHYENA",
-        "ndex": 261,
+    "V0261_POKEMON_POOCHYENA": {
+        "id": "V0261_POKEMON_POOCHYENA",
+        "ndex": 263,
         "name": "Poochyena",
         "stats": {
             "baseStamina": 70,
@@ -5491,9 +5576,9 @@
             "STRUGGLE"
         ]
     },
-    "MIGHTYENA": {
-        "id": "MIGHTYENA",
-        "ndex": 262,
+    "V0262_POKEMON_MIGHTYENA": {
+        "id": "V0262_POKEMON_MIGHTYENA",
+        "ndex": 264,
         "name": "Mightyena",
         "stats": {
             "baseStamina": 140,
@@ -5513,9 +5598,9 @@
             "STRUGGLE"
         ]
     },
-    "ZIGZAGOON": {
-        "id": "ZIGZAGOON",
-        "ndex": 263,
+    "V0263_POKEMON_ZIGZAGOON": {
+        "id": "V0263_POKEMON_ZIGZAGOON",
+        "ndex": 265,
         "name": "Zigzagoon",
         "stats": {
             "baseStamina": 76,
@@ -5535,9 +5620,9 @@
             "STRUGGLE"
         ]
     },
-    "LINOONE": {
-        "id": "LINOONE",
-        "ndex": 264,
+    "V0264_POKEMON_LINOONE": {
+        "id": "V0264_POKEMON_LINOONE",
+        "ndex": 266,
         "name": "Linoone",
         "stats": {
             "baseStamina": 156,
@@ -5557,9 +5642,9 @@
             "STRUGGLE"
         ]
     },
-    "WURMPLE": {
-        "id": "WURMPLE",
-        "ndex": 265,
+    "V0265_POKEMON_WURMPLE": {
+        "id": "V0265_POKEMON_WURMPLE",
+        "ndex": 267,
         "name": "Wurmple",
         "stats": {
             "baseStamina": 90,
@@ -5576,9 +5661,9 @@
             "STRUGGLE"
         ]
     },
-    "SILCOON": {
-        "id": "SILCOON",
-        "ndex": 266,
+    "V0266_POKEMON_SILCOON": {
+        "id": "V0266_POKEMON_SILCOON",
+        "ndex": 268,
         "name": "Silcoon",
         "stats": {
             "baseStamina": 100,
@@ -5595,9 +5680,9 @@
             "STRUGGLE"
         ]
     },
-    "BEAUTIFLY": {
-        "id": "BEAUTIFLY",
-        "ndex": 267,
+    "V0267_POKEMON_BEAUTIFLY": {
+        "id": "V0267_POKEMON_BEAUTIFLY",
+        "ndex": 269,
         "name": "Beautifly",
         "stats": {
             "baseStamina": 120,
@@ -5618,9 +5703,9 @@
             "STRUGGLE"
         ]
     },
-    "CASCOON": {
-        "id": "CASCOON",
-        "ndex": 268,
+    "V0268_POKEMON_CASCOON": {
+        "id": "V0268_POKEMON_CASCOON",
+        "ndex": 270,
         "name": "Cascoon",
         "stats": {
             "baseStamina": 100,
@@ -5637,9 +5722,9 @@
             "STRUGGLE"
         ]
     },
-    "DUSTOX": {
-        "id": "DUSTOX",
-        "ndex": 269,
+    "V0269_POKEMON_DUSTOX": {
+        "id": "V0269_POKEMON_DUSTOX",
+        "ndex": 271,
         "name": "Dustox",
         "stats": {
             "baseStamina": 120,
@@ -5660,9 +5745,9 @@
             "STRUGGLE"
         ]
     },
-    "LOTAD": {
-        "id": "LOTAD",
-        "ndex": 270,
+    "V0270_POKEMON_LOTAD": {
+        "id": "V0270_POKEMON_LOTAD",
+        "ndex": 272,
         "name": "Lotad",
         "stats": {
             "baseStamina": 80,
@@ -5682,9 +5767,9 @@
             "STRUGGLE"
         ]
     },
-    "LOMBRE": {
-        "id": "LOMBRE",
-        "ndex": 271,
+    "V0271_POKEMON_LOMBRE": {
+        "id": "V0271_POKEMON_LOMBRE",
+        "ndex": 273,
         "name": "Lombre",
         "stats": {
             "baseStamina": 120,
@@ -5705,9 +5790,9 @@
             "STRUGGLE"
         ]
     },
-    "LUDICOLO": {
-        "id": "LUDICOLO",
-        "ndex": 272,
+    "V0272_POKEMON_LUDICOLO": {
+        "id": "V0272_POKEMON_LUDICOLO",
+        "ndex": 274,
         "name": "Ludicolo",
         "stats": {
             "baseStamina": 160,
@@ -5728,9 +5813,9 @@
             "STRUGGLE"
         ]
     },
-    "SEEDOT": {
-        "id": "SEEDOT",
-        "ndex": 273,
+    "V0273_POKEMON_SEEDOT": {
+        "id": "V0273_POKEMON_SEEDOT",
+        "ndex": 275,
         "name": "Seedot",
         "stats": {
             "baseStamina": 80,
@@ -5750,9 +5835,9 @@
             "STRUGGLE"
         ]
     },
-    "NUZLEAF": {
-        "id": "NUZLEAF",
-        "ndex": 274,
+    "V0274_POKEMON_NUZLEAF": {
+        "id": "V0274_POKEMON_NUZLEAF",
+        "ndex": 276,
         "name": "Nuzleaf",
         "stats": {
             "baseStamina": 140,
@@ -5773,9 +5858,9 @@
             "STRUGGLE"
         ]
     },
-    "SHIFTRY": {
-        "id": "SHIFTRY",
-        "ndex": 275,
+    "V0275_POKEMON_SHIFTRY": {
+        "id": "V0275_POKEMON_SHIFTRY",
+        "ndex": 277,
         "name": "Shiftry",
         "stats": {
             "baseStamina": 180,
@@ -5796,9 +5881,9 @@
             "STRUGGLE"
         ]
     },
-    "TAILLOW": {
-        "id": "TAILLOW",
-        "ndex": 276,
+    "V0276_POKEMON_TAILLOW": {
+        "id": "V0276_POKEMON_TAILLOW",
+        "ndex": 278,
         "name": "Taillow",
         "stats": {
             "baseStamina": 80,
@@ -5817,9 +5902,9 @@
             "STRUGGLE"
         ]
     },
-    "SWELLOW": {
-        "id": "SWELLOW",
-        "ndex": 277,
+    "V0277_POKEMON_SWELLOW": {
+        "id": "V0277_POKEMON_SWELLOW",
+        "ndex": 279,
         "name": "Swellow",
         "stats": {
             "baseStamina": 120,
@@ -5840,9 +5925,9 @@
             "STRUGGLE"
         ]
     },
-    "WINGULL": {
-        "id": "WINGULL",
-        "ndex": 278,
+    "V0278_POKEMON_WINGULL": {
+        "id": "V0278_POKEMON_WINGULL",
+        "ndex": 280,
         "name": "Wingull",
         "stats": {
             "baseStamina": 80,
@@ -5863,9 +5948,9 @@
             "STRUGGLE"
         ]
     },
-    "PELIPPER": {
-        "id": "PELIPPER",
-        "ndex": 279,
+    "V0279_POKEMON_PELIPPER": {
+        "id": "V0279_POKEMON_PELIPPER",
+        "ndex": 281,
         "name": "Pelipper",
         "stats": {
             "baseStamina": 120,
@@ -5886,9 +5971,9 @@
             "STRUGGLE"
         ]
     },
-    "RALTS": {
-        "id": "RALTS",
-        "ndex": 280,
+    "V0280_POKEMON_RALTS": {
+        "id": "V0280_POKEMON_RALTS",
+        "ndex": 282,
         "name": "Ralts",
         "stats": {
             "baseStamina": 56,
@@ -5909,9 +5994,9 @@
             "STRUGGLE"
         ]
     },
-    "KIRLIA": {
-        "id": "KIRLIA",
-        "ndex": 281,
+    "V0281_POKEMON_KIRLIA": {
+        "id": "V0281_POKEMON_KIRLIA",
+        "ndex": 283,
         "name": "Kirlia",
         "stats": {
             "baseStamina": 76,
@@ -5932,9 +6017,9 @@
             "STRUGGLE"
         ]
     },
-    "GARDEVOIR": {
-        "id": "GARDEVOIR",
-        "ndex": 282,
+    "V0282_POKEMON_GARDEVOIR": {
+        "id": "V0282_POKEMON_GARDEVOIR",
+        "ndex": 284,
         "name": "Gardevoir",
         "stats": {
             "baseStamina": 136,
@@ -5955,9 +6040,9 @@
             "STRUGGLE"
         ]
     },
-    "SURSKIT": {
-        "id": "SURSKIT",
-        "ndex": 283,
+    "V0283_POKEMON_SURSKIT": {
+        "id": "V0283_POKEMON_SURSKIT",
+        "ndex": 285,
         "name": "Surskit",
         "stats": {
             "baseStamina": 80,
@@ -5978,9 +6063,9 @@
             "STRUGGLE"
         ]
     },
-    "MASQUERAIN": {
-        "id": "MASQUERAIN",
-        "ndex": 284,
+    "V0284_POKEMON_MASQUERAIN": {
+        "id": "V0284_POKEMON_MASQUERAIN",
+        "ndex": 286,
         "name": "Masquerain",
         "stats": {
             "baseStamina": 140,
@@ -6001,9 +6086,9 @@
             "STRUGGLE"
         ]
     },
-    "SHROOMISH": {
-        "id": "SHROOMISH",
-        "ndex": 285,
+    "V0285_POKEMON_SHROOMISH": {
+        "id": "V0285_POKEMON_SHROOMISH",
+        "ndex": 287,
         "name": "Shroomish",
         "stats": {
             "baseStamina": 120,
@@ -6023,9 +6108,9 @@
             "STRUGGLE"
         ]
     },
-    "BRELOOM": {
-        "id": "BRELOOM",
-        "ndex": 286,
+    "V0286_POKEMON_BRELOOM": {
+        "id": "V0286_POKEMON_BRELOOM",
+        "ndex": 288,
         "name": "Breloom",
         "stats": {
             "baseStamina": 120,
@@ -6046,9 +6131,9 @@
             "STRUGGLE"
         ]
     },
-    "SLAKOTH": {
-        "id": "SLAKOTH",
-        "ndex": 287,
+    "V0287_POKEMON_SLAKOTH": {
+        "id": "V0287_POKEMON_SLAKOTH",
+        "ndex": 289,
         "name": "Slakoth",
         "stats": {
             "baseStamina": 120,
@@ -6067,9 +6152,9 @@
             "STRUGGLE"
         ]
     },
-    "VIGOROTH": {
-        "id": "VIGOROTH",
-        "ndex": 288,
+    "V0288_POKEMON_VIGOROTH": {
+        "id": "V0288_POKEMON_VIGOROTH",
+        "ndex": 290,
         "name": "Vigoroth",
         "stats": {
             "baseStamina": 160,
@@ -6089,9 +6174,9 @@
             "STRUGGLE"
         ]
     },
-    "SLAKING": {
-        "id": "SLAKING",
-        "ndex": 289,
+    "V0289_POKEMON_SLAKING": {
+        "id": "V0289_POKEMON_SLAKING",
+        "ndex": 291,
         "name": "Slaking",
         "stats": {
             "baseStamina": 273,
@@ -6110,9 +6195,9 @@
             "STRUGGLE"
         ]
     },
-    "NINCADA": {
-        "id": "NINCADA",
-        "ndex": 290,
+    "V0290_POKEMON_NINCADA": {
+        "id": "V0290_POKEMON_NINCADA",
+        "ndex": 292,
         "name": "Nincada",
         "stats": {
             "baseStamina": 62,
@@ -6133,9 +6218,9 @@
             "STRUGGLE"
         ]
     },
-    "NINJASK": {
-        "id": "NINJASK",
-        "ndex": 291,
+    "V0291_POKEMON_NINJASK": {
+        "id": "V0291_POKEMON_NINJASK",
+        "ndex": 293,
         "name": "Ninjask",
         "stats": {
             "baseStamina": 122,
@@ -6156,9 +6241,9 @@
             "STRUGGLE"
         ]
     },
-    "SHEDINJA": {
-        "id": "SHEDINJA",
-        "ndex": 292,
+    "V0292_POKEMON_SHEDINJA": {
+        "id": "V0292_POKEMON_SHEDINJA",
+        "ndex": 294,
         "name": "Shedinja",
         "stats": {
             "baseStamina": 2,
@@ -6179,9 +6264,9 @@
             "STRUGGLE"
         ]
     },
-    "WHISMUR": {
-        "id": "WHISMUR",
-        "ndex": 293,
+    "V0293_POKEMON_WHISMUR": {
+        "id": "V0293_POKEMON_WHISMUR",
+        "ndex": 295,
         "name": "Whismur",
         "stats": {
             "baseStamina": 128,
@@ -6201,9 +6286,9 @@
             "STRUGGLE"
         ]
     },
-    "LOUDRED": {
-        "id": "LOUDRED",
-        "ndex": 294,
+    "V0294_POKEMON_LOUDRED": {
+        "id": "V0294_POKEMON_LOUDRED",
+        "ndex": 296,
         "name": "Loudred",
         "stats": {
             "baseStamina": 168,
@@ -6217,15 +6302,16 @@
             "SPLASH_FAST"
         ],
         "cinematicMoves": [
-            "CRUNCH",
+            "STOMP",
             "DISARMING_VOICE",
             "FLAMETHROWER",
+            "CRUNCH",
             "STRUGGLE"
         ]
     },
-    "EXPLOUD": {
-        "id": "EXPLOUD",
-        "ndex": 295,
+    "V0295_POKEMON_EXPLOUD": {
+        "id": "V0295_POKEMON_EXPLOUD",
+        "ndex": 297,
         "name": "Exploud",
         "stats": {
             "baseStamina": 208,
@@ -6245,9 +6331,9 @@
             "STRUGGLE"
         ]
     },
-    "MAKUHITA": {
-        "id": "MAKUHITA",
-        "ndex": 296,
+    "V0296_POKEMON_MAKUHITA": {
+        "id": "V0296_POKEMON_MAKUHITA",
+        "ndex": 298,
         "name": "Makuhita",
         "stats": {
             "baseStamina": 144,
@@ -6267,9 +6353,9 @@
             "STRUGGLE"
         ]
     },
-    "HARIYAMA": {
-        "id": "HARIYAMA",
-        "ndex": 297,
+    "V0297_POKEMON_HARIYAMA": {
+        "id": "V0297_POKEMON_HARIYAMA",
+        "ndex": 299,
         "name": "Hariyama",
         "stats": {
             "baseStamina": 288,
@@ -6289,9 +6375,9 @@
             "STRUGGLE"
         ]
     },
-    "AZURILL": {
-        "id": "AZURILL",
-        "ndex": 298,
+    "V0298_POKEMON_AZURILL": {
+        "id": "V0298_POKEMON_AZURILL",
+        "ndex": 300,
         "name": "Azurill",
         "stats": {
             "baseStamina": 100,
@@ -6311,9 +6397,9 @@
             "STRUGGLE"
         ]
     },
-    "NOSEPASS": {
-        "id": "NOSEPASS",
-        "ndex": 299,
+    "V0299_POKEMON_NOSEPASS": {
+        "id": "V0299_POKEMON_NOSEPASS",
+        "ndex": 301,
         "name": "Nosepass",
         "stats": {
             "baseStamina": 60,
@@ -6333,9 +6419,9 @@
             "STRUGGLE"
         ]
     },
-    "SKITTY": {
-        "id": "SKITTY",
-        "ndex": 300,
+    "V0300_POKEMON_SKITTY": {
+        "id": "V0300_POKEMON_SKITTY",
+        "ndex": 302,
         "name": "Skitty",
         "stats": {
             "baseStamina": 100,
@@ -6355,9 +6441,9 @@
             "STRUGGLE"
         ]
     },
-    "DELCATTY": {
-        "id": "DELCATTY",
-        "ndex": 301,
+    "V0301_POKEMON_DELCATTY": {
+        "id": "V0301_POKEMON_DELCATTY",
+        "ndex": 303,
         "name": "Delcatty",
         "stats": {
             "baseStamina": 140,
@@ -6377,9 +6463,9 @@
             "STRUGGLE"
         ]
     },
-    "SABLEYE": {
-        "id": "SABLEYE",
-        "ndex": 302,
+    "V0302_POKEMON_SABLEYE": {
+        "id": "V0302_POKEMON_SABLEYE",
+        "ndex": 304,
         "name": "Sableye",
         "stats": {
             "baseStamina": 100,
@@ -6398,9 +6484,9 @@
             "SHADOW_SNEAK"
         ]
     },
-    "MAWILE": {
-        "id": "MAWILE",
-        "ndex": 303,
+    "V0303_POKEMON_MAWILE": {
+        "id": "V0303_POKEMON_MAWILE",
+        "ndex": 305,
         "name": "Mawile",
         "stats": {
             "baseStamina": 100,
@@ -6421,9 +6507,9 @@
             "STRUGGLE"
         ]
     },
-    "ARON": {
-        "id": "ARON",
-        "ndex": 304,
+    "V0304_POKEMON_ARON": {
+        "id": "V0304_POKEMON_ARON",
+        "ndex": 306,
         "name": "Aron",
         "stats": {
             "baseStamina": 100,
@@ -6444,9 +6530,9 @@
             "STRUGGLE"
         ]
     },
-    "LAIRON": {
-        "id": "LAIRON",
-        "ndex": 305,
+    "V0305_POKEMON_LAIRON": {
+        "id": "V0305_POKEMON_LAIRON",
+        "ndex": 307,
         "name": "Lairon",
         "stats": {
             "baseStamina": 120,
@@ -6467,9 +6553,9 @@
             "STRUGGLE"
         ]
     },
-    "AGGRON": {
-        "id": "AGGRON",
-        "ndex": 306,
+    "V0306_POKEMON_AGGRON": {
+        "id": "V0306_POKEMON_AGGRON",
+        "ndex": 308,
         "name": "Aggron",
         "stats": {
             "baseStamina": 140,
@@ -6490,9 +6576,9 @@
             "STRUGGLE"
         ]
     },
-    "MEDITITE": {
-        "id": "MEDITITE",
-        "ndex": 307,
+    "V0307_POKEMON_MEDITITE": {
+        "id": "V0307_POKEMON_MEDITITE",
+        "ndex": 309,
         "name": "Meditite",
         "stats": {
             "baseStamina": 60,
@@ -6513,9 +6599,9 @@
             "STRUGGLE"
         ]
     },
-    "MEDICHAM": {
-        "id": "MEDICHAM",
-        "ndex": 308,
+    "V0308_POKEMON_MEDICHAM": {
+        "id": "V0308_POKEMON_MEDICHAM",
+        "ndex": 310,
         "name": "Medicham",
         "stats": {
             "baseStamina": 120,
@@ -6536,9 +6622,9 @@
             "STRUGGLE"
         ]
     },
-    "ELECTRIKE": {
-        "id": "ELECTRIKE",
-        "ndex": 309,
+    "V0309_POKEMON_ELECTRIKE": {
+        "id": "V0309_POKEMON_ELECTRIKE",
+        "ndex": 311,
         "name": "Electrike",
         "stats": {
             "baseStamina": 80,
@@ -6558,9 +6644,9 @@
             "STRUGGLE"
         ]
     },
-    "MANECTRIC": {
-        "id": "MANECTRIC",
-        "ndex": 310,
+    "V0310_POKEMON_MANECTRIC": {
+        "id": "V0310_POKEMON_MANECTRIC",
+        "ndex": 312,
         "name": "Manectric",
         "stats": {
             "baseStamina": 140,
@@ -6580,9 +6666,9 @@
             "STRUGGLE"
         ]
     },
-    "PLUSLE": {
-        "id": "PLUSLE",
-        "ndex": 311,
+    "V0311_POKEMON_PLUSLE": {
+        "id": "V0311_POKEMON_PLUSLE",
+        "ndex": 313,
         "name": "Plusle",
         "stats": {
             "baseStamina": 120,
@@ -6602,9 +6688,9 @@
             "STRUGGLE"
         ]
     },
-    "MINUN": {
-        "id": "MINUN",
-        "ndex": 312,
+    "V0312_POKEMON_MINUN": {
+        "id": "V0312_POKEMON_MINUN",
+        "ndex": 314,
         "name": "Minun",
         "stats": {
             "baseStamina": 120,
@@ -6624,9 +6710,9 @@
             "STRUGGLE"
         ]
     },
-    "VOLBEAT": {
-        "id": "VOLBEAT",
-        "ndex": 313,
+    "V0313_POKEMON_VOLBEAT": {
+        "id": "V0313_POKEMON_VOLBEAT",
+        "ndex": 315,
         "name": "Volbeat",
         "stats": {
             "baseStamina": 130,
@@ -6646,9 +6732,9 @@
             "STRUGGLE"
         ]
     },
-    "ILLUMISE": {
-        "id": "ILLUMISE",
-        "ndex": 314,
+    "V0314_POKEMON_ILLUMISE": {
+        "id": "V0314_POKEMON_ILLUMISE",
+        "ndex": 316,
         "name": "Illumise",
         "stats": {
             "baseStamina": 130,
@@ -6668,9 +6754,9 @@
             "STRUGGLE"
         ]
     },
-    "ROSELIA": {
-        "id": "ROSELIA",
-        "ndex": 315,
+    "V0315_POKEMON_ROSELIA": {
+        "id": "V0315_POKEMON_ROSELIA",
+        "ndex": 317,
         "name": "Roselia",
         "stats": {
             "baseStamina": 100,
@@ -6691,9 +6777,9 @@
             "STRUGGLE"
         ]
     },
-    "GULPIN": {
-        "id": "GULPIN",
-        "ndex": 316,
+    "V0316_POKEMON_GULPIN": {
+        "id": "V0316_POKEMON_GULPIN",
+        "ndex": 318,
         "name": "Gulpin",
         "stats": {
             "baseStamina": 140,
@@ -6713,9 +6799,9 @@
             "STRUGGLE"
         ]
     },
-    "SWALOT": {
-        "id": "SWALOT",
-        "ndex": 317,
+    "V0317_POKEMON_SWALOT": {
+        "id": "V0317_POKEMON_SWALOT",
+        "ndex": 319,
         "name": "Swalot",
         "stats": {
             "baseStamina": 200,
@@ -6735,9 +6821,9 @@
             "STRUGGLE"
         ]
     },
-    "CARVANHA": {
-        "id": "CARVANHA",
-        "ndex": 318,
+    "V0318_POKEMON_CARVANHA": {
+        "id": "V0318_POKEMON_CARVANHA",
+        "ndex": 320,
         "name": "Carvanha",
         "stats": {
             "baseStamina": 90,
@@ -6758,9 +6844,9 @@
             "STRUGGLE"
         ]
     },
-    "SHARPEDO": {
-        "id": "SHARPEDO",
-        "ndex": 319,
+    "V0319_POKEMON_SHARPEDO": {
+        "id": "V0319_POKEMON_SHARPEDO",
+        "ndex": 321,
         "name": "Sharpedo",
         "stats": {
             "baseStamina": 140,
@@ -6781,9 +6867,9 @@
             "STRUGGLE"
         ]
     },
-    "WAILMER": {
-        "id": "WAILMER",
-        "ndex": 320,
+    "V0320_POKEMON_WAILMER": {
+        "id": "V0320_POKEMON_WAILMER",
+        "ndex": 322,
         "name": "Wailmer",
         "stats": {
             "baseStamina": 260,
@@ -6802,9 +6888,9 @@
             "STRUGGLE"
         ]
     },
-    "WAILORD": {
-        "id": "WAILORD",
-        "ndex": 321,
+    "V0321_POKEMON_WAILORD": {
+        "id": "V0321_POKEMON_WAILORD",
+        "ndex": 323,
         "name": "Wailord",
         "stats": {
             "baseStamina": 340,
@@ -6824,9 +6910,9 @@
             "STRUGGLE"
         ]
     },
-    "NUMEL": {
-        "id": "NUMEL",
-        "ndex": 322,
+    "V0322_POKEMON_NUMEL": {
+        "id": "V0322_POKEMON_NUMEL",
+        "ndex": 324,
         "name": "Numel",
         "stats": {
             "baseStamina": 120,
@@ -6847,9 +6933,9 @@
             "STRUGGLE"
         ]
     },
-    "CAMERUPT": {
-        "id": "CAMERUPT",
-        "ndex": 323,
+    "V0323_POKEMON_CAMERUPT": {
+        "id": "V0323_POKEMON_CAMERUPT",
+        "ndex": 325,
         "name": "Camerupt",
         "stats": {
             "baseStamina": 140,
@@ -6870,9 +6956,9 @@
             "STRUGGLE"
         ]
     },
-    "TORKOAL": {
-        "id": "TORKOAL",
-        "ndex": 324,
+    "V0324_POKEMON_TORKOAL": {
+        "id": "V0324_POKEMON_TORKOAL",
+        "ndex": 326,
         "name": "Torkoal",
         "stats": {
             "baseStamina": 140,
@@ -6892,9 +6978,9 @@
             "STRUGGLE"
         ]
     },
-    "SPOINK": {
-        "id": "SPOINK",
-        "ndex": 325,
+    "V0325_POKEMON_SPOINK": {
+        "id": "V0325_POKEMON_SPOINK",
+        "ndex": 327,
         "name": "Spoink",
         "stats": {
             "baseStamina": 120,
@@ -6913,9 +6999,9 @@
             "STRUGGLE"
         ]
     },
-    "GRUMPIG": {
-        "id": "GRUMPIG",
-        "ndex": 326,
+    "V0326_POKEMON_GRUMPIG": {
+        "id": "V0326_POKEMON_GRUMPIG",
+        "ndex": 328,
         "name": "Grumpig",
         "stats": {
             "baseStamina": 160,
@@ -6935,9 +7021,9 @@
             "STRUGGLE"
         ]
     },
-    "SPINDA": {
-        "id": "SPINDA",
-        "ndex": 327,
+    "V0327_POKEMON_SPINDA": {
+        "id": "V0327_POKEMON_SPINDA",
+        "ndex": 329,
         "name": "Spinda",
         "stats": {
             "baseStamina": 120,
@@ -6957,9 +7043,9 @@
             "STRUGGLE"
         ]
     },
-    "TRAPINCH": {
-        "id": "TRAPINCH",
-        "ndex": 328,
+    "V0328_POKEMON_TRAPINCH": {
+        "id": "V0328_POKEMON_TRAPINCH",
+        "ndex": 330,
         "name": "Trapinch",
         "stats": {
             "baseStamina": 90,
@@ -6979,9 +7065,9 @@
             "STRUGGLE"
         ]
     },
-    "VIBRAVA": {
-        "id": "VIBRAVA",
-        "ndex": 329,
+    "V0329_POKEMON_VIBRAVA": {
+        "id": "V0329_POKEMON_VIBRAVA",
+        "ndex": 331,
         "name": "Vibrava",
         "stats": {
             "baseStamina": 100,
@@ -7002,9 +7088,9 @@
             "STRUGGLE"
         ]
     },
-    "FLYGON": {
-        "id": "FLYGON",
-        "ndex": 330,
+    "V0330_POKEMON_FLYGON": {
+        "id": "V0330_POKEMON_FLYGON",
+        "ndex": 332,
         "name": "Flygon",
         "stats": {
             "baseStamina": 160,
@@ -7025,9 +7111,9 @@
             "STRUGGLE"
         ]
     },
-    "CACNEA": {
-        "id": "CACNEA",
-        "ndex": 331,
+    "V0331_POKEMON_CACNEA": {
+        "id": "V0331_POKEMON_CACNEA",
+        "ndex": 333,
         "name": "Cacnea",
         "stats": {
             "baseStamina": 100,
@@ -7047,9 +7133,9 @@
             "STRUGGLE"
         ]
     },
-    "CACTURNE": {
-        "id": "CACTURNE",
-        "ndex": 332,
+    "V0332_POKEMON_CACTURNE": {
+        "id": "V0332_POKEMON_CACTURNE",
+        "ndex": 334,
         "name": "Cacturne",
         "stats": {
             "baseStamina": 140,
@@ -7070,9 +7156,9 @@
             "STRUGGLE"
         ]
     },
-    "SWABLU": {
-        "id": "SWABLU",
-        "ndex": 333,
+    "V0333_POKEMON_SWABLU": {
+        "id": "V0333_POKEMON_SWABLU",
+        "ndex": 335,
         "name": "Swablu",
         "stats": {
             "baseStamina": 90,
@@ -7093,9 +7179,9 @@
             "STRUGGLE"
         ]
     },
-    "ALTARIA": {
-        "id": "ALTARIA",
-        "ndex": 334,
+    "V0334_POKEMON_ALTARIA": {
+        "id": "V0334_POKEMON_ALTARIA",
+        "ndex": 336,
         "name": "Altaria",
         "stats": {
             "baseStamina": 150,
@@ -7116,9 +7202,9 @@
             "STRUGGLE"
         ]
     },
-    "ZANGOOSE": {
-        "id": "ZANGOOSE",
-        "ndex": 335,
+    "V0335_POKEMON_ZANGOOSE": {
+        "id": "V0335_POKEMON_ZANGOOSE",
+        "ndex": 337,
         "name": "Zangoose",
         "stats": {
             "baseStamina": 146,
@@ -7138,9 +7224,9 @@
             "STRUGGLE"
         ]
     },
-    "SEVIPER": {
-        "id": "SEVIPER",
-        "ndex": 336,
+    "V0336_POKEMON_SEVIPER": {
+        "id": "V0336_POKEMON_SEVIPER",
+        "ndex": 338,
         "name": "Seviper",
         "stats": {
             "baseStamina": 146,
@@ -7160,9 +7246,9 @@
             "STRUGGLE"
         ]
     },
-    "LUNATONE": {
-        "id": "LUNATONE",
-        "ndex": 337,
+    "V0337_POKEMON_LUNATONE": {
+        "id": "V0337_POKEMON_LUNATONE",
+        "ndex": 339,
         "name": "Lunatone",
         "stats": {
             "baseStamina": 180,
@@ -7183,9 +7269,9 @@
             "STRUGGLE"
         ]
     },
-    "SOLROCK": {
-        "id": "SOLROCK",
-        "ndex": 338,
+    "V0338_POKEMON_SOLROCK": {
+        "id": "V0338_POKEMON_SOLROCK",
+        "ndex": 340,
         "name": "Solrock",
         "stats": {
             "baseStamina": 180,
@@ -7206,9 +7292,9 @@
             "STRUGGLE"
         ]
     },
-    "BARBOACH": {
-        "id": "BARBOACH",
-        "ndex": 339,
+    "V0339_POKEMON_BARBOACH": {
+        "id": "V0339_POKEMON_BARBOACH",
+        "ndex": 341,
         "name": "Barboach",
         "stats": {
             "baseStamina": 100,
@@ -7229,9 +7315,9 @@
             "STRUGGLE"
         ]
     },
-    "WHISCASH": {
-        "id": "WHISCASH",
-        "ndex": 340,
+    "V0340_POKEMON_WHISCASH": {
+        "id": "V0340_POKEMON_WHISCASH",
+        "ndex": 342,
         "name": "Whiscash",
         "stats": {
             "baseStamina": 220,
@@ -7252,9 +7338,9 @@
             "STRUGGLE"
         ]
     },
-    "CORPHISH": {
-        "id": "CORPHISH",
-        "ndex": 341,
+    "V0341_POKEMON_CORPHISH": {
+        "id": "V0341_POKEMON_CORPHISH",
+        "ndex": 343,
         "name": "Corphish",
         "stats": {
             "baseStamina": 86,
@@ -7274,9 +7360,9 @@
             "STRUGGLE"
         ]
     },
-    "CRAWDAUNT": {
-        "id": "CRAWDAUNT",
-        "ndex": 342,
+    "V0342_POKEMON_CRAWDAUNT": {
+        "id": "V0342_POKEMON_CRAWDAUNT",
+        "ndex": 344,
         "name": "Crawdaunt",
         "stats": {
             "baseStamina": 126,
@@ -7297,9 +7383,9 @@
             "STRUGGLE"
         ]
     },
-    "BALTOY": {
-        "id": "BALTOY",
-        "ndex": 343,
+    "V0343_POKEMON_BALTOY": {
+        "id": "V0343_POKEMON_BALTOY",
+        "ndex": 345,
         "name": "Baltoy",
         "stats": {
             "baseStamina": 80,
@@ -7320,9 +7406,9 @@
             "STRUGGLE"
         ]
     },
-    "CLAYDOL": {
-        "id": "CLAYDOL",
-        "ndex": 344,
+    "V0344_POKEMON_CLAYDOL": {
+        "id": "V0344_POKEMON_CLAYDOL",
+        "ndex": 346,
         "name": "Claydol",
         "stats": {
             "baseStamina": 120,
@@ -7343,9 +7429,9 @@
             "STRUGGLE"
         ]
     },
-    "LILEEP": {
-        "id": "LILEEP",
-        "ndex": 345,
+    "V0345_POKEMON_LILEEP": {
+        "id": "V0345_POKEMON_LILEEP",
+        "ndex": 347,
         "name": "Lileep",
         "stats": {
             "baseStamina": 132,
@@ -7366,9 +7452,9 @@
             "STRUGGLE"
         ]
     },
-    "CRADILY": {
-        "id": "CRADILY",
-        "ndex": 346,
+    "V0346_POKEMON_CRADILY": {
+        "id": "V0346_POKEMON_CRADILY",
+        "ndex": 348,
         "name": "Cradily",
         "stats": {
             "baseStamina": 172,
@@ -7389,9 +7475,9 @@
             "STRUGGLE"
         ]
     },
-    "ANORITH": {
-        "id": "ANORITH",
-        "ndex": 347,
+    "V0347_POKEMON_ANORITH": {
+        "id": "V0347_POKEMON_ANORITH",
+        "ndex": 349,
         "name": "Anorith",
         "stats": {
             "baseStamina": 90,
@@ -7412,9 +7498,9 @@
             "STRUGGLE"
         ]
     },
-    "ARMALDO": {
-        "id": "ARMALDO",
-        "ndex": 348,
+    "V0348_POKEMON_ARMALDO": {
+        "id": "V0348_POKEMON_ARMALDO",
+        "ndex": 350,
         "name": "Armaldo",
         "stats": {
             "baseStamina": 150,
@@ -7435,9 +7521,9 @@
             "STRUGGLE"
         ]
     },
-    "FEEBAS": {
-        "id": "FEEBAS",
-        "ndex": 349,
+    "V0349_POKEMON_FEEBAS": {
+        "id": "V0349_POKEMON_FEEBAS",
+        "ndex": 351,
         "name": "Feebas",
         "stats": {
             "baseStamina": 40,
@@ -7454,9 +7540,9 @@
             "STRUGGLE"
         ]
     },
-    "MILOTIC": {
-        "id": "MILOTIC",
-        "ndex": 350,
+    "V0350_POKEMON_MILOTIC": {
+        "id": "V0350_POKEMON_MILOTIC",
+        "ndex": 352,
         "name": "Milotic",
         "stats": {
             "baseStamina": 190,
@@ -7476,9 +7562,9 @@
             "STRUGGLE"
         ]
     },
-    "CASTFORM": {
-        "id": "CASTFORM",
-        "ndex": 351,
+    "V0351_POKEMON_CASTFORM": {
+        "id": "V0351_POKEMON_CASTFORM",
+        "ndex": 353,
         "name": "Castform",
         "stats": {
             "baseStamina": 140,
@@ -7487,20 +7573,100 @@
         },
         "type": "POKEMON_TYPE_NORMAL",
         "quickMoves": [
+            "TACKLE_FAST",
+            "HEX_FAST",
             "BITE_FAST",
             "ROCK_SMASH_FAST",
             "SPLASH_FAST"
         ],
         "cinematicMoves": [
+            "HURRICANE",
+            "ENERGY_BALL",
             "STOMP",
             "CRUNCH",
             "ANCIENT_POWER",
             "STRUGGLE"
         ]
     },
-    "KECLEON": {
-        "id": "KECLEON",
-        "ndex": 352,
+    "V0351_POKEMON_CASTFORM_NORMAL": {
+        "id": "V0351_POKEMON_CASTFORM_NORMAL",
+        "ndex": 354,
+        "name": "Castform",
+        "stats": {
+            "baseStamina": 140,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "TACKLE_FAST",
+            "HEX_FAST"
+        ],
+        "cinematicMoves": [
+            "HURRICANE",
+            "ENERGY_BALL"
+        ]
+    },
+    "V0351_POKEMON_CASTFORM_RAINY": {
+        "id": "V0351_POKEMON_CASTFORM_RAINY",
+        "ndex": 355,
+        "name": "Castform",
+        "stats": {
+            "baseStamina": 140,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_WATER",
+        "quickMoves": [
+            "WATER_GUN_FAST",
+            "TACKLE_FAST"
+        ],
+        "cinematicMoves": [
+            "HYDRO_PUMP",
+            "THUNDER"
+        ]
+    },
+    "V0351_POKEMON_CASTFORM_SNOWY": {
+        "id": "V0351_POKEMON_CASTFORM_SNOWY",
+        "ndex": 356,
+        "name": "Castform",
+        "stats": {
+            "baseStamina": 140,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_ICE",
+        "quickMoves": [
+            "POWDER_SNOW_FAST",
+            "TACKLE_FAST"
+        ],
+        "cinematicMoves": [
+            "BLIZZARD",
+            "ICE_BEAM"
+        ]
+    },
+    "V0351_POKEMON_CASTFORM_SUNNY": {
+        "id": "V0351_POKEMON_CASTFORM_SUNNY",
+        "ndex": 357,
+        "name": "Castform",
+        "stats": {
+            "baseStamina": 140,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_FIRE",
+        "quickMoves": [
+            "EMBER_FAST",
+            "TACKLE_FAST"
+        ],
+        "cinematicMoves": [
+            "FIRE_BLAST",
+            "SOLAR_BEAM"
+        ]
+    },
+    "V0352_POKEMON_KECLEON": {
+        "id": "V0352_POKEMON_KECLEON",
+        "ndex": 358,
         "name": "Kecleon",
         "stats": {
             "baseStamina": 120,
@@ -7523,9 +7689,9 @@
             "STRUGGLE"
         ]
     },
-    "SHUPPET": {
-        "id": "SHUPPET",
-        "ndex": 353,
+    "V0353_POKEMON_SHUPPET": {
+        "id": "V0353_POKEMON_SHUPPET",
+        "ndex": 359,
         "name": "Shuppet",
         "stats": {
             "baseStamina": 88,
@@ -7543,9 +7709,9 @@
             "SHADOW_SNEAK"
         ]
     },
-    "BANETTE": {
-        "id": "BANETTE",
-        "ndex": 354,
+    "V0354_POKEMON_BANETTE": {
+        "id": "V0354_POKEMON_BANETTE",
+        "ndex": 360,
         "name": "Banette",
         "stats": {
             "baseStamina": 128,
@@ -7563,9 +7729,9 @@
             "THUNDER"
         ]
     },
-    "DUSKULL": {
-        "id": "DUSKULL",
-        "ndex": 355,
+    "V0355_POKEMON_DUSKULL": {
+        "id": "V0355_POKEMON_DUSKULL",
+        "ndex": 361,
         "name": "Duskull",
         "stats": {
             "baseStamina": 40,
@@ -7583,9 +7749,9 @@
             "SHADOW_SNEAK"
         ]
     },
-    "DUSCLOPS": {
-        "id": "DUSCLOPS",
-        "ndex": 356,
+    "V0356_POKEMON_DUSCLOPS": {
+        "id": "V0356_POKEMON_DUSCLOPS",
+        "ndex": 362,
         "name": "Dusclops",
         "stats": {
             "baseStamina": 80,
@@ -7603,9 +7769,9 @@
             "FIRE_PUNCH"
         ]
     },
-    "TROPIUS": {
-        "id": "TROPIUS",
-        "ndex": 357,
+    "V0357_POKEMON_TROPIUS": {
+        "id": "V0357_POKEMON_TROPIUS",
+        "ndex": 363,
         "name": "Tropius",
         "stats": {
             "baseStamina": 198,
@@ -7626,9 +7792,9 @@
             "STRUGGLE"
         ]
     },
-    "CHIMECHO": {
-        "id": "CHIMECHO",
-        "ndex": 358,
+    "V0358_POKEMON_CHIMECHO": {
+        "id": "V0358_POKEMON_CHIMECHO",
+        "ndex": 364,
         "name": "Chimecho",
         "stats": {
             "baseStamina": 150,
@@ -7648,9 +7814,9 @@
             "STRUGGLE"
         ]
     },
-    "ABSOL": {
-        "id": "ABSOL",
-        "ndex": 359,
+    "V0359_POKEMON_ABSOL": {
+        "id": "V0359_POKEMON_ABSOL",
+        "ndex": 365,
         "name": "Absol",
         "stats": {
             "baseStamina": 130,
@@ -7670,9 +7836,9 @@
             "STRUGGLE"
         ]
     },
-    "WYNAUT": {
-        "id": "WYNAUT",
-        "ndex": 360,
+    "V0360_POKEMON_WYNAUT": {
+        "id": "V0360_POKEMON_WYNAUT",
+        "ndex": 366,
         "name": "Wynaut",
         "stats": {
             "baseStamina": 190,
@@ -7689,9 +7855,9 @@
             "STRUGGLE"
         ]
     },
-    "SNORUNT": {
-        "id": "SNORUNT",
-        "ndex": 361,
+    "V0361_POKEMON_SNORUNT": {
+        "id": "V0361_POKEMON_SNORUNT",
+        "ndex": 367,
         "name": "Snorunt",
         "stats": {
             "baseStamina": 100,
@@ -7711,9 +7877,9 @@
             "STRUGGLE"
         ]
     },
-    "GLALIE": {
-        "id": "GLALIE",
-        "ndex": 362,
+    "V0362_POKEMON_GLALIE": {
+        "id": "V0362_POKEMON_GLALIE",
+        "ndex": 368,
         "name": "Glalie",
         "stats": {
             "baseStamina": 160,
@@ -7733,9 +7899,9 @@
             "STRUGGLE"
         ]
     },
-    "SPHEAL": {
-        "id": "SPHEAL",
-        "ndex": 363,
+    "V0363_POKEMON_SPHEAL": {
+        "id": "V0363_POKEMON_SPHEAL",
+        "ndex": 369,
         "name": "Spheal",
         "stats": {
             "baseStamina": 140,
@@ -7756,9 +7922,9 @@
             "STRUGGLE"
         ]
     },
-    "SEALEO": {
-        "id": "SEALEO",
-        "ndex": 364,
+    "V0364_POKEMON_SEALEO": {
+        "id": "V0364_POKEMON_SEALEO",
+        "ndex": 370,
         "name": "Sealeo",
         "stats": {
             "baseStamina": 180,
@@ -7779,9 +7945,9 @@
             "STRUGGLE"
         ]
     },
-    "WALREIN": {
-        "id": "WALREIN",
-        "ndex": 365,
+    "V0365_POKEMON_WALREIN": {
+        "id": "V0365_POKEMON_WALREIN",
+        "ndex": 371,
         "name": "Walrein",
         "stats": {
             "baseStamina": 220,
@@ -7802,9 +7968,9 @@
             "STRUGGLE"
         ]
     },
-    "CLAMPERL": {
-        "id": "CLAMPERL",
-        "ndex": 366,
+    "V0366_POKEMON_CLAMPERL": {
+        "id": "V0366_POKEMON_CLAMPERL",
+        "ndex": 372,
         "name": "Clamperl",
         "stats": {
             "baseStamina": 70,
@@ -7823,9 +7989,9 @@
             "STRUGGLE"
         ]
     },
-    "HUNTAIL": {
-        "id": "HUNTAIL",
-        "ndex": 367,
+    "V0367_POKEMON_HUNTAIL": {
+        "id": "V0367_POKEMON_HUNTAIL",
+        "ndex": 373,
         "name": "Huntail",
         "stats": {
             "baseStamina": 110,
@@ -7845,9 +8011,9 @@
             "STRUGGLE"
         ]
     },
-    "GOREBYSS": {
-        "id": "GOREBYSS",
-        "ndex": 368,
+    "V0368_POKEMON_GOREBYSS": {
+        "id": "V0368_POKEMON_GOREBYSS",
+        "ndex": 374,
         "name": "Gorebyss",
         "stats": {
             "baseStamina": 110,
@@ -7867,9 +8033,9 @@
             "STRUGGLE"
         ]
     },
-    "RELICANTH": {
-        "id": "RELICANTH",
-        "ndex": 369,
+    "V0369_POKEMON_RELICANTH": {
+        "id": "V0369_POKEMON_RELICANTH",
+        "ndex": 375,
         "name": "Relicanth",
         "stats": {
             "baseStamina": 200,
@@ -7890,9 +8056,9 @@
             "STRUGGLE"
         ]
     },
-    "LUVDISC": {
-        "id": "LUVDISC",
-        "ndex": 370,
+    "V0370_POKEMON_LUVDISC": {
+        "id": "V0370_POKEMON_LUVDISC",
+        "ndex": 376,
         "name": "Luvdisc",
         "stats": {
             "baseStamina": 86,
@@ -7911,9 +8077,9 @@
             "STRUGGLE"
         ]
     },
-    "BAGON": {
-        "id": "BAGON",
-        "ndex": 371,
+    "V0371_POKEMON_BAGON": {
+        "id": "V0371_POKEMON_BAGON",
+        "ndex": 377,
         "name": "Bagon",
         "stats": {
             "baseStamina": 90,
@@ -7933,9 +8099,9 @@
             "STRUGGLE"
         ]
     },
-    "SHELGON": {
-        "id": "SHELGON",
-        "ndex": 372,
+    "V0372_POKEMON_SHELGON": {
+        "id": "V0372_POKEMON_SHELGON",
+        "ndex": 378,
         "name": "Shelgon",
         "stats": {
             "baseStamina": 130,
@@ -7955,9 +8121,9 @@
             "STRUGGLE"
         ]
     },
-    "SALAMENCE": {
-        "id": "SALAMENCE",
-        "ndex": 373,
+    "V0373_POKEMON_SALAMENCE": {
+        "id": "V0373_POKEMON_SALAMENCE",
+        "ndex": 379,
         "name": "Salamence",
         "stats": {
             "baseStamina": 190,
@@ -7978,9 +8144,9 @@
             "STRUGGLE"
         ]
     },
-    "BELDUM": {
-        "id": "BELDUM",
-        "ndex": 374,
+    "V0374_POKEMON_BELDUM": {
+        "id": "V0374_POKEMON_BELDUM",
+        "ndex": 380,
         "name": "Beldum",
         "stats": {
             "baseStamina": 80,
@@ -7997,9 +8163,9 @@
             "STRUGGLE"
         ]
     },
-    "METANG": {
-        "id": "METANG",
-        "ndex": 375,
+    "V0375_POKEMON_METANG": {
+        "id": "V0375_POKEMON_METANG",
+        "ndex": 381,
         "name": "Metang",
         "stats": {
             "baseStamina": 120,
@@ -8020,9 +8186,9 @@
             "STRUGGLE"
         ]
     },
-    "METAGROSS": {
-        "id": "METAGROSS",
-        "ndex": 376,
+    "V0376_POKEMON_METAGROSS": {
+        "id": "V0376_POKEMON_METAGROSS",
+        "ndex": 382,
         "name": "Metagross",
         "stats": {
             "baseStamina": 160,
@@ -8043,9 +8209,9 @@
             "STRUGGLE"
         ]
     },
-    "REGIROCK": {
-        "id": "REGIROCK",
-        "ndex": 377,
+    "V0377_POKEMON_REGIROCK": {
+        "id": "V0377_POKEMON_REGIROCK",
+        "ndex": 383,
         "name": "Regirock",
         "stats": {
             "baseStamina": 160,
@@ -8065,9 +8231,9 @@
             "STRUGGLE"
         ]
     },
-    "REGICE": {
-        "id": "REGICE",
-        "ndex": 378,
+    "V0378_POKEMON_REGICE": {
+        "id": "V0378_POKEMON_REGICE",
+        "ndex": 384,
         "name": "Regice",
         "stats": {
             "baseStamina": 160,
@@ -8087,9 +8253,9 @@
             "STRUGGLE"
         ]
     },
-    "REGISTEEL": {
-        "id": "REGISTEEL",
-        "ndex": 379,
+    "V0379_POKEMON_REGISTEEL": {
+        "id": "V0379_POKEMON_REGISTEEL",
+        "ndex": 385,
         "name": "Registeel",
         "stats": {
             "baseStamina": 160,
@@ -8109,9 +8275,9 @@
             "STRUGGLE"
         ]
     },
-    "LATIAS": {
-        "id": "LATIAS",
-        "ndex": 380,
+    "V0380_POKEMON_LATIAS": {
+        "id": "V0380_POKEMON_LATIAS",
+        "ndex": 386,
         "name": "Latias",
         "stats": {
             "baseStamina": 160,
@@ -8127,14 +8293,15 @@
         ],
         "cinematicMoves": [
             "PSYCHIC",
-            "DRAGON_CLAW",
+            "OUTRAGE",
             "THUNDER",
+            "DRAGON_CLAW",
             "STRUGGLE"
         ]
     },
-    "LATIOS": {
-        "id": "LATIOS",
-        "ndex": 381,
+    "V0381_POKEMON_LATIOS": {
+        "id": "V0381_POKEMON_LATIOS",
+        "ndex": 387,
         "name": "Latios",
         "stats": {
             "baseStamina": 160,
@@ -8155,9 +8322,9 @@
             "STRUGGLE"
         ]
     },
-    "KYOGRE": {
-        "id": "KYOGRE",
-        "ndex": 382,
+    "V0382_POKEMON_KYOGRE": {
+        "id": "V0382_POKEMON_KYOGRE",
+        "ndex": 388,
         "name": "Kyogre",
         "stats": {
             "baseStamina": 182,
@@ -8177,9 +8344,9 @@
             "STRUGGLE"
         ]
     },
-    "GROUDON": {
-        "id": "GROUDON",
-        "ndex": 383,
+    "V0383_POKEMON_GROUDON": {
+        "id": "V0383_POKEMON_GROUDON",
+        "ndex": 389,
         "name": "Groudon",
         "stats": {
             "baseStamina": 182,
@@ -8199,9 +8366,9 @@
             "STRUGGLE"
         ]
     },
-    "RAYQUAZA": {
-        "id": "RAYQUAZA",
-        "ndex": 384,
+    "V0384_POKEMON_RAYQUAZA": {
+        "id": "V0384_POKEMON_RAYQUAZA",
+        "ndex": 390,
         "name": "Rayquaza",
         "stats": {
             "baseStamina": 191,
@@ -8222,9 +8389,9 @@
             "STRUGGLE"
         ]
     },
-    "JIRACHI": {
-        "id": "JIRACHI",
-        "ndex": 385,
+    "V0385_POKEMON_JIRACHI": {
+        "id": "V0385_POKEMON_JIRACHI",
+        "ndex": 391,
         "name": "Jirachi",
         "stats": {
             "baseStamina": 200,
@@ -8245,9 +8412,9 @@
             "STRUGGLE"
         ]
     },
-    "DEOXYS": {
-        "id": "DEOXYS",
-        "ndex": 386,
+    "V0386_POKEMON_DEOXYS": {
+        "id": "V0386_POKEMON_DEOXYS",
+        "ndex": 392,
         "name": "Deoxys",
         "stats": {
             "baseStamina": 1,
@@ -8265,6 +8432,86 @@
             "ZAP_CANNON",
             "SWIFT",
             "STRUGGLE"
+        ]
+    },
+    "V0386_POKEMON_DEOXYS_ATTACK": {
+        "id": "V0386_POKEMON_DEOXYS_ATTACK",
+        "ndex": 393,
+        "name": "Deoxys",
+        "stats": {
+            "baseStamina": 1,
+            "baseAttack": 1,
+            "baseDefense": 1
+        },
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "ZEN_HEADBUTT_FAST",
+            "COUNTER_FAST"
+        ],
+        "cinematicMoves": [
+            "PSYCHO_BOOST",
+            "ZAP_CANNON",
+            "SWIFT"
+        ]
+    },
+    "V0386_POKEMON_DEOXYS_DEFENSE": {
+        "id": "V0386_POKEMON_DEOXYS_DEFENSE",
+        "ndex": 394,
+        "name": "Deoxys",
+        "stats": {
+            "baseStamina": 1,
+            "baseAttack": 1,
+            "baseDefense": 1
+        },
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "ZEN_HEADBUTT_FAST",
+            "COUNTER_FAST"
+        ],
+        "cinematicMoves": [
+            "PSYCHO_BOOST",
+            "ZAP_CANNON",
+            "SWIFT"
+        ]
+    },
+    "V0386_POKEMON_DEOXYS_NORMAL": {
+        "id": "V0386_POKEMON_DEOXYS_NORMAL",
+        "ndex": 395,
+        "name": "Deoxys",
+        "stats": {
+            "baseStamina": 1,
+            "baseAttack": 1,
+            "baseDefense": 1
+        },
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "ZEN_HEADBUTT_FAST",
+            "COUNTER_FAST"
+        ],
+        "cinematicMoves": [
+            "PSYCHO_BOOST",
+            "ZAP_CANNON",
+            "SWIFT"
+        ]
+    },
+    "V0386_POKEMON_DEOXYS_SPEED": {
+        "id": "V0386_POKEMON_DEOXYS_SPEED",
+        "ndex": 396,
+        "name": "Deoxys",
+        "stats": {
+            "baseStamina": 1,
+            "baseAttack": 1,
+            "baseDefense": 1
+        },
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "ZEN_HEADBUTT_FAST",
+            "COUNTER_FAST"
+        ],
+        "cinematicMoves": [
+            "PSYCHO_BOOST",
+            "ZAP_CANNON",
+            "SWIFT"
         ]
     }
 }
