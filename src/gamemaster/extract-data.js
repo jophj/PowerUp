@@ -34,13 +34,10 @@ pokemonTemplates.forEach(p => {
 })
 
 const pokemonData = {}
-let ndex = 0
 for (let pokemonId in pokemonTemplatesAllMovesets) {
-  ndex += 1
   const pokemonSettings = pokemonTemplatesAllMovesets[pokemonId]
   const pokemon = {
     id: pokemonSettings.templateId,
-    ndex: ndex,
     name: pokemonSettings.pokemonId.charAt(0) + pokemonSettings.pokemonId.slice(1).toLowerCase(),
     stats: pokemonSettings.stats,
     type: pokemonSettings.type,
@@ -50,8 +47,8 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
   }
   pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
   pokemon.name = pokemon.name.replace('-female', ' ♀')
-  pokemon.name  = pokemon.name.replace('-male', '	♂')
-
+  pokemon.name  = pokemon.name.replace('-male', '	♂') 
+  
   pokemonData[pokemon.id] = pokemon
 }
 
