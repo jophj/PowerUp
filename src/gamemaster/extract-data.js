@@ -1,5 +1,6 @@
 // Only config needed is gamemasters path
 const gamemasters = [
+  require('./0.107.3-GAME_MASTER.json'),
   require('./0.105.0-GAME_MASTER.json'),
   require('./0.85.2-2-GAME_MASTER.json'),
   require('./0793-GAME_MASTER.json'),
@@ -7,6 +8,30 @@ const gamemasters = [
   require('./0691-GAME_MASTER.json'),
   require('./LEGACY-GAME_MASTER.json')
 ]
+
+function addCommunityDaysMovesets(pokemonData) {
+  // community days http://pokemongo.wikia.com/wiki/Community_Day
+  pokemonData['V0025_POKEMON_PIKACHU'].cinematicMoves.push('SURF'); // January 20th, 2018
+  pokemonData['V0026_POKEMON_RAICHU'].cinematicMoves.push('SURF'); // January 20th, 2018
+  pokemonData['V0147_POKEMON_DRATINI'].cinematicMoves.push('DRACO_METEOR'); // February 24th, 2018
+  pokemonData['V0148_POKEMON_DRAGONAIR'].cinematicMoves.push('DRACO_METEOR'); // February 24th, 2018
+  pokemonData['V0149_POKEMON_DRAGONITE'].cinematicMoves.push('DRACO_METEOR'); // February 24th, 2018
+  pokemonData['V0001_POKEMON_BULBASAUR'].cinematicMoves.push('FRENZY_PLANT'); // March 25th, 2018
+  pokemonData['V0002_POKEMON_IVYSAUR'].cinematicMoves.push('FRENZY_PLANT'); // March 25th, 2018
+  pokemonData['V0003_POKEMON_VENUSAUR'].cinematicMoves.push('FRENZY_PLANT'); // March 25th, 2018
+  pokemonData['V0179_POKEMON_MAREEP'].cinematicMoves.push('DRAGON_PULSE'); // April 15th, 2018
+  pokemonData['V0180_POKEMON_FLAAFFY'].cinematicMoves.push('DRAGON_PULSE'); // April 15th, 2018
+  pokemonData['V0181_POKEMON_AMPHAROS'].cinematicMoves.push('DRAGON_PULSE'); // April 15th, 2018
+  pokemonData['V0004_POKEMON_CHARMANDER'].cinematicMoves.push('BLAST_BURN'); // May 19th, 2018
+  pokemonData['V0005_POKEMON_CHARMELEON'].cinematicMoves.push('BLAST_BURN'); // May 19th, 2018
+  pokemonData['V0006_POKEMON_CHARIZARD'].cinematicMoves.push('BLAST_BURN'); // May 19th, 2018
+  pokemonData['V0246_POKEMON_LARVITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
+  pokemonData['V0247_POKEMON_PUPITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
+  pokemonData['V0248_POKEMON_TYRANITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
+  // pokemonData['V0007_POKEMON_SQUIRTLE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
+  // pokemonData['V0008_POKEMON_WARTORTLE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
+  // pokemonData['V0009_POKEMON_BLASTOISE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
+}
 
 const fs = require('fs')
 
@@ -77,6 +102,8 @@ for(let moveTemplate of moveTemplates) {
 
   moveData[move.id] = move
 }
+
+addCommunityDaysMovesets(pokemonData, moveData);
 
 /**
  * Type effectiveness data parsing
