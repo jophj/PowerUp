@@ -16,7 +16,8 @@
         "cinematicMoves": [
             "SLUDGE_BOMB",
             "SEED_BOMB",
-            "POWER_WHIP"
+            "POWER_WHIP",
+            "FRENZY_PLANT"
         ]
     },
     "V0002_POKEMON_IVYSAUR": {
@@ -36,7 +37,8 @@
         "cinematicMoves": [
             "SLUDGE_BOMB",
             "SOLAR_BEAM",
-            "POWER_WHIP"
+            "POWER_WHIP",
+            "FRENZY_PLANT"
         ]
     },
     "V0003_POKEMON_VENUSAUR": {
@@ -56,7 +58,8 @@
         "cinematicMoves": [
             "SLUDGE_BOMB",
             "PETAL_BLIZZARD",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "FRENZY_PLANT"
         ]
     },
     "V0004_POKEMON_CHARMANDER": {
@@ -75,7 +78,8 @@
         "cinematicMoves": [
             "FLAME_CHARGE",
             "FLAME_BURST",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "BLAST_BURN"
         ]
     },
     "V0005_POKEMON_CHARMELEON": {
@@ -95,7 +99,8 @@
         "cinematicMoves": [
             "FIRE_PUNCH",
             "FLAME_BURST",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "BLAST_BURN"
         ]
     },
     "V0006_POKEMON_CHARIZARD": {
@@ -118,7 +123,8 @@
             "FIRE_BLAST",
             "DRAGON_CLAW",
             "OVERHEAT",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "BLAST_BURN"
         ]
     },
     "V0007_POKEMON_SQUIRTLE": {
@@ -488,7 +494,8 @@
             "DISCHARGE",
             "THUNDERBOLT",
             "WILD_CHARGE",
-            "THUNDER"
+            "THUNDER",
+            "SURF"
         ]
     },
     "V0026_POKEMON_RAICHU": {
@@ -509,7 +516,8 @@
             "BRICK_BREAK",
             "THUNDER_PUNCH",
             "WILD_CHARGE",
-            "THUNDER"
+            "THUNDER",
+            "SURF"
         ]
     },
     "V0027_POKEMON_SANDSHREW": {
@@ -3012,7 +3020,8 @@
         "cinematicMoves": [
             "WRAP",
             "TWISTER",
-            "AQUA_TAIL"
+            "AQUA_TAIL",
+            "DRACO_METEOR"
         ]
     },
     "V0148_POKEMON_DRAGONAIR": {
@@ -3031,7 +3040,8 @@
         "cinematicMoves": [
             "WRAP",
             "AQUA_TAIL",
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "DRACO_METEOR"
         ]
     },
     "V0149_POKEMON_DRAGONITE": {
@@ -3054,7 +3064,8 @@
             "HYPER_BEAM",
             "OUTRAGE",
             "DRAGON_PULSE",
-            "DRAGON_CLAW"
+            "DRAGON_CLAW",
+            "DRACO_METEOR"
         ]
     },
     "V0150_POKEMON_MEWTWO": {
@@ -3692,7 +3703,8 @@
         "cinematicMoves": [
             "BODY_SLAM",
             "THUNDERBOLT",
-            "DISCHARGE"
+            "DISCHARGE",
+            "DRAGON_PULSE"
         ]
     },
     "V0180_POKEMON_FLAAFFY": {
@@ -3711,7 +3723,8 @@
         "cinematicMoves": [
             "POWER_GEM",
             "THUNDERBOLT",
-            "DISCHARGE"
+            "DISCHARGE",
+            "DRAGON_PULSE"
         ]
     },
     "V0181_POKEMON_AMPHAROS": {
@@ -3730,7 +3743,8 @@
         "cinematicMoves": [
             "ZAP_CANNON",
             "FOCUS_BLAST",
-            "THUNDER"
+            "THUNDER",
+            "DRAGON_PULSE"
         ]
     },
     "V0182_POKEMON_BELLOSSOM": {
@@ -4991,7 +5005,8 @@
         "type2": "POKEMON_TYPE_GROUND",
         "quickMoves": [
             "BITE_FAST",
-            "ROCK_SMASH_FAST"
+            "ROCK_SMASH_FAST",
+            "SMACK_DOWN_FAST"
         ],
         "cinematicMoves": [
             "STOMP",
@@ -5011,7 +5026,8 @@
         "type2": "POKEMON_TYPE_GROUND",
         "quickMoves": [
             "BITE_FAST",
-            "ROCK_SMASH_FAST"
+            "ROCK_SMASH_FAST",
+            "SMACK_DOWN_FAST"
         ],
         "cinematicMoves": [
             "DIG",
@@ -5031,7 +5047,8 @@
         "type2": "POKEMON_TYPE_DARK",
         "quickMoves": [
             "BITE_FAST",
-            "IRON_TAIL_FAST"
+            "IRON_TAIL_FAST",
+            "SMACK_DOWN_FAST"
         ],
         "cinematicMoves": [
             "FIRE_BLAST",
