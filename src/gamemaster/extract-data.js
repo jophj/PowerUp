@@ -1,5 +1,6 @@
 // Only config needed is gamemasters path
 const gamemasters = [
+  require('./1532333601371-GAME_MASTER.json'),
   require('./0.107.3-GAME_MASTER.json'),
   require('./0.105.0-GAME_MASTER.json'),
   require('./0.85.2-2-GAME_MASTER.json'),
@@ -28,9 +29,9 @@ function addCommunityDaysMovesets(pokemonData) {
   pokemonData['V0246_POKEMON_LARVITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
   pokemonData['V0247_POKEMON_PUPITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
   pokemonData['V0248_POKEMON_TYRANITAR'].quickMoves.push('SMACK_DOWN_FAST'); // June 16th, 2018
-  // pokemonData['V0007_POKEMON_SQUIRTLE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
-  // pokemonData['V0008_POKEMON_WARTORTLE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
-  // pokemonData['V0009_POKEMON_BLASTOISE'].cinematicMoves.push('HYDRO_CANNON_EDITME'); // July 8th, 2018
+  pokemonData['V0007_POKEMON_SQUIRTLE'].cinematicMoves.push('HYDRO_CANNON'); // July 8th, 2018
+  pokemonData['V0008_POKEMON_WARTORTLE'].cinematicMoves.push('HYDRO_CANNON'); // July 8th, 2018
+  pokemonData['V0009_POKEMON_BLASTOISE'].cinematicMoves.push('HYDRO_CANNON'); // July 8th, 2018
 }
 
 const fs = require('fs')
@@ -72,8 +73,11 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
   }
   pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
   pokemon.name = pokemon.name.replace('-female', ' ♀')
-  pokemon.name  = pokemon.name.replace('-male', '	♂') 
-  
+  pokemon.name = pokemon.name.replace('-male', '	♂')
+  if (pokemonSettings.templateId.includes('ALOLA')) {
+    pokemon.name = 'Alolan ' + pokemon.name
+  }
+
   pokemonData[pokemon.id] = pokemon
 }
 
