@@ -143,7 +143,8 @@
         "cinematicMoves": [
             "AQUA_JET",
             "AQUA_TAIL",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "HYDRO_CANNON"
         ]
     },
     "V0008_POKEMON_WARTORTLE": {
@@ -162,7 +163,8 @@
         "cinematicMoves": [
             "AQUA_JET",
             "ICE_BEAM",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "HYDRO_CANNON"
         ]
     },
     "V0009_POKEMON_BLASTOISE": {
@@ -181,7 +183,8 @@
         "cinematicMoves": [
             "FLASH_CANNON",
             "ICE_BEAM",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "HYDRO_CANNON"
         ]
     },
     "V0010_POKEMON_CATERPIE": {
@@ -377,8 +380,86 @@
             "BODY_SLAM"
         ]
     },
+    "V0019_POKEMON_RATTATA_ALOLA": {
+        "id": "V0019_POKEMON_RATTATA_ALOLA",
+        "name": "Alolan Rattata",
+        "stats": {
+            "baseStamina": 60,
+            "baseAttack": 103,
+            "baseDefense": 70
+        },
+        "type": "POKEMON_TYPE_DARK",
+        "type2": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "TACKLE_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "CRUNCH",
+            "HYPER_FANG",
+            "SHADOW_BALL"
+        ]
+    },
+    "V0019_POKEMON_RATTATA_NORMAL": {
+        "id": "V0019_POKEMON_RATTATA_NORMAL",
+        "name": "Rattata",
+        "stats": {
+            "baseStamina": 60,
+            "baseAttack": 103,
+            "baseDefense": 70
+        },
+        "type": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "TACKLE_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "HYPER_FANG",
+            "BODY_SLAM"
+        ]
+    },
     "V0020_POKEMON_RATICATE": {
         "id": "V0020_POKEMON_RATICATE",
+        "name": "Raticate",
+        "stats": {
+            "baseStamina": 110,
+            "baseAttack": 161,
+            "baseDefense": 144
+        },
+        "type": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "BITE_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "HYPER_FANG",
+            "HYPER_BEAM"
+        ]
+    },
+    "V0020_POKEMON_RATICATE_ALOLA": {
+        "id": "V0020_POKEMON_RATICATE_ALOLA",
+        "name": "Alolan Raticate",
+        "stats": {
+            "baseStamina": 150,
+            "baseAttack": 135,
+            "baseDefense": 159
+        },
+        "type": "POKEMON_TYPE_DARK",
+        "type2": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "BITE_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "CRUNCH",
+            "HYPER_FANG",
+            "HYPER_BEAM"
+        ]
+    },
+    "V0020_POKEMON_RATICATE_NORMAL": {
+        "id": "V0020_POKEMON_RATICATE_NORMAL",
         "name": "Raticate",
         "stats": {
             "baseStamina": 110,
@@ -520,6 +601,45 @@
             "SURF"
         ]
     },
+    "V0026_POKEMON_RAICHU_ALOLA": {
+        "id": "V0026_POKEMON_RAICHU_ALOLA",
+        "name": "Alolan Raichu",
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 201,
+            "baseDefense": 172
+        },
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "type2": "POKEMON_TYPE_PSYCHIC",
+        "quickMoves": [
+            "VOLT_SWITCH_FAST",
+            "SPARK_FAST"
+        ],
+        "cinematicMoves": [
+            "PSYCHIC",
+            "THUNDER_PUNCH",
+            "WILD_CHARGE"
+        ]
+    },
+    "V0026_POKEMON_RAICHU_NORMAL": {
+        "id": "V0026_POKEMON_RAICHU_NORMAL",
+        "name": "Raichu",
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 193,
+            "baseDefense": 165
+        },
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "quickMoves": [
+            "VOLT_SWITCH_FAST",
+            "SPARK_FAST"
+        ],
+        "cinematicMoves": [
+            "BRICK_BREAK",
+            "THUNDER_PUNCH",
+            "WILD_CHARGE"
+        ]
+    },
     "V0027_POKEMON_SANDSHREW": {
         "id": "V0027_POKEMON_SANDSHREW",
         "name": "Sandshrew",
@@ -540,8 +660,86 @@
             "ROCK_TOMB"
         ]
     },
+    "V0027_POKEMON_SANDSHREW_ALOLA": {
+        "id": "V0027_POKEMON_SANDSHREW_ALOLA",
+        "name": "Alolan Sandshrew",
+        "stats": {
+            "baseStamina": 100,
+            "baseAttack": 125,
+            "baseDefense": 154
+        },
+        "type": "POKEMON_TYPE_ICE",
+        "type2": "POKEMON_TYPE_STEEL",
+        "quickMoves": [
+            "METAL_CLAW_FAST",
+            "POWDER_SNOW_FAST"
+        ],
+        "cinematicMoves": [
+            "BLIZZARD",
+            "GYRO_BALL",
+            "NIGHT_SLASH"
+        ]
+    },
+    "V0027_POKEMON_SANDSHREW_NORMAL": {
+        "id": "V0027_POKEMON_SANDSHREW_NORMAL",
+        "name": "Sandshrew",
+        "stats": {
+            "baseStamina": 100,
+            "baseAttack": 126,
+            "baseDefense": 145
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "SCRATCH_FAST",
+            "MUD_SHOT_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "ROCK_SLIDE",
+            "SAND_TOMB"
+        ]
+    },
     "V0028_POKEMON_SANDSLASH": {
         "id": "V0028_POKEMON_SANDSLASH",
+        "name": "Sandslash",
+        "stats": {
+            "baseStamina": 150,
+            "baseAttack": 182,
+            "baseDefense": 202
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "METAL_CLAW_FAST",
+            "MUD_SHOT_FAST"
+        ],
+        "cinematicMoves": [
+            "EARTHQUAKE",
+            "ROCK_TOMB",
+            "BULLDOZE"
+        ]
+    },
+    "V0028_POKEMON_SANDSLASH_ALOLA": {
+        "id": "V0028_POKEMON_SANDSLASH_ALOLA",
+        "name": "Alolan Sandslash",
+        "stats": {
+            "baseStamina": 150,
+            "baseAttack": 177,
+            "baseDefense": 221
+        },
+        "type": "POKEMON_TYPE_ICE",
+        "type2": "POKEMON_TYPE_STEEL",
+        "quickMoves": [
+            "METAL_CLAW_FAST",
+            "POWDER_SNOW_FAST"
+        ],
+        "cinematicMoves": [
+            "BLIZZARD",
+            "GYRO_BALL",
+            "BULLDOZE"
+        ]
+    },
+    "V0028_POKEMON_SANDSLASH_NORMAL": {
+        "id": "V0028_POKEMON_SANDSLASH_NORMAL",
         "name": "Sandslash",
         "stats": {
             "baseStamina": 150,
@@ -734,6 +932,44 @@
             "FLAME_CHARGE"
         ]
     },
+    "V0037_POKEMON_VULPIX_ALOLA": {
+        "id": "V0037_POKEMON_VULPIX_ALOLA",
+        "name": "Alolan Vulpix",
+        "stats": {
+            "baseStamina": 76,
+            "baseAttack": 96,
+            "baseDefense": 122
+        },
+        "type": "POKEMON_TYPE_ICE",
+        "quickMoves": [
+            "ZEN_HEADBUTT_FAST",
+            "POWDER_SNOW_FAST"
+        ],
+        "cinematicMoves": [
+            "DARK_PULSE",
+            "ICE_BEAM",
+            "BLIZZARD"
+        ]
+    },
+    "V0037_POKEMON_VULPIX_NORMAL": {
+        "id": "V0037_POKEMON_VULPIX_NORMAL",
+        "name": "Vulpix",
+        "stats": {
+            "baseStamina": 76,
+            "baseAttack": 96,
+            "baseDefense": 122
+        },
+        "type": "POKEMON_TYPE_FIRE",
+        "quickMoves": [
+            "QUICK_ATTACK_FAST",
+            "EMBER_FAST"
+        ],
+        "cinematicMoves": [
+            "BODY_SLAM",
+            "FLAMETHROWER",
+            "FLAME_CHARGE"
+        ]
+    },
     "V0038_POKEMON_NINETALES": {
         "id": "V0038_POKEMON_NINETALES",
         "name": "Ninetales",
@@ -754,6 +990,45 @@
             "SOLAR_BEAM",
             "FLAMETHROWER",
             "FIRE_BLAST"
+        ]
+    },
+    "V0038_POKEMON_NINETALES_ALOLA": {
+        "id": "V0038_POKEMON_NINETALES_ALOLA",
+        "name": "Alolan Ninetales",
+        "stats": {
+            "baseStamina": 146,
+            "baseAttack": 170,
+            "baseDefense": 207
+        },
+        "type": "POKEMON_TYPE_ICE",
+        "type2": "POKEMON_TYPE_FAIRY",
+        "quickMoves": [
+            "FEINT_ATTACK_FAST",
+            "POWDER_SNOW_FAST"
+        ],
+        "cinematicMoves": [
+            "DAZZLING_GLEAM",
+            "ICE_BEAM",
+            "BLIZZARD"
+        ]
+    },
+    "V0038_POKEMON_NINETALES_NORMAL": {
+        "id": "V0038_POKEMON_NINETALES_NORMAL",
+        "name": "Ninetales",
+        "stats": {
+            "baseStamina": 146,
+            "baseAttack": 169,
+            "baseDefense": 204
+        },
+        "type": "POKEMON_TYPE_FIRE",
+        "quickMoves": [
+            "FEINT_ATTACK_FAST",
+            "FIRE_SPIN_FAST"
+        ],
+        "cinematicMoves": [
+            "HEAT_WAVE",
+            "OVERHEAT",
+            "SOLAR_BEAM"
         ]
     },
     "V0039_POKEMON_JIGGLYPUFF": {
@@ -1003,6 +1278,45 @@
             "ROCK_TOMB"
         ]
     },
+    "V0050_POKEMON_DIGLETT_ALOLA": {
+        "id": "V0050_POKEMON_DIGLETT_ALOLA",
+        "name": "Alolan Diglett",
+        "stats": {
+            "baseStamina": 20,
+            "baseAttack": 109,
+            "baseDefense": 89
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "type2": "POKEMON_TYPE_STEEL",
+        "quickMoves": [
+            "MUD_SLAP_FAST",
+            "METAL_CLAW_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "MUD_BOMB",
+            "ROCK_TOMB"
+        ]
+    },
+    "V0050_POKEMON_DIGLETT_NORMAL": {
+        "id": "V0050_POKEMON_DIGLETT_NORMAL",
+        "name": "Diglett",
+        "stats": {
+            "baseStamina": 20,
+            "baseAttack": 109,
+            "baseDefense": 88
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "MUD_SLAP_FAST",
+            "SCRATCH_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "MUD_BOMB",
+            "ROCK_TOMB"
+        ]
+    },
     "V0051_POKEMON_DUGTRIO": {
         "id": "V0051_POKEMON_DUGTRIO",
         "name": "Dugtrio",
@@ -1016,6 +1330,45 @@
             "SUCKER_PUNCH_FAST",
             "MUD_SLAP_FAST",
             "MUD_SHOT_FAST"
+        ],
+        "cinematicMoves": [
+            "EARTHQUAKE",
+            "MUD_BOMB",
+            "STONE_EDGE"
+        ]
+    },
+    "V0051_POKEMON_DUGTRIO_ALOLA": {
+        "id": "V0051_POKEMON_DUGTRIO_ALOLA",
+        "name": "Alolan Dugtrio",
+        "stats": {
+            "baseStamina": 70,
+            "baseAttack": 201,
+            "baseDefense": 148
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "type2": "POKEMON_TYPE_STEEL",
+        "quickMoves": [
+            "METAL_CLAW_FAST",
+            "MUD_SLAP_FAST"
+        ],
+        "cinematicMoves": [
+            "EARTHQUAKE",
+            "MUD_BOMB",
+            "IRON_HEAD"
+        ]
+    },
+    "V0051_POKEMON_DUGTRIO_NORMAL": {
+        "id": "V0051_POKEMON_DUGTRIO_NORMAL",
+        "name": "Dugtrio",
+        "stats": {
+            "baseStamina": 70,
+            "baseAttack": 167,
+            "baseDefense": 147
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "SUCKER_PUNCH_FAST",
+            "MUD_SLAP_FAST"
         ],
         "cinematicMoves": [
             "EARTHQUAKE",
@@ -1043,6 +1396,44 @@
             "BODY_SLAM"
         ]
     },
+    "V0052_POKEMON_MEOWTH_ALOLA": {
+        "id": "V0052_POKEMON_MEOWTH_ALOLA",
+        "name": "Alolan Meowth",
+        "stats": {
+            "baseStamina": 80,
+            "baseAttack": 99,
+            "baseDefense": 81
+        },
+        "type": "POKEMON_TYPE_DARK",
+        "quickMoves": [
+            "SCRATCH_FAST",
+            "BITE_FAST"
+        ],
+        "cinematicMoves": [
+            "NIGHT_SLASH",
+            "DARK_PULSE",
+            "FOUL_PLAY"
+        ]
+    },
+    "V0052_POKEMON_MEOWTH_NORMAL": {
+        "id": "V0052_POKEMON_MEOWTH_NORMAL",
+        "name": "Meowth",
+        "stats": {
+            "baseStamina": 80,
+            "baseAttack": 92,
+            "baseDefense": 81
+        },
+        "type": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "SCRATCH_FAST",
+            "BITE_FAST"
+        ],
+        "cinematicMoves": [
+            "NIGHT_SLASH",
+            "DARK_PULSE",
+            "FOUL_PLAY"
+        ]
+    },
     "V0053_POKEMON_PERSIAN": {
         "id": "V0053_POKEMON_PERSIAN",
         "name": "Persian",
@@ -1061,6 +1452,44 @@
             "POWER_GEM",
             "PLAY_ROUGH",
             "NIGHT_SLASH"
+        ]
+    },
+    "V0053_POKEMON_PERSIAN_ALOLA": {
+        "id": "V0053_POKEMON_PERSIAN_ALOLA",
+        "name": "Alolan Persian",
+        "stats": {
+            "baseStamina": 130,
+            "baseAttack": 158,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_DARK",
+        "quickMoves": [
+            "SCRATCH_FAST",
+            "FEINT_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "FOUL_PLAY",
+            "DARK_PULSE",
+            "PLAY_ROUGH"
+        ]
+    },
+    "V0053_POKEMON_PERSIAN_NORMAL": {
+        "id": "V0053_POKEMON_PERSIAN_NORMAL",
+        "name": "Persian",
+        "stats": {
+            "baseStamina": 130,
+            "baseAttack": 150,
+            "baseDefense": 139
+        },
+        "type": "POKEMON_TYPE_NORMAL",
+        "quickMoves": [
+            "SCRATCH_FAST",
+            "FEINT_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+            "FOUL_PLAY",
+            "POWER_GEM",
+            "PLAY_ROUGH"
         ]
     },
     "V0054_POKEMON_PSYDUCK": {
@@ -1486,6 +1915,46 @@
             "DIG"
         ]
     },
+    "V0074_POKEMON_GEODUDE_ALOLA": {
+        "id": "V0074_POKEMON_GEODUDE_ALOLA",
+        "name": "Alolan Geodude",
+        "stats": {
+            "baseStamina": 80,
+            "baseAttack": 132,
+            "baseDefense": 163
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_ELECTRIC",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "VOLT_SWITCH_FAST"
+        ],
+        "cinematicMoves": [
+            "ROCK_SLIDE",
+            "ROCK_TOMB",
+            "THUNDERBOLT"
+        ]
+    },
+    "V0074_POKEMON_GEODUDE_NORMAL": {
+        "id": "V0074_POKEMON_GEODUDE_NORMAL",
+        "name": "Geodude",
+        "stats": {
+            "baseStamina": 80,
+            "baseAttack": 132,
+            "baseDefense": 163
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "TACKLE_FAST"
+        ],
+        "cinematicMoves": [
+            "ROCK_SLIDE",
+            "ROCK_TOMB",
+            "DIG"
+        ]
+    },
     "V0075_POKEMON_GRAVELER": {
         "id": "V0075_POKEMON_GRAVELER",
         "name": "Graveler",
@@ -1508,6 +1977,46 @@
             "ROCK_SLIDE"
         ]
     },
+    "V0075_POKEMON_GRAVELER_ALOLA": {
+        "id": "V0075_POKEMON_GRAVELER_ALOLA",
+        "name": "Alolan Graveler",
+        "stats": {
+            "baseStamina": 110,
+            "baseAttack": 164,
+            "baseDefense": 196
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_ELECTRIC",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "VOLT_SWITCH_FAST"
+        ],
+        "cinematicMoves": [
+            "THUNDERBOLT",
+            "STONE_EDGE",
+            "ROCK_BLAST"
+        ]
+    },
+    "V0075_POKEMON_GRAVELER_NORMAL": {
+        "id": "V0075_POKEMON_GRAVELER_NORMAL",
+        "name": "Graveler",
+        "stats": {
+            "baseStamina": 110,
+            "baseAttack": 164,
+            "baseDefense": 196
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "MUD_SLAP_FAST"
+        ],
+        "cinematicMoves": [
+            "DIG",
+            "STONE_EDGE",
+            "ROCK_BLAST"
+        ]
+    },
     "V0076_POKEMON_GOLEM": {
         "id": "V0076_POKEMON_GOLEM",
         "name": "Golem",
@@ -1528,6 +2037,46 @@
             "ROCK_BLAST",
             "EARTHQUAKE",
             "ANCIENT_POWER"
+        ]
+    },
+    "V0076_POKEMON_GOLEM_ALOLA": {
+        "id": "V0076_POKEMON_GOLEM_ALOLA",
+        "name": "Alolan Golem",
+        "stats": {
+            "baseStamina": 160,
+            "baseAttack": 211,
+            "baseDefense": 229
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_ELECTRIC",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "VOLT_SWITCH_FAST"
+        ],
+        "cinematicMoves": [
+            "STONE_EDGE",
+            "ROCK_BLAST",
+            "WILD_CHARGE"
+        ]
+    },
+    "V0076_POKEMON_GOLEM_NORMAL": {
+        "id": "V0076_POKEMON_GOLEM_NORMAL",
+        "name": "Golem",
+        "stats": {
+            "baseStamina": 160,
+            "baseAttack": 211,
+            "baseDefense": 229
+        },
+        "type": "POKEMON_TYPE_ROCK",
+        "type2": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "ROCK_THROW_FAST",
+            "MUD_SLAP_FAST"
+        ],
+        "cinematicMoves": [
+            "STONE_EDGE",
+            "ROCK_BLAST",
+            "EARTHQUAKE"
         ]
     },
     "V0077_POKEMON_PONYTA": {
@@ -1779,6 +2328,45 @@
             "SLUDGE_BOMB"
         ]
     },
+    "V0088_POKEMON_GRIMER_ALOLA": {
+        "id": "V0088_POKEMON_GRIMER_ALOLA",
+        "name": "Alolan Grimer",
+        "stats": {
+            "baseStamina": 160,
+            "baseAttack": 135,
+            "baseDefense": 90
+        },
+        "type": "POKEMON_TYPE_POISON",
+        "type2": "POKEMON_TYPE_DARK",
+        "quickMoves": [
+            "POISON_JAB_FAST",
+            "BITE_FAST"
+        ],
+        "cinematicMoves": [
+            "CRUNCH",
+            "GUNK_SHOT",
+            "SLUDGE_BOMB"
+        ]
+    },
+    "V0088_POKEMON_GRIMER_NORMAL": {
+        "id": "V0088_POKEMON_GRIMER_NORMAL",
+        "name": "Grimer",
+        "stats": {
+            "baseStamina": 160,
+            "baseAttack": 135,
+            "baseDefense": 90
+        },
+        "type": "POKEMON_TYPE_POISON",
+        "quickMoves": [
+            "POISON_JAB_FAST",
+            "MUD_SLAP_FAST"
+        ],
+        "cinematicMoves": [
+            "SLUDGE",
+            "MUD_BOMB",
+            "SLUDGE_BOMB"
+        ]
+    },
     "V0089_POKEMON_MUK": {
         "id": "V0089_POKEMON_MUK",
         "name": "Muk",
@@ -1793,6 +2381,45 @@
             "POISON_JAB_FAST",
             "LICK_FAST",
             "ACID_FAST"
+        ],
+        "cinematicMoves": [
+            "DARK_PULSE",
+            "GUNK_SHOT",
+            "SLUDGE_WAVE"
+        ]
+    },
+    "V0089_POKEMON_MUK_ALOLA": {
+        "id": "V0089_POKEMON_MUK_ALOLA",
+        "name": "Alolan Muk",
+        "stats": {
+            "baseStamina": 210,
+            "baseAttack": 190,
+            "baseDefense": 184
+        },
+        "type": "POKEMON_TYPE_POISON",
+        "type2": "POKEMON_TYPE_DARK",
+        "quickMoves": [
+            "BITE_FAST",
+            "POISON_JAB_FAST"
+        ],
+        "cinematicMoves": [
+            "DARK_PULSE",
+            "GUNK_SHOT",
+            "SLUDGE_WAVE"
+        ]
+    },
+    "V0089_POKEMON_MUK_NORMAL": {
+        "id": "V0089_POKEMON_MUK_NORMAL",
+        "name": "Muk",
+        "stats": {
+            "baseStamina": 210,
+            "baseAttack": 190,
+            "baseDefense": 184
+        },
+        "type": "POKEMON_TYPE_POISON",
+        "quickMoves": [
+            "INFESTATION_FAST",
+            "POISON_JAB_FAST"
         ],
         "cinematicMoves": [
             "DARK_PULSE",
@@ -2093,7 +2720,7 @@
     },
     "V0103_POKEMON_EXEGGUTOR_ALOLA": {
         "id": "V0103_POKEMON_EXEGGUTOR_ALOLA",
-        "name": "Exeggutor",
+        "name": "Alolan Exeggutor",
         "stats": {
             "baseStamina": 190,
             "baseAttack": 230,
@@ -2152,6 +2779,45 @@
     },
     "V0105_POKEMON_MAROWAK": {
         "id": "V0105_POKEMON_MAROWAK",
+        "name": "Marowak",
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 144,
+            "baseDefense": 200
+        },
+        "type": "POKEMON_TYPE_GROUND",
+        "quickMoves": [
+            "MUD_SLAP_FAST",
+            "ROCK_SMASH_FAST"
+        ],
+        "cinematicMoves": [
+            "BONE_CLUB",
+            "DIG",
+            "EARTHQUAKE"
+        ]
+    },
+    "V0105_POKEMON_MAROWAK_ALOLA": {
+        "id": "V0105_POKEMON_MAROWAK_ALOLA",
+        "name": "Alolan Marowak",
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 144,
+            "baseDefense": 200
+        },
+        "type": "POKEMON_TYPE_FIRE",
+        "type2": "POKEMON_TYPE_GHOST",
+        "quickMoves": [
+            "HEX_FAST",
+            "ROCK_SMASH_FAST"
+        ],
+        "cinematicMoves": [
+            "BONE_CLUB",
+            "SHADOW_BALL",
+            "FIRE_BLAST"
+        ]
+    },
+    "V0105_POKEMON_MAROWAK_NORMAL": {
+        "id": "V0105_POKEMON_MAROWAK_NORMAL",
         "name": "Marowak",
         "stats": {
             "baseStamina": 120,
