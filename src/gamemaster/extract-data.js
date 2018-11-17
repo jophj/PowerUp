@@ -1,5 +1,6 @@
 // Only config needed is gamemasters path
 const gamemasters = [
+  require('./1542581210773-GAME_MASTER.json'),
   require('./1532333601371-GAME_MASTER.json'),
   require('./0.107.3-GAME_MASTER.json'),
   require('./0.105.0-GAME_MASTER.json'),
@@ -64,19 +65,16 @@ for (let pokemonId in pokemonTemplatesAllMovesets) {
   const pokemonSettings = pokemonTemplatesAllMovesets[pokemonId]
   const pokemon = {
     id: pokemonSettings.templateId,
-    name: pokemonSettings.pokemonId.charAt(0) + pokemonSettings.pokemonId.slice(1).toLowerCase(),
+    name: pokemonSettings.templateId,
     stats: pokemonSettings.stats,
     type: pokemonSettings.type,
     type2: pokemonSettings.type2,
     quickMoves: pokemonSettings.quickMoves,
     cinematicMoves: pokemonSettings.cinematicMoves
   }
-  pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
-  pokemon.name = pokemon.name.replace('-female', ' ♀')
-  pokemon.name = pokemon.name.replace('-male', '	♂')
-  if (pokemonSettings.templateId.includes('ALOLA')) {
-    pokemon.name = 'Alolan ' + pokemon.name
-  }
+  // pokemon.name = pokemon.name.replace('_', '-') // Ho-oh
+  // pokemon.name = pokemon.name.replace('-female', ' ♀')
+  // pokemon.name = pokemon.name.replace('-male', '	♂')
 
   pokemonData[pokemon.id] = pokemon
 }

@@ -13,7 +13,7 @@ function DefenderForm(Pokemons, CpM, ObjectToArray) {
 
   ctrl.searchTextChange = function(searchText) {
     ctrl.filteredPokemons = pokemons.filter(
-      p => p.name.toLowerCase().startsWith(searchText.toLowerCase())
+      p => p.name.toLowerCase().includes(searchText.toLowerCase())
     )
   }
 }
